@@ -1,0 +1,116 @@
+{"frames": [
+
+{
+	"filename": "bamboos.png",
+	"frame": {"x":2,"y":697,"w":413,"h":590},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":413,"h":590},
+	"sourceSize": {"w":413,"h":590}
+},
+{
+	"filename": "bird.png",
+	"frame": {"x":417,"y":1135,"w":362,"h":438},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":362,"h":438},
+	"sourceSize": {"w":362,"h":438}
+},
+{
+	"filename": "button_appstore.png",
+	"frame": {"x":2,"y":1549,"w":297,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":297,"h":88},
+	"sourceSize": {"w":297,"h":88}
+},
+{
+	"filename": "button_googleplay.png",
+	"frame": {"x":2,"y":1877,"w":297,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":297,"h":88},
+	"sourceSize": {"w":297,"h":88}
+},
+{
+	"filename": "east.png",
+	"frame": {"x":417,"y":697,"w":382,"h":436},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":382,"h":436},
+	"sourceSize": {"w":382,"h":436}
+},
+{
+	"filename": "intro-panel.png",
+	"frame": {"x":2,"y":2,"w":975,"h":693},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":975,"h":693},
+	"sourceSize": {"w":975,"h":693}
+},
+{
+	"filename": "logo_XL.png",
+	"frame": {"x":801,"y":697,"w":192,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":84},
+	"sourceSize": {"w":192,"h":84}
+},
+{
+	"filename": "mum-body1.png",
+	"frame": {"x":2,"y":1289,"w":307,"h":258},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":258},
+	"sourceSize": {"w":307,"h":258}
+},
+{
+	"filename": "mum-body2.png",
+	"frame": {"x":781,"y":1135,"w":236,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":236,"h":280},
+	"sourceSize": {"w":236,"h":280}
+},
+{
+	"filename": "mum1.png",
+	"frame": {"x":292,"y":1639,"w":252,"h":207},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":207},
+	"sourceSize": {"w":252,"h":207}
+},
+{
+	"filename": "mum2.png",
+	"frame": {"x":801,"y":783,"w":150,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":131},
+	"sourceSize": {"w":150,"h":131}
+},
+{
+	"filename": "petal.png",
+	"frame": {"x":801,"y":916,"w":73,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":59},
+	"sourceSize": {"w":73,"h":59}
+},
+{
+	"filename": "plumflowers.png",
+	"frame": {"x":2,"y":1639,"w":288,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":288,"h":236},
+	"sourceSize": {"w":288,"h":236}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "intro_art.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c65ecb055ce636aaab037b3cf585a9a4:ed9a8ebae8bb66739bd5a03cf17210c5:f91415921691d8ff6ab11725dd57d7cb$"
+}
+}

@@ -1,0 +1,37 @@
+{
+    "showArkadiumLogo": true,
+    "showAssembledLogo": true,
+    "showFrameBorders": true,
+    "offerUntimedMode": false,
+    "petalDropperButton": true,
+    "playTextColor": "0xffffff",
+    "hintTextPrimaryColor": "0x074031",
+    "hintTextSecondaryColor": "0xffffff",
+    "googleAnalyticsId": "G-HQW74XGNF4",
+    "appInsightsId": "b4f36a9b-038c-4192-a14b-fb147ca8af20",
+    "savedBoardKey": "accebjgajbfc",
+    "savedProgressKey": "bekcfjgfecbc",
+    "abTestId": null,
+    "gameHUDTheme": {
+        "scale": 0.9,
+        "topPanalPortraitXFactors": {
+            "timer": 0.45,
+            "score": 0.69,
+            "numMatches": 0.3,
+            "numTilesRemaining": 0.93
+        }
+    },
+    "rotatePopupTheme": {
+        "descriptionFontSize": 44
+    },
+    "arenaList": {
+        "aarp": {
+            "isRewardVideoAvailable": true,
+            "gift": {
+                "gameId": "mahjongg-solitaire",
+                "title": "Points",
+                "count": 300
+            }
+        }
+    }
+}
