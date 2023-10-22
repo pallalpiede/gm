@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "game_logo.png",
+	"frame": {"x":2,"y":2,"w":823,"h":580},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":823,"h":580},
+	"sourceSize": {"w":823,"h":580},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "simpleButton_down.png",
+	"frame": {"x":2,"y":584,"w":300,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":94},
+	"sourceSize": {"w":300,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "simpleButton_over.png",
+	"frame": {"x":304,"y":584,"w":300,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":94},
+	"sourceSize": {"w":300,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "simpleButton_up.png",
+	"frame": {"x":606,"y":584,"w":300,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":94},
+	"sourceSize": {"w":300,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ui_button_download_android_down.png",
+	"frame": {"x":2,"y":680,"w":133,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":57},
+	"sourceSize": {"w":133,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ui_button_download_android_up.png",
+	"frame": {"x":137,"y":680,"w":133,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":57},
+	"sourceSize": {"w":133,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ui_button_download_ios_down.png",
+	"frame": {"x":272,"y":680,"w":156,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":57},
+	"sourceSize": {"w":156,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ui_button_download_ios_up.png",
+	"frame": {"x":430,"y":680,"w":156,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":57},
+	"sourceSize": {"w":156,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "intro-art.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:93ac8141713d6bbc5819bcc2ea69728c:9bba0127db8f4757b7af55e9957d613f:adfa0a746a0b19c082bf2fa8b4dbe1dd$"
+}
+}

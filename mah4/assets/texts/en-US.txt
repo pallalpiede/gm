@@ -1,0 +1,29 @@
+gameTitle                               = Mahjongg Candy
+menu.buttons.play						= play!
+
+game.ui.availableMatch                  = available<br />match
+game.ui.availableMatches                = available<br />matches
+game.ui.noMovesPossible                 = No Moves<br />Possible!<br />
+
+game.ui.shuffle                         = shuffle
+game.ui.shufflingBoard                  = Shuffling board
+game.ui.timeSeconds                     = seconds
+
+game.ui.loading                         = loading...
+game.ui.multiMatch                      = multi-<br />match!
+
+gameEnd.ui.goodGame                     = Good Game!
+gameEnd.ui.baseScore                    = Base Score
+gameEnd.ui.timeBonus                    = Time Bonus
+gameEnd.ui.finalScore                   = Final Score
+gameEnd.ui.highScore                    = High Score
+gameEnd.ui.continue                     = continue
+
+options.howToPlay                       = How to Play
+options.quit                            = Quit
+options.sound                           = Sound
+
+help.page1                              = The rules of Mahjongg Candy are simple.<br />And delicious.<br /><br />Tap two matching tiles to remove them.<br />Only unblocked tiles can be selected.
+help.page2                              = A tile is unblocked if it has one open<br />right or left edge, and it is not<br />underneath another tile.
+help.page3                              = Each basic match is worth 100 points.<br /><br />Match the Multiplier Tiles (2X and 3X)<br />as early as you can to maximize your<br />score!
+help.page4                              = Match the same tiles again for a<br />Multi-Match bonus!<br /><br />Also, the faster you complete the board,<br />the more Time Bonus you get added<br />to your score!
