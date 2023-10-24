@@ -1,0 +1,56 @@
+{
+    "artassets": [
+		{
+			"keyname":"locations",
+			"assetname":"tinylocations1080.png",			
+			"spritesheet": [
+				{"imgname":"backtohubbutton",          "resourcename":"locations",          "x":844,    "y":128,    "width":384,  "height":96,   "frames":4,   "rows":1},
+				{"imgname":"bigtextcomplete",          "resourcename":"locations",          "x":844,    "y":224,    "width":336,  "height":98,   "frames":1,   "rows":1},
+				{"imgname":"bigtextgo",                "resourcename":"locations",          "x":532,    "y":675,    "width":112,  "height":98,   "frames":1,   "rows":1},
+				{"imgname":"bigtextoutofmoves",        "resourcename":"locations",          "x":0,      "y":675,    "width":532,  "height":98,   "frames":1,   "rows":1},
+				{"imgname":"bigtextoutoftime",         "resourcename":"locations",          "x":0,      "y":858,    "width":462,  "height":98,   "frames":1,   "rows":1},
+				{"imgname":"dialognobutton",           "resourcename":"locations",          "x":0,      "y":176,    "width":844,  "height":77,   "frames":4,   "rows":1},
+				{"imgname":"dialogyesbutton",          "resourcename":"locations",          "x":0,      "y":99,     "width":844,  "height":77,   "frames":4,   "rows":1},
+				{"imgname":"exitbutton",               "resourcename":"locations",          "x":626,    "y":998,    "width":450,  "height":70,   "frames":4,   "rows":1},
+				{"imgname":"headerclassictimed",       "resourcename":"locations",          "x":704,    "y":607,    "width":576,  "height":93,   "frames":1,   "rows":1},
+				{"imgname":"headerclassicuntimed",     "resourcename":"locations",          "x":704,    "y":514,    "width":576,  "height":93,   "frames":1,   "rows":1},
+				{"imgname":"headertimedquest",         "resourcename":"locations",          "x":704,    "y":421,    "width":576,  "height":93,   "frames":1,   "rows":1},
+				{"imgname":"headeruntimedquest",       "resourcename":"locations",          "x":704,    "y":328,    "width":576,  "height":93,   "frames":1,   "rows":1},
+				{"imgname":"hintbutton",               "resourcename":"locations",          "x":0,      "y":773,    "width":508,  "height":85,   "frames":4,   "rows":1},
+				{"imgname":"lantern",                  "resourcename":"locations",          "x":0,      "y":253,    "width":704,  "height":422,  "frames":4,   "rows":2},
+				{"imgname":"lanternhanger",            "resourcename":"locations",          "x":0,      "y":0,      "width":1290, "height":99,   "frames":1,   "rows":1},
+				{"imgname":"lanternnumbers",           "resourcename":"locations",          "x":0,      "y":956,    "width":500,  "height":71,   "frames":10,  "rows":1},
+				{"imgname":"light",                    "resourcename":"locations",          "x":704,    "y":253,    "width":112,  "height":56,   "frames":2,   "rows":1},
+				{"imgname":"minitileblank",            "resourcename":"locations",          "x":1228,   "y":187,    "width":34,   "height":44,   "frames":1,   "rows":1},
+				{"imgname":"minitilewall",             "resourcename":"locations",          "x":1228,   "y":143,    "width":34,   "height":44,   "frames":1,   "rows":1},
+				{"imgname":"minitileyinyang",          "resourcename":"locations",          "x":1234,   "y":99,     "width":34,   "height":44,   "frames":1,   "rows":1},
+				{"imgname":"multiplierbar",            "resourcename":"locations",          "x":950,    "y":907,    "width":313,  "height":59,   "frames":1,   "rows":1},
+				{"imgname":"multiplierbaroverlay",     "resourcename":"locations",          "x":912,    "y":848,    "width":313,  "height":59,   "frames":1,   "rows":1},
+				{"imgname":"multipliernumbers",        "resourcename":"locations",          "x":844,    "y":99,     "width":390,  "height":29,   "frames":15,  "rows":1},
+				{"imgname":"newbest",                  "resourcename":"locations",          "x":644,    "y":700,    "width":520,  "height":148,  "frames":1,   "rows":1},
+				{"imgname":"optionsbuttongame",        "resourcename":"locations",          "x":500,    "y":928,    "width":450,  "height":70,   "frames":4,   "rows":1},
+				{"imgname":"tilemarker",               "resourcename":"locations",          "x":1180,   "y":231,    "width":72,   "height":97,   "frames":1,   "rows":1},
+				{"imgname":"timerbar",                 "resourcename":"locations",          "x":313,    "y":1027,   "width":313,  "height":59,   "frames":1,   "rows":1},
+				{"imgname":"timerbaroverlay",          "resourcename":"locations",          "x":0,      "y":1027,   "width":313,  "height":59,   "frames":1,   "rows":1},
+				{"imgname":"undobutton",               "resourcename":"locations",          "x":462,    "y":858,    "width":450,  "height":70,   "frames":4,   "rows":1}
+			]																   
+		},															  
+		{
+			"keyname":"tileanimations",
+			"assetname":"tinytileanimations1080.png",
+			"spritesheet": [
+				{"imgname":"firecrackerexplode",       "resourcename":"tileanimations",          "x":2,      "y":2,      "width":728,  "height":118,  "frames":8,   "rows":1},
+				{"imgname":"firecrackerlit",           "resourcename":"tileanimations",          "x":2,      "y":120,    "width":273,  "height":118,  "frames":3,   "rows":1},
+				{"imgname":"wildhilite",               "resourcename":"tileanimations",          "x":2,      "y":238,    "width":637,  "height":118,  "frames":7,   "rows":1},
+				{"imgname":"yinyanghilite",            "resourcename":"tileanimations",          "x":2,      "y":356,    "width":637,  "height":118,  "frames":7,   "rows":1}
+			]
+		},
+		{
+			"keyname":"hudbackground",
+			"assetname":"tinyhudbackground1080.png",
+			"spritesheet": [
+				{"imgname":"hudbackground",            "resourcename":"hudbackground",          "x":0,      "y":0,      "width":1447, "height":108,  "frames":1,   "rows":1}
+			]
+		}
+    ]
+}

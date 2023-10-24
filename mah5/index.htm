@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mjq.css">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="shortcut icon" href="android-touch-icon.png" sizes="196x196">
+<link rel="icon" type="image/png" href="favicon48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="favicon32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicon16.png" sizes="16x16">
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		body {
+			background: #000;
+			color: #fff;
+			overflow: hidden;
+			-ms-touch-action: none;
+			touch-action: none;
+			-webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none; 
+		}
+		canvas {
+			-ms-touch-action: none;
+			touch-action: none;
+			overflow: hidden;
+			-ms-touch-action: none;
+			touch-action: none;
+			-webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none; 
+		}
+    </style>
+
+	
+<script src="howler.min.js"></script>
+<script src="mjq-all-min.js"></script>
+
+<title>Mahjong Quest</title>
+</head>
+<body onLoad="mjq_gameStart();">
+    <div id="info">.</div> <!-- this is a workaround to force the loading of the Samurai font-face before it is needed in the game. The bug (no text on options dialog) occurs on some devices.  The "." is necessary since a space does not work.  The dot is dark colored and very hard to see.-->
+    <div id="gamebackgroundarea1"></div>  
+    <div id="gamebackgroundarea2"></div> 
+    <div id="gameContainer"></div>
+</body>
+</html>
