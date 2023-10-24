@@ -1,0 +1,7 @@
+{
+	"audiopath":"./audio/",
+	"imagespath":"./images/",
+	"layoutspath":"./layouts/",
+	"levelspath":"./levels/",
+	"gamedefinitionspath":"./"
+}

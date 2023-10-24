@@ -1,0 +1,90 @@
+@font-face {
+ font-family: "Samurai";
+ src: url("CFSamuraiBob.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: "Samurai";
+ src: url("CFSamuraiBob.ttf") /* TTF file for CSS3 browsers */
+}
+
+body {
+	background-color:#102018;
+	background: linear-gradient(0deg, #102018, #000000, #000000, #301c16);
+	
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;	
+	
+	font-family:Samurai,sans-serif,Arial;
+	font-size:12px;
+	
+	-webkit-user-select:none;   /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+    -o-user-select: none;
+    user-select: none; 
+    
+	-webkit-touch-callout:none;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	overflow:hidden;
+}
+
+#gameContainer {
+	position:relative;
+	margin: auto auto;
+	padding: 0px;
+}
+
+#gamebackgroundarea1 {
+		width:100%;
+    	height:100%;
+		position:absolute;
+		z-index:1;
+		    		
+		top:0;
+		left:0;
+		
+		
+		background-position: center center;
+		
+		/*background-size: 2726px 1536px;*/
+		
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		
+		opacity:0;
+		display: none;
+}
+#gamebackgroundarea2 {
+		width:100%;
+    	height:100%;
+		position:absolute;
+		z-index:2;
+		    		
+		top:0;
+		left:0;
+		
+		
+		background-position: center center;
+		/*background-size: 2726px 1536px;*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		
+		opacity:0;
+		display: none;
+}
+
+#info {
+	font-family: Samurai;
+	color:#200000;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-size:9px;
+	z-index:-1;
+}
