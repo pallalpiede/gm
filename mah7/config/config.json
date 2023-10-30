@@ -1,0 +1,27 @@
+{
+  "skin":"default",
+  "showArkadiumLogo":true,
+  "showCenterpiece":false,
+  "centerBackground":false,
+  "googleAnalyticsId":"",
+  "googleAnalyticsSampleRate":10,
+  "appInsightsId":"",
+  "showCallToActionOnMobile": false,
+  "includeAnalytics": true,
+  "startRoundSoundEnabled": true,
+  "timeOutAtGameEnd": true,
+
+  "helpPage1TextPos": {"x":-0.30, "y":-0.345},
+  "helpPage2TextPos": {"x":-0.0, "y":-0.345, "width":-1},
+  "helpCheckboxPos": {"x":208.0, "y":-315},
+  "helpCheckboxTextPos": {"x":264, "y":-315},
+  "helpGameplayWordWrapWidth": 600,
+  "helpMatchingRulesPos": {"x":-0.28, "y":-0.15},
+  "helpMatchingRulesTextPos": {"x":-0.1, "y":-0.24},
+  "helpTimeTextPos": {"x":-0.4, "y":-0.02},
+  "helpTimeIconPos": {"x":0.24, "y":0.02},
+  "helpArrowLeftPos": {"x":-0.34, "y":0.20},
+  "helpArrowRightPos": {"x":-0.18, "y":0.20},
+  "helpArrowTextPos": {"x":-0.1, "y":0.14},
+  "versionLabel": {"x": 0.325, "y": 0.38}
+}
