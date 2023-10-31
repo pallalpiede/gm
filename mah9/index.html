@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Play:700:cyrillic-ext,latin,greek,latin-ext,cyrillic' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })(); </script>
+
+
+	<title>Super Mahjong 3D</title>
+	<style type="text/css">
+		html,body {
+			background-color: #333;
+			color: #fff;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-size: 12pt;
+		}
+		
+		#canvas {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+
+		}
+	</style>
+    <script>
+
+        var size = {
+            width: window.innerWidth || document.body.clientWidth,
+            height: window.innerHeight || document.body.clientHeight
+        }
+
+    </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1; maximum-scale=1; user-scalable=no;"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+
+     <script type="text/javascript" src="game.min.js"></script>
+
+
+
+
+</head>
+<body>
+
+
+<script>
+    window.addEventListener("scroll", function (e) {
+     try
+     {
+        var $el = document.querySelector(".scroller");
+        var $doc = document.documentElement;
+        var $body = document.body;
+        var top = ($doc && $doc.scrollTop || $body && $body.scrollTop || 0);
+
+
+
+            var pixels = ig.ua.screen.height;
+
+            var x1 = 2148;
+            var y1 = 23;
+
+            var x2 = 1096;
+            var y2 = 44;
+
+            var M = (y2-y1) / (x2-x1);
+
+            var Y = Math.round(M*(pixels - x1) + y1);
+
+
+           document.body.scrollTop = 0;
+
+       }
+        catch(error)
+        {}
+
+    }, false);
+</script>
+
+<script type="text/javascript">
+    var SpilData = {
+        id: '576742227280293397'
+    };
+    var Api = null;
+    var LOGO;
+    var LOGOV;
+    var actionLogo;
+    var actionMoreGames;
+    var noBrand = null;
+    if (window.console && window.console.log) {
+        console.log("bekho VERSION 6.1!!!!");
+    }
+     // <script type="text/javascript" src="lib/impact/impact.js">/script>
+     //<script type="text/javascript" src="lib/game/main.js">/script>
+
+    GameAPI.loadAPI (function (apiInstance) {
+        // The API is ready for use.
+        Api = apiInstance;
+        if (window.console && window.console.log) {
+            console.log('GameAPI version ' + apiInstance.version + ' loaded!');
+        }
+    }, SpilData);
+</script>
+
+<span id="gameContainer" style="overflow: hidden;">
+
+<canvas id="canvas"></canvas>
+</span>
+
+</body>
+</html>
