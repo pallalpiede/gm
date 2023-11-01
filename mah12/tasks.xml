@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+1. RemoveGroup [VALUE][DETAIL]:				Remove groups a number of times with the same color in a row (Details: a color)
+2. RemoveObject [VALUE][DETAIL][DURATION]:	Remove a number of stones with the same color (Details: a color)
+3. GoldCollect [VALUE]:						Remove a number of golden nuggets in a group
+4. Multiplier [VALUE]:						Need to use at least a value of a multiplier
+5. Depth [VALUE]:							Reach a certain depth
+6. Accuracy [VALUE]:						Obtain a certain percent of accuracy in any level
+7. LevelClear [VALUE][DURATION]:			Score a certain number of level clear bonus
+8. LevelClearAfter [VALUE]:					Score a level clear bonus after a certain level
+9. LevelClearPickaxe:						Score a level clear bonus using a pickaxe
+10.ReachLevel [VALUE]:						Reach a certain level
+11.CeilingHit [VALUE][DETAIL]:				Reach the top of the screen (Details: full, some)
+12.Score [VALUE][DURATION]:					Reach a certain score
+13.ClickLimit [VALUE][DETAIL][DURATION]:	Don't click in certain groups in a number of clicks (Details: red, green, blue, purple, same, 3block)
+14.TimeLimit [VALUE][DURATION]:				Finish a level in a certain Time
+15.SurvivalTimer [VALUE][DURATION]:			Survive in a level a certain Time
+16.LevelFinishLimited [DURATION]:			Finish a level without using a single tool
+17.PickaxeChain	[VALUE]:					A certain number of pickaxes in a row
+18.ToolkitInventory:						Fill the toolkit with 3 of the same tools
+19.ClickTime [VALUE]:						Don't click for a certain seconds
+20.ChestTimer [VALUE]:						Open a chest within a certain seconds 
+21.BlockPattern [VALUE]:    		 		Remove a group of stones with a certain pattern
+
+EXAMPLES
+
+	<TASK type="PickaxeChain" 		icon="28"	value="3"  										/>
+	<TASK type="LevelFinishLimited" icon="49"				  					duration="level"    />
+	<TASK type="SurvivalTimer" 		icon="55"	value="15"  					duration="level"    />
+	<TASK type="TimeLimit" 			icon="54"	value="20"  					duration="level"	/>
+	<TASK type="ClickLimit" 		icon="17"	value="20"  	detail="3block"	duration="level"	/>
+	<TASK type="ClickLimit" 		icon="61"	value="50"  	detail="same"	duration="level"	/>
+	<TASK type="ClickLimit" 		icon="19"	value="10"  	detail="green"	duration="level"	/>
+	<TASK type="Accuracy" 			icon="15"	value="50"  										/>
+	<TASK type="CeilingHit" 		icon="58"	value="1"		detail="full"					  	/>
+	<TASK type="CeilingHit" 		icon="59"	value="2"		detail="some"					  	/>
+	<TASK type="ClickLimit" 		icon="17"	value="20"  	detail="3block"	duration="level"	/>
+	<TASK type="ClickLimit" 		icon="61"	value="50"  	detail="same"	duration="level"	/>
+	<TASK type="ClickLimit" 		icon="20"	value="10"  	detail="red"	duration="level"	/>
+	<TASK type="Depth" 				icon="56"	value="200" 										/>
+	<TASK type="GoldCollect" 		icon="5"	value="3"										  	/>
+	<TASK type="LevelClear" 		icon="8"	value="1"  						duration="overall"	/>
+	<TASK type="LevelClear" 		icon="8"	value="1"  						duration="level"	/>
+	<TASK type="LevelClearAfter" 	icon="8"	value="3"  											/>
+	<TASK type="LevelClearPickaxe" 	icon="12"														/>
+	<TASK type="LevelFinishLimited" icon="49"				  					duration="level"    />
+	<TASK type="Multiplier" 		icon="14"	value="8" 											/>
+	<TASK type="PickaxeChain" 		icon="28"	value="3"  									    	/>
+	<TASK type="ReachLevel" 		icon="57"	value="3" 											/>
+	<TASK type="RemoveGroup" 		icon="22"	value="3"		detail="red"					  	/>
+	<TASK type="RemoveObject" 		icon="27"	value="420"		detail="red"	duration="overall"  />
+	<TASK type="RemoveObject" 		icon="27"	value="120"		detail="red"	duration="level"  	/>
+	<TASK type="RemoveObject" 		icon="27"	value="20"		detail="red"	duration="instant"  />
+	<TASK type="Score" 				icon="52"	value="120000"					duration="game" 	/>
+	<TASK type="SurvivalTimer" 		icon="55"	value="35"  					duration="level"    />
+	<TASK type="TimeLimit" 			icon="54"	value="100"  					duration="level"	/>
+	<TASK type="ToolkitInventory" 	icon="46"														/>
+	<TASK type="ClickTime"		 	icon="60"	value="20" 											/>
+	<TASK type="ChestTimer"		 	icon="50"	value="10" 											/>
+	<TASK type="BlockPattern"		icon="50"	value="23101011" 									/>
+-->
+
+<TASKS>
+
+<!-- Tasks from 1 to 5 -->
+	<TASK type="RemoveGroup" 		icon="22"	value="5"		detail="red"					  	/>
+	<TASK type="RemoveObject" 		icon="1"	value="20"		detail="blue"	duration="instant"  /> <!-- Sugiero cambio a 10 -->
+	<TASK type="GoldCollect" 		icon="5"	value="4"										  	/>
+	<TASK type="RemoveObject" 		icon="2"	value="500"		detail="green"	duration="overall"  />
+	<TASK type="Multiplier" 		icon="14"	value="8" 											/>
+	
+<!-- Tasks from 6 to 10 -->
+	<TASK type="Depth" 				icon="56"	value="500" 										/>
+	<TASK type="Accuracy" 			icon="15"	value="80"  										/>
+	<TASK type="LevelClear" 		icon="7"	value="1"  						duration="game"	/>
+	<TASK type="RemoveObject" 		icon="27"	value="1000"	detail="red"	duration="overall"  />
+	<TASK type="ReachLevel" 		icon="0"	value="5" 											/>
+	
+<!-- Tasks from 11 to 15 -->
+	<TASK type="Multiplier" 		icon="14"	value="12" 											/>
+	<TASK type="RemoveObject" 		icon="2"	value="30"		detail="green"	duration="instant"  />
+	<TASK type="CeilingHit" 		icon="57"	value="1"		detail="full"					  	/>
+	<TASK type="BlockPattern"		icon="67"	value="411111"	 									/>
+	<TASK type="Score" 				icon="52"	value="10000"					duration="instant" 	/>
+
+<!-- Tasks from 16 to 20 -->	
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO --> 															<!-- PROVISIONAL -->	<TASK type="RemoveGroup" 		icon="22"	value="3"		detail="red"				/> 
+	<TASK type="ClickLimit" 		icon="19"	value="10"  	detail="green"	duration="level"	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar bloques solo teniendo en cuenta el pico -->			<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="27"	value="150"	detail="red"	duration="game" />
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar bloques solo teniendo en cuenta la dinamita -->		<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="2"	value="200"	detail="green"	duration="game" />
+	<TASK type="RemoveObject" 		icon="1"	value="250"		detail="blue"	duration="overall"  />
+	
+<!-- Tasks from 21 to 25 -->	
+	<TASK type="TimeLimit" 			icon="51"	value="150"  					duration="level"	/>
+	<TASK type="RemoveGroup" 		icon="24"	value="6"		detail="blue"					  	/>
+	<TASK type="BlockPattern"		icon="65"	value="221111"	 									/>
+	<TASK type="Depth" 				icon="56"	value="1000" 										/>
+	<TASK type="GoldCollect" 		icon="5"	value="6"										  	/>
+	
+<!-- Tasks from 26 to 30 -->	
+	<TASK type="SurvivalTimer" 		icon="51"	value="300"  					duration="level"    />
+	<TASK type="RemoveObject" 		icon="1"	value="40"		detail="blue"	duration="instant"  /> <!-- Sugiero cambio a 20 -->
+	<TASK type="ClickLimit" 		icon="20"	value="15"  	detail="red"	duration="level"	/>
+	<TASK type="Accuracy" 			icon="15"	value="90"  										/>
+	<TASK type="LevelFinishLimited" icon="49"				  					duration="level"    />
+	
+<!-- Tasks from 31 to 35 -->	
+	<TASK type="BlockPattern"		icon="62"	value="33010111010" 								/>
+	<TASK type="PickaxeChain" 		icon="28"	value="3"  									    	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Usar una pala y no eliminar ningún bloque -->	  			<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="2"	value="150"	detail="red"	duration="game" />
+	<TASK type="ReachLevel" 		icon="0"	value="7" 											/>
+	<TASK type="Score" 				icon="52"	value="25000"					duration="instant" 	/>
+
+<!-- Tasks from 36 to 40 -->
+	<TASK type="Multiplier" 		icon="14"	value="16" 											/>
+	<TASK type="LevelClear" 		icon="8"	value="2"  						duration="game"		/>
+	<TASK type="GoldCollect" 		icon="5"	value="8"										  	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar 4 grupos seguidos de 4 bloques --> 					<!-- PROVISIONAL -->	<TASK type="RemoveGroup" 		icon="22"	value="3"	detail="red"					/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Usar un martillo y no eliminar ningún bloque -->	  			<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="2"	value="150"	detail="red"	duration="game" />
+	
+<!-- Tasks from 41 to 45 -->
+	<TASK type="ReachLevel" 		icon="57"	value="9" 											/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar bloques solo teniendo en cuenta el martillo -->		<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="2"	value="300"	detail="red"	duration="game" />
+	<TASK type="RemoveGroup" 		icon="24"	value="7"		detail="blue"					  	/>
+	<TASK type="RemoveObject" 		icon="1"	value="50"		detail="blue"	duration="instant"  /> <!-- Sugiero cambio a 30 -->
+	<TASK type="LevelClear" 		icon="8"	value="2"  						duration="level"	/>
+	
+<!-- Tasks from 46 to 50 -->
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Mover una llave inglesa con otra llave inglesa -->			<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="2"	value="400"	detail="red"	duration="game" />
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Quitar bloques grandes -->									<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="1"	value="450"	detail="blue"	duration="game" />
+	<TASK type="RemoveObject" 		icon="2"	value="10000"	detail="red"	duration="overall"  />
+	<TASK type="LevelClearAfter" 	icon="8"	value="3"  											/>
+	<TASK type="Multiplier" 		icon="14"	value="24" 											/>
+	
+<!-- Tasks from 51 to 55 -->	
+	<TASK type="ToolkitInventory" 	icon="48"														/>
+	<TASK type="LevelClearPickaxe" 	icon="12"														/>
+	<TASK type="Accuracy" 			icon="15"	value="100"  										/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Usar un numero determinado de herramientas -->				<!-- PROVISIONAL -->	<TASK type="RemoveObject" 		icon="1"	value="480"	detail="blue"	duration="game" />
+	<TASK type="ClickLimit" 		icon="17"	value="100"  	detail="3block"	duration="level"	/> <!-- Sugiero cambio a 60 -->
+	
+<!-- Tasks from 56 to 60 -->
+	<TASK type="CeilingHit" 		icon="59"	value="25"		detail="some"					  	/>
+	<TASK type="BlockPattern"		icon="66"	value="1511111"		 								/>
+	<TASK type="RemoveGroup" 		icon="25"	value="9"		detail="blue"					  	/>
+	<TASK type="ReachLevel" 		icon="0"	value="10" 											/>
+<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar grupos seguidos de un minimo de bloques --> 			<!-- PROVISIONAL -->	<TASK type="RemoveGroup" 		icon="22"	value="7"	detail="red"					/>
+
+<!-- Tasks from 61 to 65 -->
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Coger muchas pepitas en una partida entera --> 				<!-- PROVISIONAL --> 	<TASK type="GoldCollect" 		icon="5"	value="9"									/>
+	<TASK type="Score" 				icon="52"	value="50000"					duration="instant" 	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Deja más pepitas detrás de las que recoges --> 				<!-- PROVISIONAL --> 	<TASK type="RemoveObject" 		icon="2"	value="2500" detail="green"	duration="overall"  />
+	<TASK type="RemoveObject" 		icon="2"	value="250"		detail="purple"	duration="overall"  />
+	<TASK type="Depth" 				icon="56"	value="1500" 								/>
+	
+<!-- Tasks from 66 to 70 -->	
+	<TASK type="ClickTime"		 	icon="60"	value="45" 											/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruye 3 pepitas con una sola herramienta  --> 			<!-- PROVISIONAL --> 	<TASK type="RemoveObject" 		icon="2"	value="2500" detail="blue"	duration="overall"  />
+	<TASK type="ClickLimit" 		icon="17"	value="50"  	detail="same"	duration="level"	/>
+	<TASK type="TimeLimit" 			icon="51"	value="120"  					duration="level"	/>
+	<TASK type="BlockPattern"		icon="63"	value="33111111111" 								/>
+	
+<!-- Tasks from 71 to 75 -->	
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Libera un numero de burbujas  --> 							<!-- PROVISIONAL --> 	<TASK type="RemoveObject" 		icon="2"	value="2500" detail="red"	duration="overall"  />
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruye 3 dinamitas con un solo click --> 					<!-- PROVISIONAL --> 	<TASK type="Depth" 				icon="56"	value="1750" 								/>
+	<TASK type="Score" 				icon="52"	value="500000"					duration="game" 	/>
+	<TASK type="GoldCollect" 		icon="5"	value="12"									/>
+	<TASK type="LevelClearAfter" 	icon="8"	value="5"  											/>
+	
+<!-- Tasks from 76 to 80 -->	
+	<TASK type="Multiplier" 		icon="14"	value="32" 											/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar grupos seguidos de un minimo de bloques --> 		<!-- PROVISIONAL --> <TASK type="RemoveGroup" 		icon="25"	value="100"		detail="blue"					  	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Conseguir precision pasado un nivel concreto --> 		    <!-- PROVISIONAL --> <TASK type="Accuracy" 			icon="15"	value="100"  										/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruir pepitas en un solo juego --> 						<!-- PROVISIONAL --> <TASK type="GoldCollect" 		icon="5"	value="15"									/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruir bloques sin tener en cuenta el color --> 			<!-- PROVISIONAL --> <TASK type="RemoveObject" 		icon="1"	value="15000"	detail="blue"	duration="overall"  />
+
+<!-- Tasks from 81 to 85 -->	
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Coger X pepitas a partir de un nivel --> 					<!-- PROVISIONAL --> <TASK type="GoldCollect" 		icon="5"	value="17"									/>
+	<TASK type="Score" 				icon="52"	value="750000"					duration="game" 	/>
+	<TASK type="BlockPattern"		icon="64"	value="33111101111" 								/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Acabar el nivel con la pantalla vacia -->					<!-- PROVISIONAL --><TASK type="LevelClear" 		icon="8"	value="3"  						duration="level"	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruir granito -->											<!-- PROVISIONAL --><TASK type="RemoveObject" 		icon="1"	value="18000"	detail="blue"	duration="overall"  />
+	
+<!-- Tasks from 86 to 90 -->
+	<TASK type="TimeLimit" 			icon="51"	value="90"  					duration="level"	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Conseguir precision pasado un nivel concreto --> 		    <!-- PROVISIONAL --> <TASK type="Accuracy" 			icon="15"	value="100"  										/>
+	<TASK type="ClickLimit" 		icon="18"	value="10"  	detail="blue"	duration="level"	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruir bloques sin tener en cuenta el color --> 			<!-- PROVISIONAL --> <TASK type="RemoveObject" 		icon="2"	value="1111"	detail="red"	duration="level"  />
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Eliminar grupos seguidos de un minimo de bloques --> 		<!-- PROVISIONAL --><TASK type="RemoveGroup" 		icon="22"	value="9"	detail="red"					/>
+	
+<!-- Tasks from 91 to 95 -->
+	<TASK type="Multiplier" 		icon="14"	value="64" 											/>
+	<TASK type="Score" 				icon="52"	value="500000"					duration="instant" 	/>
+	<TASK type="ChestTimer"		 	icon="50"	value="10" 											/>
+	<TASK type="LevelClear" 		icon="8"	value="5"  						duration="game"		/>
+	<TASK type="BlockPattern"		icon="68"	value="5111111" 									/>
+
+<!-- Tasks from 96 to 100 -->	
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruir bloques sin tener en cuenta el color --> 			<!-- PROVISIONAL --> <TASK type="RemoveObject" 		icon="1"	value="1111"	detail="blue"	duration="level"  />
+	<TASK type="RemoveGroup" 		icon="22"	value="10"		detail="green"						/>	
+	<TASK type="Score" 				icon="52"	value="1000000"					duration="game" 	/>
+	<!-- FALTA DEFINIR UN MATIZ CONCRETO - Destruir pepitas en un solo juego --> 						<!-- PROVISIONAL --> <TASK type="GoldCollect" 		icon="5"	value="18"									/>
+	<TASK type="Depth" 				icon="56"	value="2000" 								/>
+
+</TASKS>

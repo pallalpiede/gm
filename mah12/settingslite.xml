@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NOTAS
+	Tips: 
+	- Chunks can't be named "0" or contain "#" character
+	- Level ids is only visual. They are intruduced in game ordered
+	- Depths must be in order of depth
+	- "-1" in Tool and gold start will never start
+
+-->
+<SETTINGS>
+
+	<CHALLENGEMODE>
+		<CHALLENGE id="0" type="Time" value="60" chunk="123">
+			<!-- Tip: Zero based ids -->
+			<Depth start="0" speed="1000">
+				
+				<Blocks small="100" medium="0" big="0">
+					<Red 		chance="30"		/>
+					<Green 		chance="30"		/>
+					<Blue 		chance="25"		/>
+					<Purple 	chance="0"		/>
+					<Bubble 	chance="0"		/>
+					<Granite 	chance="0"		/>
+				</Blocks>
+
+				<Tools startrow="30" spacing="15" deviation="3">
+					<Pickaxe 		chance="30"		/>
+					<Randompickaxe 	chance="30"		/>
+					<Hammer 		chance="30"		/>
+					<Dynamite 		chance="30"		/>
+					<Shovel 		chance="30"		/>
+					<Hourglass 		chance="30"		/>
+					<Wrench 		chance="30"		/>
+					<Paintbucket 	chance="30"		/>
+					<Drill 			chance="30"		/>
+				</Tools>
+				
+				<Multiplier x2="0" 			x3="0" 			x4="0" 			chance="1" 			/>
+				<Gold 		startrow="40" 	spacing="20" 	deviation="" 	speedboost="100"	/>
+				<Chest 		startrow="40" 	spacing="100" 	deviation="90"						/>
+					
+			</Depth>
+			
+			<Depth start="0" speed="1000">
+				
+				<Blocks small="100" medium="0" big="0">
+					<Red 		chance="30"		/>
+					<Green 		chance="30"		/>
+					<Blue 		chance="30"		/>
+					<Purple 	chance="0"		/>
+					<Bubble 	chance="0"		/>
+					<Granite 	chance="0"		/>
+				</Blocks>
+
+				<Tools startrow="30" spacing="15" deviation="3">
+					<Pickaxe 		chance="30"		/>
+					<Randompickaxe 	chance="30"		/>
+					<Hammer 		chance="30"		/>
+					<Dynamite 		chance="30"		/>
+					<Shovel 		chance="30"		/>
+					<Hourglass 		chance="30"		/>
+					<Wrench 		chance="30"		/>
+					<Paintbucket 	chance="30"		/>
+					<Drill 			chance="30"		/>
+				</Tools>
+				
+				<Multiplier x2="0" 			x3="0" 			x4="0" 			chance="1" 			/>
+				<Gold 		startrow="40" 	spacing="20" 	deviation="" 	speedboost="100"	/>
+				<Chest 		startrow="40" 	spacing="100" 	deviation="90"						/>
+					
+			</Depth>
+	
+			<Depth start="0" speed="1000">
+				
+				<Blocks small="100" medium="0" big="0">
+					<Red 		chance="30"		/>
+					<Green 		chance="30"		/>
+					<Blue 		chance="30"		/>
+					<Purple 	chance="0"		/>
+					<Bubble 	chance="0"		/>
+					<Granite 	chance="0"		/>
+				</Blocks>
+
+				<Tools startrow="30" spacing="15" deviation="3">
+					<Pickaxe 		chance="30"		/>
+					<Randompickaxe 	chance="30"		/>
+					<Hammer 		chance="30"		/>
+					<Dynamite 		chance="30"		/>
+					<Shovel 		chance="30"		/>
+					<Hourglass 		chance="30"		/>
+					<Wrench 		chance="30"		/>
+					<Paintbucket 	chance="30"		/>
+					<Drill 			chance="30"		/>
+				</Tools>
+				
+				<Multiplier x2="0" 			x3="0" 			x4="0" 			chance="1" 			/>
+				<Gold 		startrow="40" 	spacing="20" 	deviation="" 	speedboost="100"	/>
+				<Chest 		startrow="40" 	spacing="100" 	deviation="90"						/>
+					
+			</Depth>
+	
+		</CHALLENGE>
+
+	</CHALLENGEMODE>
+
+	<ENDLESSMODE>
+	
+		<DEEPERSETTINGS> 
+		
+			<!-- Deeper Tutorial -->
+			<Depth start="0" speed="12">
+
+				<Blocks small="100" medium="0" big="0">
+					<Red 		chance="30"		/>
+					<Green 		chance="30"		/>
+					<Blue 		chance="30"		/>
+					<Purple 	chance="0"		/>
+					<Bubble 	chance="0"		/>
+					<Granite 	chance="0"		/>
+				</Blocks>
+
+				<Tools startrow="30" spacing="34" deviation="3">
+					<Pickaxe 		chance="60"		/>
+					<Randompickaxe 	chance="0"		/>
+					<Hammer 		chance="15"		/>
+					<Dynamite 		chance="5"		/>
+					<Shovel 		chance="20"		/>
+					<Hourglass 		chance="0"		/>
+					<Wrench 		chance="0"		/>
+					<Paintbucket 	chance="30"		/>
+					<Drill 			chance="0"		/>
+				</Tools>
+				
+				<Multiplier x2="3" 		x3="1" 		    x4="0" 		    chance="2" />
+				<Gold 		startrow="22" 	spacing="16" 	deviation="3" 	speedboost="3"	/>
+				<Chest 		startrow="50" 	spacing="50" 	deviation="6"					/>
+					
+			</Depth>
+			
+			<!-- Deeper de seguridad -->
+			<Depth start="0" speed="12">
+				
+				<Blocks small="100" medium="0" big="0">
+					<Red 		chance="30"		/>
+					<Green 		chance="30"		/>
+					<Blue 		chance="30"		/>
+					<Purple 	chance="0"		/>
+					<Bubble 	chance="0"		/>
+					<Granite 	chance="0"		/>
+				</Blocks>
+
+				<Tools startrow="15" spacing="15" deviation="3">
+					<Pickaxe 		chance="50"		/>
+					<Randompickaxe 	chance="0"		/>
+					<Hammer 		chance="15"		/>
+					<Dynamite 		chance="10"		/>
+					<Shovel 		chance="30"		/>
+					<Hourglass 		chance="0"		/>
+					<Wrench 		chance="0"		/>
+					<Paintbucket 	chance="40"		/>
+					<Drill 			chance="0"		/>
+				</Tools>
+				
+				<Multiplier x2="10" 		x3="5" 			x4="1" 			chance="7" 	/>
+				<Gold 		startrow="30" 	spacing="30" 	deviation="5" 	speedboost="3"	/>
+				<Chest 		startrow="35" 	spacing="30" 	deviation="10"					/>
+					
+			</Depth>
+			
+			<!-- ¡Empieza la función! -->
+			<Depth start="12" speed="12">
+				
+				<Blocks small="100" medium="0" big="0">
+					<Red 		chance="30"		/>
+					<Green 		chance="30"		/>
+					<Blue 		chance="30"		/>
+					<Purple 	chance="0"		/>
+					<Bubble 	chance="1"		/>
+					<Granite 	chance="0"		/>
+				</Blocks>
+
+				<Tools startrow="1" spacing="20" deviation="3">
+					<Pickaxe 		chance="50"		/>
+					<Randompickaxe 	chance="0"		/>
+					<Hammer 		chance="15"		/>
+					<Dynamite 		chance="10"		/>
+					<Shovel 		chance="20"		/>
+					<Hourglass 		chance="0"		/>
+					<Wrench 		chance="0"		/>
+					<Paintbucket 	chance="30"		/>
+					<Drill 			chance="0"		/>
+				</Tools>
+				
+				<Multiplier x2="10" 		x3="5" 		    x4="1" 		    chance="7" />
+				<Gold 		startrow="9" 	spacing="24" 	deviation="3" 	speedboost="3"	/>
+				<Chest 		startrow="12" 	spacing="24" 	deviation="6"					/>
+					
+			</Depth>
+
+		</DEEPERSETTINGS>
+
+		<LEVELSETTINGS>
+
+			<Level id="1">
+			
+				<!-- NORMAL -->
+				<Chunk id="RANDOM_2Rows" chance="0"/>
+				<Chunk id="RANDOM_5Rows" chance="0"/>
+				<Chunk id="RANDOM_10Rows" chance="0"/>
+				<Chunk id="BASIC01_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC02_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC03_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC04_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC05_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC06_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC07_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC08_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC09_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC10_3Rows_3Colors" chance="200"/>
+				<Chunk id="NORMAL_ColorCorners" chance="0"/>
+				<Chunk id="NORMAL_SmileColors" chance="70"/>
+				<Chunk id="WALLS_WallRightEasy" chance="45"/>
+				<Chunk id="WALLS_WallLeftEasy" chance="45"/>
+				
+				<!-- 1WallSide -->
+				<Chunk id="WALLS_1WallSides" chance="8"/>
+				<Chunk id="WALLS_1WallSides_3Colors_01" chance="15"/>
+				<Chunk id="WALLS_1WallSides_3Colors_02" chance="15"/>
+				<Chunk id="WALLS_1WallSides_3Colors_03" chance="15"/>
+				<Chunk id="WALLS_1WallSides_3Colors_04" chance="15"/>
+				<Chunk id="WALLS_1WallSides_3Colors_05" chance="15"/>
+				
+				<!-- 3WallSide -->
+				<Chunk id="WALLS_3WallSides" chance="6"/>
+				<Chunk id="WALLS_3WallSides_3Colors_01" chance="12"/>
+				<Chunk id="WALLS_3WallSides_3Colors_02" chance="12"/>
+				<Chunk id="WALLS_3WallSides_3Colors_03" chance="12"/>
+				
+				<!-- 8WallSide -->
+				<Chunk id="WALLS_8WallSides" chance="2"/>
+				<Chunk id="WALLS_8WallSides_3Colors_01" chance="5"/>
+				<Chunk id="WALLS_8WallSides_3Colors_02" chance="5"/>
+				<Chunk id="WALLS_8WallSides_3Colors_03" chance="5"/>
+
+				<!-- FUN -->
+				<Chunk id="FUN_3RowsBlue" chance="5"/>
+				<Chunk id="FUN_3RowsGreen" chance="5"/>
+				<Chunk id="FUN_3RowsOrange" chance="5"/>
+				<Chunk id="FUN_3RowsPurple" chance="0"/>
+				<Chunk id="FUN_3Rows3Colors" chance="5"/>
+				<Chunk id="FUN_4Rows4Colors" chance="0"/>
+				<Chunk id="FUN_MergeColors" chance="7"/>
+				
+			</Level>
+			
+			<Level id="2">
+			
+				<!-- NORMAL -->
+				<Chunk id="RANDOM_2Rows" chance="0"/>
+				<Chunk id="RANDOM_5Rows" chance="0"/>
+				<Chunk id="RANDOM_10Rows" chance="0"/>
+				<Chunk id="BASIC01_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC02_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC03_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC04_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC05_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC06_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC07_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC08_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC09_3Rows_3Colors" chance="200"/>
+				<Chunk id="BASIC10_3Rows_3Colors" chance="200"/>
+				<Chunk id="NORMAL_ColorCorners" chance="0"/>
+				<Chunk id="NORMAL_SmileColors" chance="70"/>
+				
+				<!-- 1WallSide -->
+				<Chunk id="WALLS_1WallSides" chance="50"/>
+				<Chunk id="WALLS_1WallSides_3Colors_01" chance="100"/>
+				<Chunk id="WALLS_1WallSides_3Colors_02" chance="100"/>
+				<Chunk id="WALLS_1WallSides_3Colors_03" chance="100"/>
+				<Chunk id="WALLS_1WallSides_3Colors_04" chance="100"/>
+				<Chunk id="WALLS_1WallSides_3Colors_05" chance="100"/>
+				
+				<!-- 3WallSide -->
+				<Chunk id="WALLS_3WallSides" chance="40"/>
+				<Chunk id="WALLS_3WallSides_3Colors_01" chance="80"/>
+				<Chunk id="WALLS_3WallSides_3Colors_02" chance="80"/>
+				<Chunk id="WALLS_3WallSides_3Colors_03" chance="80"/>
+				
+				<!-- 8WallSide -->
+				<Chunk id="WALLS_8WallSides" chance="30"/>
+				<Chunk id="WALLS_8WallSides_3Colors_01" chance="60"/>
+				<Chunk id="WALLS_8WallSides_3Colors_02" chance="60"/>
+				<Chunk id="WALLS_8WallSides_3Colors_03" chance="60"/>
+				
+				<!-- TriangleLeft -->
+				<Chunk id="WALLS_TriangleLeft" chance="2"/>
+				<Chunk id="WALLS_TriangleLeft_3Colors_01" chance="5"/>
+				
+				<!-- TriangleRight -->
+				<Chunk id="WALLS_TriangleRight" chance="2"/>
+				<Chunk id="WALLS_TriangleRight_3Colors_01" chance="5"/>
+				
+				<!-- Rhombus -->
+				<Chunk id="WALLS_2Rhombus" chance="5"/>
+				<Chunk id="WALLS_2Rhombus_3Colors_01" chance="10"/>
+				<Chunk id="WALLS_2Rhombus_3Colors_02" chance="10"/>
+				<Chunk id="WALLS_2Rhombus_3Colors_03" chance="10"/>
+				<Chunk id="WALLS_2Rhombus_3Colors_04" chance="10"/>
+				<Chunk id="WALLS_2Rhombus_3Colors_05" chance="10"/>
+				
+				<!-- Bottleneck -->
+				<Chunk id="WALLS_Bottleneck" chance="5"/>
+				<Chunk id="WALLS_Bottleneck_3Colors_01" chance="10"/>
+				<Chunk id="WALLS_Bottleneck_3Colors_02" chance="10"/>
+				<Chunk id="WALLS_Bottleneck_3Colors_03" chance="10"/>
+				
+				<!-- Diamond -->
+				<Chunk id="WALLS_Diamond" chance="20"/>
+				<Chunk id="WALLS_Diamond_3Colors_01" chance="40"/>
+				<Chunk id="WALLS_Diamond_3Colors_02" chance="40"/>
+				
+				<!-- WALLS-->
+				<Chunk id="WALLS_WallLeftEasy" chance="100"/>
+				<Chunk id="WALLS_WallLeftMedium" chance="60"/>
+				<Chunk id="WALLS_WallLeftHard" chance="20"/>
+				<Chunk id="WALLS_WallRightEasy" chance="100"/>
+				<Chunk id="WALLS_WallRightMedium" chance="60"/>
+				<Chunk id="WALLS_WallRightHard" chance="20"/>
+				<Chunk id="WALLS_3Pipes" chance="15"/>
+				<Chunk id="WALLS_Pachinko" chance="15"/>
+				
+				<!-- FUN -->
+				<Chunk id="FUN_3RowsBlue" chance="5"/>
+				<Chunk id="FUN_3RowsGreen" chance="5"/>
+				<Chunk id="FUN_3RowsOrange" chance="5"/>
+				<Chunk id="FUN_3RowsPurple" chance="0"/>
+				<Chunk id="FUN_3Rows3Colors" chance="5"/>
+				<Chunk id="FUN_4Rows4Colors" chance="0"/>
+				<Chunk id="FUN_MergeColors" chance="5"/>
+				
+			</Level>
+
+		</LEVELSETTINGS>
+	
+	</ENDLESSMODE>
+
+</SETTINGS>
