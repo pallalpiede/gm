@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta property="og:image" content="bejeweled.png" />
+    <title>Bejeweled - Play Bejeweled Online Free - Games235</title>
+    <style>
+        html,
+        body {
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+            color: #ffffff;
+            font-size: 14px;
+        }
+    </style>
+    <script>
+        window["GD_OPTIONS"] = {
+            "gameId": "edffc32e7aa34a489a07ba14e47186a6",
+            "onEvent": function (event) {
+                switch (event.name) {
+                    case "SDK_GAME_START":
+                        window['GD_OPTIONS'].SDK_GAME_START();
+                        break;
+                    case "SDK_GAME_PAUSE":
+                        window['GD_OPTIONS'].SDK_GAME_PAUSE();
+                        // pause game logic / mute audio
+                        break;
+                    case "SDK_GDPR_TRACKING":
+                        // this event is triggered when your user doesn't want to be tracked
+                        break;
+                    case "SDK_GDPR_TARGETING":
+                        // this event is triggered when your user doesn't want personalised targeting of ads and such
+                        break;
+                }
+            }
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'js/main.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'gamedistribution-jssdk'));
+    </script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+
+<body>
+    <div id="gamePlace" style="height:100%;"></div>
+    <script src="js/game_pixi.js?1326b5d6d4d807474e84"></script>
+    <script src="js/game_main.js?1326b5d6d4d807474e84"></script>
+
+</body>
+</html>
