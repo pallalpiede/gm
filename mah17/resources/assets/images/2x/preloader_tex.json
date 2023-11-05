@@ -1,0 +1,1 @@
+{"width":1024,"SubTexture":[{"width":516,"y":3,"height":52,"name":"preloader/progress_bar","x":3},{"width":506,"y":61,"height":42,"name":"preloader/progress_bar_full","x":3},{"width":34,"y":61,"height":46,"name":"preloader/tile01","x":515}],"height":128,"name":"preloader","imagePath":"preloader_tex.png"}
