@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui" />
+	<title>Miracle Mahjong</title>
+	<link href="fonts.css" media="all" rel="stylesheet" type="text/css" />
+	<!-- Libraries -->
+	<script src="lib/createjs-2013.12.12.min.js"></script>
+	<script src="lib/tweenjs-0.5.1.min.js"></script>
+	<script src="lib/soundjs-0.5.2.min.js"></script>
+	<script src="lib/preloadjs-0.4.1.min.js"></script>
+	<script src="lib/cryptojs/rollups/md5.js"></script>
+	<script src="lib/jquery-1.11.1.min.js"></script>
+	
+	<script type="text/javascript">
+		//Game configurations.
+		window.MAHJONG_CONFIG = {
+			host: "//spiele-umsonst.de"
+		}
+	</script>
+	<script src="Classic.js"></script>
+
+<style>
+body,html{
+  overflow:hidden;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+	background:#170A02;
+	font-family: mouse_memoirsregular;
+	width:100%;
+	height:100%;
+	max-height:100px;
+
+}
+		body {
+			overflow: hidden;
+			-ms-touch-action: none;
+			touch-action: none;
+			-webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none; 
+		}
+		canvas {
+			-ms-touch-action: none;
+			touch-action: none;
+			overflow: hidden;
+			-ms-touch-action: none;
+			touch-action: none;
+			-webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none; 
+		}
+#mainCanvas
+{
+padding:0px;
+margin:0px;
+	background:#170A02;
+	
+	
+	background: -webkit-linear-gradient(#190A02, #0f0400); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#190A02, #0f0400); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#190A02, #0f0400); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#190A02, #0f0400); /* Standard syntax */
+	
+	-webkit-transform: translateZ(0);
+	display:none;
+	overflow:hidden;
+	
+}
+
+#mainCanvas.level1
+{
+	background: url('img/bg_animal_rabbit.png');
+	background-size: 80.129% 78.515%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#mainCanvas.level2
+{
+	background: url('img/bg_animal_rat.png');
+	background-size: 80.129% 78.515%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#mainCanvas.level3
+{
+	background: url('img/bg_animal_monkey.png');
+	background-size: 80.129% 78.515%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#mainCanvas.level4
+{
+	background: url('img/bg_animal_tiger.png');
+	background-size: 80.129% 78.515%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#mainCanvas.level5
+{
+	background: url('img/bg_animal_dragon.png');
+	background-size: 80.129% 78.515%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#canvasContainer
+{
+	position:fixed;
+	margin:0px;
+	padding:0px;
+	background: url('img/tausta_04.jpg');
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	overflow:hidden;
+}
+
+#reset
+{
+	position:fixed;
+	width:40px;
+	height:20px;
+	border: 1px solid black;
+	z-index: 10;
+}
+
+#loader
+{
+	display:block;
+	position:fixed;
+	left:50%;
+	top:50%;
+	z-index:20;
+	color:#FFF;
+	max-height:100px;
+	width:300px;
+	margin:0px;
+	margin-left:-150px;
+	margin-top:-40px;
+	text-align:center;
+	overflow:hidden;
+}
+
+</style>	
+</head>
+
+
+<body>
+
+<h1 id="loader">Loading...</h1>
+<div id="canvasContainer">
+	<canvas id="mainCanvas" width="1024" height="768"></canvas>
+</div>
+<script>
+document.addEventListener('ontouchstart', function(e) {e.preventDefault()}, false);
+document.addEventListener('ontouchmove', function(e) {e.preventDefault()}, false);
+document.body.addEventListener('touchmove', function(event) {event.preventDefault();}, false);
+</script>
+<script>
+mahjong.Main.main();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@font-face 
+{
+    font-family: 'mouse_memoirsregular';
+    src: url('fonts/mousememoirs-regular-webfont.eot');
+    src: url('fonts/mousememoirs-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mousememoirs-regular-webfont.woff') format('woff'),
+         url('fonts/mousememoirs-regular-webfont.ttf') format('truetype'),
+         url('fonts/mousememoirs-regular-webfont.svg#mouse_memoirsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
