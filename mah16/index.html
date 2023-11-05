@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, shrink-to-fit=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <title>Mahjong</title>
+
+
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+
+
+
+
+
+
+    <script src="azerion-libs.min.js" defer onload="loadGame()"></script>
+
+</head>
+
+<body>
+    <div id="content"></div>
+    <div id="loader">Loading ...</div>
+    <div id="orientation" class="img-container">
+        <img src="assets/images/icon_turnphone.png" class="center">
+    </div>
+    <script type="text/javascript">
+        var gameName = "mahjong.min.js";
+
+
+
+
+
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+
+        function loadGame() {
+
+            addScript('version.js', Date.now(), function() {
+
+                addScript(gameName, Date.now(), function() {
+                    window.game = new MahjongDynasty.Game();
+                });
+
+            });
+
+        }
+    </script>
+</body>
+
+</html>

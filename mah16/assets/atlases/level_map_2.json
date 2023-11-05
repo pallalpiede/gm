@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "island-05",
+	"frame": {"x":1285,"y":923,"w":744,"h":1031},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":744,"h":1031},
+	"sourceSize": {"w":744,"h":1031}
+},
+{
+	"filename": "island-07-reflection",
+	"frame": {"x":447,"y":1285,"w":740,"h":497},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":740,"h":497},
+	"sourceSize": {"w":740,"h":497}
+},
+{
+	"filename": "island-12-reflection",
+	"frame": {"x":1285,"y":2,"w":745,"h":918},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":745,"h":918},
+	"sourceSize": {"w":745,"h":918}
+},
+{
+	"filename": "island-14-reflection",
+	"frame": {"x":2,"y":1285,"w":442,"h":519},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":519},
+	"sourceSize": {"w":442,"h":519}
+},
+{
+	"filename": "water-background",
+	"frame": {"x":2,"y":2,"w":1280,"h":1280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":1280},
+	"sourceSize": {"w":1280,"h":1280}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_map_2.png",
+	"format": "RGBA8888",
+	"size": {"w":2032,"h":1956},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b39a6c3867974e749bba748d982cd7e0:938602bf34b11b633d652bdd7cbb365c:f6e01f495f06471538e0a6fdbc5fcd2a$"
+}
+}

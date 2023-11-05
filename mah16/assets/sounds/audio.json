@@ -1,0 +1,107 @@
+{
+  "resources": [
+    "audio.wav"
+  ],
+  "spritemap": {
+    "blocked_action": {
+      "start": 0,
+      "end": 0.996984126984127,
+      "loop": false
+    },
+    "button_press": {
+      "start": 1.1,
+      "end": 1.9026757369614513,
+      "loop": false
+    },
+    "confirm_leave_level": {
+      "start": 2.2,
+      "end": 4.8881179138321995,
+      "loop": false
+    },
+    "level_acquire_star": {
+      "start": 5.3,
+      "end": 8.79609977324263,
+      "loop": false
+    },
+    "level_complete": {
+      "start": 9.4,
+      "end": 12.891632653061224,
+      "loop": false
+    },
+    "level_map_bg_music": {
+      "start": 13.5,
+      "end": 68.35714285714286,
+      "loop": false
+    },
+    "level_map_bg_noise": {
+      "start": 68.60000000000001,
+      "end": 81.60000000000001,
+      "loop": false
+    },
+    "level_map_travel_noise": {
+      "start": 81.7,
+      "end": 84.6743537414966,
+      "loop": false
+    },
+    "level_map_travel_selection": {
+      "start": 84.8,
+      "end": 87.29274376417233,
+      "loop": false
+    },
+    "level_music": {
+      "start": 87.89999999999999,
+      "end": 139.32857142857142,
+      "loop": false
+    },
+    "level_result_lose": {
+      "start": 140,
+      "end": 143.98761904761903,
+      "loop": false
+    },
+    "level_result_star_1": {
+      "start": 144.1,
+      "end": 147.1011111111111,
+      "loop": false
+    },
+    "level_result_star_2": {
+      "start": 148.2,
+      "end": 151.19666666666666,
+      "loop": false
+    },
+    "level_result_star_3": {
+      "start": 151.29999999999998,
+      "end": 154.3055782312925,
+      "loop": false
+    },
+    "level_result_win": {
+      "start": 155.39999999999998,
+      "end": 159.35678004535146,
+      "loop": false
+    },
+    "pop_up": {
+      "start": 159.49999999999997,
+      "end": 160.70623582766436,
+      "loop": false
+    },
+    "powerup_usage": {
+      "start": 161.59999999999997,
+      "end": 165.59999999999997,
+      "loop": false
+    },
+    "tiles_match": {
+      "start": 165.69999999999996,
+      "end": 168.19832199546482,
+      "loop": false
+    },
+    "tiles_selecting": {
+      "start": 168.79999999999998,
+      "end": 169.79888888888888,
+      "loop": false
+    },
+    "tiles_stacking": {
+      "start": 169.9,
+      "end": 170.702358276644,
+      "loop": false
+    }
+  }
+}

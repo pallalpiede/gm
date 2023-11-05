@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "island-03-reflection",
+	"frame": {"x":2,"y":1314,"w":744,"h":435},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":744,"h":435},
+	"sourceSize": {"w":744,"h":435}
+},
+{
+	"filename": "island-05-reflection",
+	"frame": {"x":749,"y":1555,"w":663,"h":362},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":663,"h":362},
+	"sourceSize": {"w":663,"h":362}
+},
+{
+	"filename": "island-06",
+	"frame": {"x":823,"y":2,"w":784,"h":1271},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":784,"h":1271},
+	"sourceSize": {"w":784,"h":1271}
+},
+{
+	"filename": "island-09-reflection",
+	"frame": {"x":1415,"y":1555,"w":612,"h":435},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":435},
+	"sourceSize": {"w":612,"h":435}
+},
+{
+	"filename": "island-12",
+	"frame": {"x":2,"y":2,"w":818,"h":1309},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":818,"h":1309},
+	"sourceSize": {"w":818,"h":1309}
+},
+{
+	"filename": "island-15-reflection",
+	"frame": {"x":823,"y":1276,"w":783,"h":276},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":783,"h":276},
+	"sourceSize": {"w":783,"h":276}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_map_5.png",
+	"format": "RGBA8888",
+	"size": {"w":2029,"h":1992},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:28fd676b9b93a8c4bd9d6f0024464290:fe1a2bd97f160c4cc5f26bd550588b6a:b4891a04118b15fe81027f511f6a9a93$"
+}
+}

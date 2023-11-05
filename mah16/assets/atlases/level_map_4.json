@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "island-01-reflection",
+	"frame": {"x":2,"y":1258,"w":731,"h":777},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":731,"h":777},
+	"sourceSize": {"w":731,"h":777}
+},
+{
+	"filename": "island-02",
+	"frame": {"x":2,"y":2,"w":879,"h":1253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":879,"h":1253},
+	"sourceSize": {"w":879,"h":1253}
+},
+{
+	"filename": "island-04-reflection",
+	"frame": {"x":736,"y":1258,"w":737,"h":776},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":737,"h":776},
+	"sourceSize": {"w":737,"h":776}
+},
+{
+	"filename": "island-04",
+	"frame": {"x":884,"y":2,"w":814,"h":1215},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":814,"h":1215},
+	"sourceSize": {"w":814,"h":1215}
+},
+{
+	"filename": "island-14",
+	"frame": {"x":1476,"y":1220,"w":525,"h":810},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":525,"h":810},
+	"sourceSize": {"w":525,"h":810}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_map_4.png",
+	"format": "RGBA8888",
+	"size": {"w":2003,"h":2037},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c4d85dcfaa3742a678f6d8229f46f969:e9d214570843cecdaa9ec2abf8aed03d:87b58ae3dfa579aa6d8857b9ee7ae12e$"
+}
+}
