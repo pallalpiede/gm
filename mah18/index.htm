@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Daily Mahjong - Play it now at Coolmath-games.com</title>
+	<meta name="date" content="2017-03-20">
+	<meta name="gameCats" content="Mahjong">
+	<meta property="og:type" content="game">
+	<meta property="og:url" content="https://cdn.htmlgames.com/DailyMahjong/">
+	<meta property="og:title" content="Daily Mahjong">
+	<meta property="og:image" content="https://cdn.htmlgames.com/DailyMahjong/img/icon/image-300x200.jpg">
+	<meta property="og:description" content="Combine 2 of the same mahjong stones to remove them from the playing field. You only can use free stones. A free stone is not covered by another stone and at least 1 side (left or right) is open.">
+	<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,width=device-width,viewport-fit=cover">
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="theme-color" content="#000">
+	<link rel="manifest" href="manifest.json">
+	<link rel="shortcut icon" sizes="196x196" href="img/icon/icon-196x196.png">
+	<link rel="apple-touch-icon" href="img/icon/icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/icon-152x152.png">	
+
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+
+	<script src="js/ThirdParty.js"></script>
+	<script src="js/game.js"></script>
+</head>
+<body>
+<div class="desc">
+	<h1>Daily Mahjong</h1>
+	<p>Combine 2 of the same mahjong stones to remove them from the playing field. You only can use free stones. A free stone is not covered by another stone and at least 1 side (left or right) is open.</p>
+</div>
+
+<div id="gameContainer"></div>
+
+<div id="rotateHint">
+   <b>Please rotate your device</b>
+   <img class="rotate" src="img/rotate.png" alt="Please rotate your device">
+   <img id="rotateClose" src="img/close.png" alt="X">
+</div>
+
+<input id="datepicker" readonly="" style="display:none">
+<script>
+	var gameName = document.title,
+    gameContainer = document.getElementById('gameContainer');
+	var gameMask = null;
+	function orderInit(a){
+		switch(a) {
+			case 1: loadRec.creatloading(); break;
+			case 2: GameMenu.showMenu(); break;
+			case 3: GameHelp.showHelp(); break;
+			case 4: GamePlay.showPlay(); break;
+		}
+	}
+	GameLib.init(gameName, 800, 480);
+</script>
+<noscript>
+This game needs Javascript. Click here for <a href="//www.mahjong.com">more mahjong games</a>.
+</noscript>
+</body>
+</html>
