@@ -1,0 +1,274 @@
+{
+	"frames": {
+		"achilles": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"baker's dozen": {
+			"frame": {
+				"x": 0,
+				"y": 201,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"canfield": {
+			"frame": {
+				"x": 201,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"freecell": {
+			"frame": {
+				"x": 201,
+				"y": 201,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"golf": {
+			"frame": {
+				"x": 0,
+				"y": 402,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"klondike": {
+			"frame": {
+				"x": 201,
+				"y": 402,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"pyramid": {
+			"frame": {
+				"x": 402,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"russian": {
+			"frame": {
+				"x": 402,
+				"y": 201,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"scorpion": {
+			"frame": {
+				"x": 402,
+				"y": 402,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"tam o'shanter": {
+			"frame": {
+				"x": 0,
+				"y": 603,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"single rail": {
+			"frame": {
+				"x": 201,
+				"y": 603,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"yukon": {
+			"frame": {
+				"x": 402,
+				"y": 603,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"spiderette": {
+			"frame": {
+				"x": 603,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		}
+	},
+	"meta": {
+		"app": "https://www.leshylabs.com/apps/sstool/",
+		"version": "Leshy SpriteSheet Tool v0.8.4",
+		"image": "mods.png",
+		"size": {
+			"w": 803,
+			"h": 803
+		},
+		"scale": 1
+	}
+}

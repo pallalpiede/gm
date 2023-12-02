@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no">
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #102b07;
+        }
+
+        @font-face {
+            font-family: 'gameFont';
+            font-style: normal;
+            font-weight: 400;
+            src: url('assets/fnt/Cantarell-Bold.ttf');
+        }
+    </style>
+
+    <title>Solitaire 13in1 Collection</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/game.css">
+
+    <link rel="icon" type="image/png" href="assets/favicon/icon-512x512.png" sizes="512x512">
+
+    <link rel="apple-touch-icon" href="assets/favicon/icon-150x150.png" >
+    <link rel="apple-touch-icon" type="image/png" href="assets/favicon/icon-512x512.png" sizes="512x512">
+
+
+
+
+
+
+</head>
+<body style="background-color: #000000">
+<div id="wrongRotation">
+    <img src="assets/img_480/rotate_screen.png" alt=""/>
+</div>
+
+<div id="game">
+
+
+
+    <script src="js/game.js"></script>
+        
+
+
+    <script>
+        document.addEventListener("deviceready", function () {
+            document.addEventListener("backbutton", function () {
+                //  about
+                if (aboutShowed) {
+                    SceneAbout.instance.cancelAbout();
+                }
+                //  quit
+                else if (grpSceneSelectMode.visible && !quitAppActive) {
+                    SceneGame.instance.executeAction(ACTIONS.QUIT_APP);
+                }
+                //  exit back
+                else if (quitAppActive) {
+                    SceneInfoDialog.instance.OnPressedNo();
+                }
+                //  instructions
+                else if (infoShowed) {
+                    SceneInstruction.instance.cancelInstruction();
+                }
+                //  lost progress
+                else if (areYouSureActive) {
+                    SceneInfoDialog.instance.OnPressedNo();
+                }
+                //  game
+                else if (grpSceneGame.visible && !grpScenePause.visible) {
+                    if (!dealingCards) {
+                        SceneGame.instance.executeAction(ACTIONS.PAUSE);
+                    }
+                }
+                //  pause
+                else if (grpSceneGame.visible && grpScenePause.visible) {
+                    SceneGame.instance.executeAction(ACTIONS.UNPAUSE)
+                }
+            }, false);
+        }, false);
+    </script>
+</div>
+<div class="font_preload" style="opacity: 0">
+    <span style="font-family: 'gameFont', Arial, normal;"></span>
+</div>
+<div id="ads"></div>
+
+</body>
+</html>
+
