@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <language name="en">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to choose a new level?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="nl">
+    <youwongame>Level compleet!</youwongame>
+    <choosenextlevel>Kies hieronder of u dit level wilt herstarten of kies een nieuw level uit om te spelen...</choosenextlevel>
+    <nomoremoves>Geen zetten meer!</nomoremoves>
+    <wantottry>Er zijn geen combinaties meer mogelijk, maakt u zich geen zorgen, wij mixen de stenen voor u!</wantottry>
+    <pleasetryagain>Probeer het nogmaals</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mixen</mix>
+    <previous>Herstart</previous>
+    <next>Nieuw level</next>
+    <areyousure>Weet u zeker dat u een nieuw level wilt starten?</areyousure>
+    <yes>Ja</yes>
+    <no>Nee</no>
+  </language>
+  
+  <language name="fr">
+    <youwongame>Niveau complet !</youwongame>
+    <choosenextlevel>Choisissez ci-dessous si vous voulez redémarrer ce niveau ou choisissez un nouveau niveau...</choosenextlevel>
+    <nomoremoves>Plus de coups !</nomoremoves>
+    <wantottry>Il n'y a plus de combinaisons possibles, mais ne vous inquiétez pas, nous allons mélanger les tuiles pour vous !</wantottry>
+    <pleasetryagain>Essayez encore une fois</pleasetryagain>
+    <hint>Indice</hint>
+    <mix>Mix</mix>
+    <previous>Redémarrez</previous>
+    <next>Nouveau</next>
+    <areyousure>Vous êtes sûr de vouloir commencer un nouveau niveau ?</areyousure>
+    <yes>Oui</yes>
+    <no>Non</no>
+  </language>
+  
+  <language name="de">
+    <youwongame>Level abgeschlossen!</youwongame>
+    <choosenextlevel>Wähle ein neues Spiel aus oder starte dieses Level erneut!</choosenextlevel>
+    <nomoremoves>Keine Spielzüge mehr!</nomoremoves>
+    <wantottry>Es sind keine Kombinationen mehr möglich. Die Steine werden neu ausgeteilt.</wantottry>
+    <pleasetryagain>Probiere es noch einmal!</pleasetryagain>
+    <hint>Tipp</hint>
+    <mix>Mischen</mix>
+    <previous>Neu starten</previous>
+    <next>Neues Level</next>
+    <areyousure>Bist Du Dir sicher, dass Du ein neues Level starten möchtest?</areyousure>
+    <yes>Ja</yes>
+    <no>Nein</no>
+  </language>
+  
+  <language name="it">
+    <youwongame>Livello completato!</youwongame>
+    <choosenextlevel>Scegli qui sotto se vuoi far ripartire questo livello o scegli un nuovo livello da giocare...</choosenextlevel>
+    <nomoremoves>Peccato:(</nomoremoves>
+    <wantottry>Non potete più fare combinazioni, pensiamo noi a mischiare le tegole per voi...</wantottry>
+    <pleasetryagain>Prova ancora</pleasetryagain>
+    <hint>Indizio</hint>
+    <mix>Mischia</mix>
+    <previous>Di nuovo</previous>
+    <next>Nuovo livello</next>
+    <areyousure>Sei sicuro di volere iniziare un nuovo livello?</areyousure>
+    <yes>Si</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="es">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="pt">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="pl">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="ro">
+    <youwongame>Nivel complet</youwongame>
+    <choosenextlevel>Apăsați pe butonul de jos, dacă doriți să reîncepeți acest nivel sau alegeți un alt nivel...</choosenextlevel>
+    <nomoremoves>Mai multe mutări</nomoremoves>
+    <wantottry>Nu mai aveți combinații posibile, dar nu vă speriați, pentru că vă vom amesteca pisele!</wantottry>
+    <pleasetryagain>Încercați încă o dată</pleasetryagain>
+    <hint>Indiciu</hint>
+    <mix>Mix</mix>
+    <previous>Din nou</previous>
+    <next>Nivel nou</next>
+    <areyousure>Sunteți sigur că doriți să începeți un nou nivel?</areyousure>
+    <yes>Da</yes>
+    <no>Nu</no>
+  </language>
+  
+  <language name="no">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="se">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="ru">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+  </language>
+  
+  <language name="hr">
+    <youwongame>Level complete</youwongame>
+    <choosenextlevel>Please choose if you want to play this level again or if you want to choose a new level...</choosenextlevel>
+    <nomoremoves>Out of moves!</nomoremoves>
+    <wantottry>You are out of moves. No worries, just hit the mix button and we will mix tiles for you!</wantottry>
+    <pleasetryagain>Please try again</pleasetryagain>
+    <hint>Hint</hint>
+    <mix>Mix</mix>
+    <previous>Replay</previous>
+    <next>New level</next>
+    <areyousure>Are you sure you want to start a new game?</areyousure>
+    <yes>Yes</yes>
+    <no>No</no>
+	</language>
+</data>
