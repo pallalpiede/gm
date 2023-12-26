@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <language name="en">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL: </select_level>
+    <minutes_played>Time played: </minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS: </timebonus>
+    <yourscore>YOUR SCORE: </yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time: </time>
+    <SCORE>Score: </SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="nl">
+    <level>LEVEL</level>
+    <select_level>KIES EEN LEVEL:</select_level>
+    <minutes_played>Tijd gespeeld: </minutes_played>
+    <themovesyoumade>Stappen gemaakt:</themovesyoumade>
+    <timebonus>TIJD BONUS: </timebonus>
+    <yourscore>JOUW SCORE: </yourscore>
+    <ok>OK</ok>
+    <new_game>Nieuw spel</new_game>
+    <easy>MAKKELIJK - 1 SUIT</easy>
+    <normal>NORMAAL - 2 SUITS</normal>
+    <hard>EXPERT - 4 SUITS</hard>
+    <stats>Statistieken</stats>
+    <play>SPEEL</play>
+    <time>Tijd:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Speel door</resume>
+    <restart>HERSTARTEN</restart>
+    <yes>JA</yes>
+    <no>NEE</no>
+    <keep_playing>Blijf spelen</keep_playing>
+    <warning>WAARSCHUWING</warning>
+    <are_you_sure_restart>WAARSCHUWING: WANNEER U DEZE OPTIE KIEST, ZAL ALLE VOORTGANG IN HET HUIDIGE SPEL VERLOREN GAAN! BENT U ABSOLUUT ZEKER DAT U DIT WILT DOEN?</are_you_sure_restart>
+    <there_must_be_at_least>JE KUNT GEEN NIEUWE KAARTEN DELEN TERWIJL ER LEGE KOLOMMEN ZIJN. VUL DE LEGE KOLOMMEN MET TEN MINSTE 1 KAART.</there_must_be_at_least>
+    <MORE_GAMES>Meer spellen</MORE_GAMES>
+    <sound_on>Geluid aan</sound_on>
+    <sound_off>Geluid uit</sound_off>
+    <MOVES>Stappen</MOVES>
+    <youwongame>GEWONNEN</youwongame>
+    <congrats>JE HEBT GEWONNEN!</congrats>
+  </language>
+  
+  <language name="fr">
+    <level>NIVEAU</level>
+    <select_level>CHOISISSEZ UN NIVEAU :</select_level>
+    <minutes_played>Temps joué : </minutes_played>
+    <themovesyoumade>Déplacements réalisés : </themovesyoumade>
+    <timebonus>BONUS TEMPS : </timebonus>
+    <yourscore>VOTRE SCORE : </yourscore>
+    <ok>OK</ok>
+    <new_game>Nouvelle partie</new_game>
+    <easy>FACILE - 1 COULEUR</easy>
+    <normal>NORMAL - 2 COULEURS</normal>
+    <hard>EXPERT - 4 COULEURS</hard>
+    <stats>Statistiques</stats>
+    <play>JOUEZ</play>
+    <time>Temps : </time>
+    <SCORE>Score : </SCORE>
+    <menu>Menu</menu>
+    <resume>Poursuivez la partie</resume>
+    <restart>REDÉMARRER</restart>
+    <yes>OUI</yes>
+    <no>NON</no>
+    <keep_playing>Continuez à jouer</keep_playing>
+    <warning>ATTENTION</warning>
+    <are_you_sure_restart>SI VOUS CHOISISSEZ CETTE OPTION, TOUTE PROGRESSION DE LA PARTIE ACTUELLE SERA PERDUE ! VOUS ÊTES ABSOLUMENT SÛR DE VOULOIR FAIRE CELA ?</are_you_sure_restart>
+    <there_must_be_at_least>VOUS NE POUVEZ PAS DISTRIBUER DE NOUVELLES CARTES QUAND IL Y A DES COLONNES VIDES. REMPLISSEZ LES COLONNES VIDES AVEC AU MOINS 1 CARTE.</there_must_be_at_least>
+    <MORE_GAMES>Plus de jeux</MORE_GAMES>
+    <sound_on>Son allumé</sound_on>
+    <sound_off>Son éteint</sound_off>
+    <MOVES>Déplacements </MOVES>
+    <youwongame>GAGNÉ</youwongame>
+    <congrats>VOUS AVEZ GAGNÉ !</congrats>
+  </language>
+  
+  <language name="de">
+    <level>NIVEAU</level>
+    <select_level>WÄHLEN SIE EIN NIVEAU AUS:</select_level>
+    <minutes_played>Spielzeit: </minutes_played>
+    <themovesyoumade>Getätigte Spielzüge: </themovesyoumade>
+    <timebonus>ZEIT-BONUS: </timebonus>
+    <yourscore>IHRE PUNKTE: </yourscore>
+    <ok>OK</ok>
+    <new_game>Neues Spiel</new_game>
+    <easy>LEICHT - 1 FARBE</easy>
+    <normal>NORMAL - 2 FARBEN</normal>
+    <hard>PROFI - 4 FARBEN</hard>
+    <stats>Statistiken</stats>
+    <play>SPIEL</play>
+    <time>Zeit: </time>
+    <SCORE>Punkte: </SCORE>
+    <menu>Menü</menu>
+    <resume>Weiterspielen</resume>
+    <restart>NEU STARTEN</restart>
+    <yes>JA</yes>
+    <no>NEIN</no>
+    <keep_playing>Weiterspielen</keep_playing>
+    <warning>WARNUNG</warning>
+    <are_you_sure_restart>WARNUNG: WENN SIE SICH FÜR DIESE OPTION ENTSCHEIDEN, DANN GEHEN ALLE FORTSCHRITTE DIESES SPIELS VERLOREN! SIND SIE SICH SICHER, DASS SIE DAS MÖCHTEN?</are_you_sure_restart>
+    <there_must_be_at_least>SIE KÖNNEN KEINE NEUEN KARTEN AUSTEILEN, SO LANGE ES LEERE SPALTEN GIBT. FÜLLEN SIE DIE LEEREN SPALTEN MIT MINDESTENS EINER KARTE.</there_must_be_at_least>
+    <MORE_GAMES>Mehr Kartenspiele</MORE_GAMES>
+    <sound_on>Ton an</sound_on>
+    <sound_off>Ton aus</sound_off>
+    <MOVES>Spielzüge</MOVES>
+    <youwongame>GEWONNEN</youwongame>
+    <congrats>SIE HABEN GEWONNEN!</congrats>
+  </language>
+  
+  <language name="it">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="es">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="pt">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="pl">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="ro">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="no">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="se">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="ru">
+    <level>LEVEL</level>
+    <select_level>SELECT A LEVEL:</select_level>
+    <minutes_played>Time played:</minutes_played>
+    <themovesyoumade>The moves you made:</themovesyoumade>
+    <timebonus>TIME BONUS:</timebonus>
+    <yourscore>YOUR SCORE:</yourscore>
+    <ok>OK</ok>
+    <new_game>New game</new_game>
+    <easy>EASY - 1 SUIT</easy>
+    <normal>NORMAL - 2 SUITS</normal>
+    <hard>HARD - 4 SUITS</hard>
+    <stats>Statistics</stats>
+    <play>PLAY</play>
+    <time>Time:</time>
+    <SCORE>Score:</SCORE>
+    <menu>Menu</menu>
+    <resume>Resume</resume>
+    <restart>RESTART</restart>
+    <yes>YES</yes>
+    <no>NO</no>
+    <keep_playing>Keep Playing</keep_playing>
+    <warning>WARNING</warning>
+    <are_you_sure_restart>WARNING: WHEN CHOOSING THIS OPTION, ALL PROGRESS IN THE CURRENT GAME WILL BE LOST! ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?</are_you_sure_restart>
+    <there_must_be_at_least>YOU ARE NOT ALLOWED TO DEAL NEW CARDS WHILE THERE ARE ANY EMPTY SLOTS. FILL THE EMPTY SLOTS WITH AT LEAST 1 CARD.</there_must_be_at_least>
+    <MORE_GAMES>More games</MORE_GAMES>
+    <sound_on>Sound on</sound_on>
+    <sound_off>Sound off</sound_off>
+    <MOVES>Moves</MOVES>
+    <youwongame>YOU WON!</youwongame>
+    <congrats>CONGRATULATIONS, YOU WON!</congrats>
+  </language>
+  
+  <language name="hr">
+    <level>RAZINA</level>
+    <select_level>IZABERI RAZINU</select_level>
+    <timebonus>VREMENSKI BONUS:</timebonus>
+    <yourscore>UKUPNI BODOVI:</yourscore>
+    <alltimestats>REKORDI</alltimestats>
+    <playedgames>Odigrane:</playedgames>
+    <wongames>Pobjede:</wongames>
+    <lostgames>Porazi:</lostgames>
+    <win_percentage>Postotak pobjeda:</win_percentage>
+    <top_score>Najbolji rezultat:</top_score>
+    <best_time>Najbolje vrijeme:</best_time>
+    <ok>OK</ok>
+    <with_a_score_of>Bodovi:</with_a_score_of>
+    <minutes_played>Odigrane minute:</minutes_played>
+    <themovesyoumade>Napravljeni potezi:</themovesyoumade>
+    <youralltimehigh>Najbolji rezultat:</youralltimehigh>
+    <replay>Ponovi</replay>
+    <new_game>NOVA IGRA</new_game>
+    <easy>LAGANO</easy>
+    <normal>SREDNJE</normal>
+    <hard>TEŠKO</hard>
+    <stats>Statistika</stats>
+    <clear>Briši</clear>
+    <play>IGRAJ</play>
+    <time>Vrijeme:</time>
+    <SCORE>Bodovi:</SCORE>
+    <menu>Izbornik</menu>
+    <resume>DALJE</resume>
+    <restart>ISPOČETKA</restart>
+    <yes>DA</yes>
+    <no>NE</no>
+    <keep_playing>NASTAVI IGRU</keep_playing>
+    <warning>ARE YOU SURE?</warning>
+    <are_you_sure_restart>Želiš resetirati igru? Trenutna igra bit će izbrisana.</are_you_sure_restart>
+    <there_must_be_at_least>U svakom stupcu glavne ploče mora biti barem jedna karta da bi mogao dobiti još karata.</there_must_be_at_least>
+    <MORE_GAMES>JOŠ IGARA</MORE_GAMES>
+    <sound_on>SA ZVUKOM</sound_on>
+    <sound_off>BEZ ZVUKA</sound_off>
+    <MOVES>Potezi</MOVES>
+    <youwongame>POBJEDA!</youwongame>
+    <congrats>ČESTITKE, POBJEDA!</congrats>
+    <dontshowagain>Ne prikazuj ponovo</dontshowagain>
+  </language>
+</data>
