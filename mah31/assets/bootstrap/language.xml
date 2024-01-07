@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<language name="en">
+		<play>PLAY</play>
+		<mix>MIX</mix>
+		<hint>HINT</hint>
+		<undo>UNDO</undo>
+		<no_more_moves>Out of moves!</no_more_moves>
+		<please_press_shuffle_button_to_continue>PLEASE PRESS THE MIX BUTTON TO CONTINUE</please_press_shuffle_button_to_continue>
+		<you_did_it>YOU DID IT!</you_did_it>
+		<you_finished_the_game>YOU FINISHED THE GAME!</you_finished_the_game>
+		<play_again>Play again</play_again>
+	</language>		
+	<language name="nl">
+		<play>START</play>
+		<mix>HUSSELEN</mix>
+		<hint>HINT</hint>
+		<undo>STAP TERUG</undo>
+		<no_more_moves>Geen zetten meer!</no_more_moves>
+		<please_press_shuffle_button_to_continue>Druk op de onderstaande knop om verder te gaan</please_press_shuffle_button_to_continue>
+		<you_did_it>GOED GEDAAN!</you_did_it>
+		<you_finished_the_game>Je hebt de puzzel opgelost!</you_finished_the_game>
+		<play_again>NOGMAALS?</play_again>
+	</language>	
+	<language name="fr">
+		<play>JOUER</play>
+		<mix>MÊLER</mix>
+		<hint>INDICE</hint>
+		<undo>RETOUR</undo>
+		<no_more_moves>IL N'Y A PLUS DE COUP À JOUER !</no_more_moves>
+		<please_press_shuffle_button_to_continue>APPUYEZ SUR LE BOUTON CI-DESSOUS POUR CONTINUER.</please_press_shuffle_button_to_continue>
+		<you_did_it>BIEN JOUÉ</you_did_it>
+		<you_finished_the_game>VOUS AVEZ RÉSOLU LE PUZZLE !</you_finished_the_game>
+		<play_again>ENCORE UNE FOIS ?</play_again>
+	</language>		
+	<language name="de">
+		<play>Spielen</play>
+		<mix>Mix</mix>
+		<hint>Hint</hint>
+		<undo>UNDO</undo>
+		<no_more_moves>Keine Züge mehr</no_more_moves>
+		<please_press_shuffle_button_to_continue>Bitte drück die Taste unten, um fortzufahren</please_press_shuffle_button_to_continue>
+		<you_did_it>GUTE PARTIE!</you_did_it>
+		<you_finished_the_game>Du hast das Puzzle gelöst!</you_finished_the_game>
+		<play_again>NOCH EINMAL</play_again>
+	</language>		
+	<language name="es">
+		<play>Jugar</play>
+		<mix>Mix</mix>
+		<hint>Hint</hint>
+		<undo>UNDO</undo>
+		<no_more_moves>¡No más jugadas!</no_more_moves>
+		<please_press_shuffle_button_to_continue>Por favor, pulsa el botón de debajo para continuar</please_press_shuffle_button_to_continue>
+		<you_did_it>¡BUEN JUEGO!</you_did_it>
+		<you_finished_the_game>¡Has acabado el juego!</you_finished_the_game>
+		<play_again>Jugar</play_again>
+	</language>		
+	<language name="ro">
+		<play>A JUCA</play>
+		<mix>A AMESTECA</mix>
+		<hint>INDICIU</hint>
+		<undo>ANULATI</undo>
+		<no_more_moves>JOCUL S-A TERMINAT</no_more_moves>
+		<please_press_shuffle_button_to_continue>APASATI PE BUTONUL DE MAI JOS PENTRU A CONTINUA.</please_press_shuffle_button_to_continue>
+		<you_did_it>AI JUCAT BINE!</you_did_it>
+		<you_finished_the_game>ATI REZOLVAT PUZZLE-UL!</you_finished_the_game>
+		<play_again>A JUCA</play_again>
+	</language>	
+	<language name="it">
+		<play>INIZIO</play>
+		<mix>MESCOLARE</mix>
+		<hint>HINT</hint>
+		<undo>DISFARE</undo>
+		<no_more_moves>Mosse sono finite</no_more_moves>
+		<please_press_shuffle_button_to_continue>Premi sul tasto sottostante per andare avanti</please_press_shuffle_button_to_continue>
+		<you_did_it>BEN FATTO!</you_did_it>
+		<you_finished_the_game>Hai risolto il puzzle!</you_finished_the_game>
+		<play_again>ANCORA?</play_again>
+	</language>	
+
+
+
+</data>
