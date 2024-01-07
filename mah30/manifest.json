@@ -1,0 +1,12 @@
+﻿{
+	"name": "Mahjong",
+	"short_name": "Mahjong",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"icons": [{
+		"src": "img/icon.png",
+		"sizes": "256x256",
+		"type": "image/png"
+	}]
+}
