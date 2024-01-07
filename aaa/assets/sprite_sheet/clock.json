@@ -1,0 +1,91 @@
+﻿{"frames": {
+
+"tokei_1.png":
+{
+	"frame": {"x":420,"y":4,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_10.png":
+{
+	"frame": {"x":4,"y":1252,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_2.png":
+{
+	"frame": {"x":420,"y":420,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_3.png":
+{
+	"frame": {"x":420,"y":836,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_4.png":
+{
+	"frame": {"x":420,"y":1252,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_5.png":
+{
+	"frame": {"x":836,"y":4,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_6.png":
+{
+	"frame": {"x":836,"y":420,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_7.png":
+{
+	"frame": {"x":4,"y":4,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_8.png":
+{
+	"frame": {"x":4,"y":420,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+},
+"tokei_9.png":
+{
+	"frame": {"x":4,"y":836,"w":412,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":412},
+	"sourceSize": {"w":412,"h":412}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.5.191",
+	"image": "clock.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
