@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <title>Mahjong Solitaire 2</title>
+    <meta name="description" content="Mahjong Solitaire 2 is a high quality collection of Mahjong solitaire games. 100% free and no download." />
+    <link id="favicon" rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="mahjong,mahjongg" />
+    <link rel="stylesheet" type="text/css" href="mahjong/css/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" type="text/css" href="mahjong/css/style.css">
+    <link rel="stylesheet" href="mahjong/css/modal.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+    <script src="mahjong/js/lib/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="mahjong/js/lib/jquery.mobile-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="mahjong/js/lib/soundjs-0.6.1.min.js"></script>
+
+    <!--<script type='text/javascript' src='../../js/usercookies.js'></script>
+    <script type='text/javascript' src="../../ads/ads.js"></script>
+    <script>
+        $(window).resize(function () {
+            displayAds();
+        });
+
+        $(window).ready(function () {
+            displayAds();
+        });
+
+        function displayAds() {
+            var width = $(window).width();
+            var height = $(window).height();
+
+            if (width >= 1024 && width > height) {
+                $(".adsbygoogle").show();
+            }
+            else {
+                $(".adsbygoogle").hide();
+            }
+        }
+    </script>-->
+</head>
+<body class="loading">
+
+
+
+    <div id="mainarea">
+
+        <div id="loading-box">
+            Loading
+            <img src="./mahjong/images/others/loading.gif" />
+        </div>
+
+        <div id="game-topLabel">
+            <div id="game-name" class="text-shadow" data-lang-ref="mahjong">MahJong</div>
+            <div id="toggle-fullscreen-wrapper" style="display:none;">
+                <div id="toggle-fullscreen">Full Screen</div>
+            </div>
+            <div id="game-score" class="text-shadow">Score: 1000</div>
+            <div id="game-time" class="text-shadow">Time: 10:00:00</div>
+            <div id="pairs" class="text-shadow">Match: 0</div>
+        </div>
+
+        <div id="game-wrap">
+            <canvas id="canvas" width="0;" height="0"></canvas>
+        </div>
+        <div id="game-buttons">
+            <!-- <input type="button" id="restart" class="button" style="margin-left: 30px;" value="New game"> -->
+            <div id="btn-games" class="button">
+                <span data-lang-ref="games">Games</span>
+            </div>
+            <div id="btn-restart" class="button">
+                <span data-lang-ref="new-deal">New deal</span>
+            </div>
+            <div id="btn-shuffle" class="button">
+                <span data-lang-ref="shuffle">Shuffle</span>
+            </div>
+            <div id="btn-undo" class="button">
+                <span data-lang-ref="undo">Undo</span>
+            </div>
+            <div id="btn-hint" class="button">
+                <span data-lang-ref="hint">Hint</span>
+            </div>
+            <div id="btn-setting" class="button">
+                <span data-lang-ref="more">More</span>
+            </div>
+            <!-- <input type="button" id="shuffle" class="button" style="margin-left: 15px;" value="Shuffle">
+            <input type="button" id="undo" class="button" style="margin-left: 15px;" value="Undo">
+            <input type="button" id="options-button" class="button" style="float:right; margin-right: 30px;" value="Options"> -->
+        </div>
+    </div>
+
+
+    <!-- OPTIONS -->
+
+
+    <div id="popup-setting" data-history="false" data-transition="pop" style="width: 300px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header"><h1 data-lang-ref="more">More</h1></div>
+
+        <div style="margin:20px;">
+            <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset" style="margin-bottom: 20px;">
+                <li><a id="open-popup-hiscores" data-lang-ref="hi-score">High Scores</a></li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset" style="margin-bottom: 20px;">
+                <!--<li><a id="open-popup-appearance" data-lang-ref="appearance">Appearance</a></li>-->
+                <!-- <li><button>Close</button></li> -->
+                <li><a id="open-popup-options" href="#" data-lang-ref="options">Options</a></li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset" style="margin-bottom: 20px;">
+                <li><a id="open-popup-help" data-lang-ref="help">Help</a></li>
+                <!-- <li><button>Close</button></li> -->
+                <!--<li><a id="open-popup-about" href="#" data-lang-ref="about">About</a></li>-->
+            </ul>
+            <button class="ui-btn ui-corner-all ui-btn-close" data-lang-ref="close">Close</button>
+        </div>
+    </div>
+
+
+
+    <div id="popup-game" data-history="false" data-transition="pop" style="position:relative; max-width: 950px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header">
+            <h1 data-lang-ref="select-a-game">Select a Game</h1>
+        </div>
+        <div class="ui-content" role="main">
+            <ul id="maps" style="max-height:30em; overflow-y: auto;"></ul>
+            <button data-lang-ref="random-game" data-inline='true' class="random-game">
+                Random Game
+            </button>
+            <button data-lang-ref="close" class="ui-btn-close" data-inline='true'>Close</button>
+        </div>
+
+    </div>
+
+    <div id="popup-help" data-history="false" data-transition="pop" style="width: 550px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header"><h1 data-lang-ref="help">Help</h1></div>
+        <div class="ui-content" role="main">
+
+            <div id="game-help-content">
+                <h3><img src="mahjong/images/info.png" height="26" width="26"> <span data-lang-ref="game-info">Game info</span></h3>
+                <p data-lang-ref="game-info1">MahJong is a high-quality collection of MahJong solitaire games.</p>
+
+                <hr style="width:50%">
+                <h3><img src="mahjong/images/rules.png" height="26" width="26"> <span data-lang-ref="rules">Rules</span></h3>
+                <p><strong data-lang-ref="playing-rules">Playing Rules</strong></p>
+                <ul>
+                    <li data-lang-ref="playing-rules1">'N' pairs of tiles are randomly dealt face down on the layout grid.</li>
+                    <li data-lang-ref="playing-rules2"> Your goal is to find and remove all the matching pairs of tiles.</li>
+                    <li data-lang-ref="playing-rules3"> You can uncover two tiles at a time by clicking on them in any order you wish.</li>
+                    <li data-lang-ref="playing-rules4"> When you find a pair, the tiles are automatically removed from the layout; otherwise they are turned face down.</li>
+                </ul>
+
+                <p><strong data-lang-ref="scoring">Scoring</strong></p>
+                <ul>
+                    <li data-lang-ref="scoring1">The game starts at: 0 (zero).</li>
+                    <li data-lang-ref="scoring2">50 points are awarded for each pair matched.</li>
+                </ul>
+
+                <p><strong data-lang-ref="game-won-rule">Game Won</strong></p>
+                <ul>
+                    <li data-lang-ref="game-won-rule1">You win if you remove all the tiles</li>
+                </ul>
+
+                <hr style="width:50%">
+                <h3><img src="mahjong/images/strategy.png" height="26" width="26"> <span data-lang-ref="strategy">Strategy</span></h3>
+                <ul>
+                    <li data-lang-ref="strategy1">It is suggested to finish all the couples of the upper level and then continue with the lower levels. Otherwise the game could be not winnable.</li>
+                </ul>
+            </div>
+            <button class="ui-btn ui-corner-all ui-btn-close" data-lang-ref="close">Close</button>
+        </div>
+    </div>
+
+    <div id="popup-options" data-history="false" data-transition="pop" style="width: 500px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header"><h1 data-lang-ref="options">Options</h1></div>
+        <div class="ui-content" role="main">
+            <div data-role='content'>
+                <div data-role='fieldcontain'>
+                    <label for="sound-option" data-lang-ref='game-sounds'>Game Sounds:</label>
+                    <select name="sound-option" id="sound-option" data-role="slider">
+                        <option value="off" data-lang-ref="off">Off</option>
+                        <option value="on" data-lang-ref="on">On</option>
+                    </select>
+                </div>
+            </div>
+            <button class="ui-btn ui-corner-all ui-btn-close" data-lang-ref="close">Close</button>
+        </div>
+    </div>
+
+    <!-- CONGRATULATIONS -->
+
+    <div id="popup-username" data-history="false" data-transition="pop" style="width: 300px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header"><h1 data-lang-ref="game-won">Game Won!</h1></div>
+        <div class="ui-content" role="main">
+            <h3 data-lang-ref="you-won">Congratulations, you won the Game!</h3>
+            <br>
+            <label for="player-name" data-lang-ref="input-your-name">Input your Name:</label>
+            <input type="text" name="name" id="player-name" value="" data-mini="true" />
+            <button id="btn-username-ok" class="ui-btn ui-corner-all ui-btn-close" style="margin-top:10px" data-lang-ref="ok">OK</button>
+        </div>
+        <!-- <div data-role="footer" style="position: absolute; width: 100%; bottom: 0"></div> -->
+    </div>
+
+    <div id="popup-congrat" data-history="false" data-transition="pop" style="width: 300px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header"><h1 data-lang-ref="congratulations">Congratulations!</h1></div>
+        <div class="ui-content" role="main">
+            <h4 data-lang-ref="you-solved-it">You solved it in </h4>
+            <h5 id="game-complete-time">{time}</h5>
+            <button class="ui-btn ui-corner-all ui-btn-close" data-lang-ref="close">Close</button>
+        </div>
+    </div>
+
+    <div id="popup-highscore" data-history="false" data-transition="pop" style="min-width: 300px; max-width: 500px;" data-role="popup" class="ui-popup" data-close-btn="right">
+        <div data-role="header"><h1><span data-lang-ref="high-scores">High Scores</span> - <span id="layout-name"></span></h1></div>
+        <div class="ui-content" role="main" style="max-height: 300px; margin-top:10px;">
+            <table style="width:100%; border-collapse: collapse; text-align: center; position:relative;" id="highscore-table" class="ui-responsive table-stroke">
+                <thead>
+                    <tr style="padding: 5px;">
+                        <th style="padding: 5px" data-lang-ref="name">Name</th>
+                        <th style="padding: 5px" data-lang-ref="score">Score</th>
+                        <th style="padding: 5px" data-lang-ref="time">Time</th>
+                    </tr>
+
+                </thead>
+                <tbody id="tbody-highscore"></tbody>
+            </table>
+            <button class="ui-btn ui-corner-all ui-btn-close" data-lang-ref="close">Close</button>
+        </div>
+    </div>
+    <!-- GAMEOVER -->
+    <!--
+        <div id="popup-congrat" data-history="false" data-transition="pop" style="max-width: 500px;" data-role="popup" class="ui-popup" data-close-btn="right">
+            <div data-role="header"><h1>GAME OVER</h1></div>
+            <div class="ui-content" role="main">
+                <h3>
+                    What do you want to do?</h2>
+                    <button class="modal-button shuffle">Shuffle</button>
+                    <button class="modal-button restart">Play again</button>
+                    <p class="clear"><small>Shuffling tiles adds a 60-second penalty to your time</small></p>
+
+                    <button class="ui-btn ui-corner-all ui-btn-close">Close</button>
+            </div>
+        </div>
+    -->
+    <div id="splash-screen"></div>
+
+    <script src="mahjong/js/mahjong_all.js" type="text/javascript" charset="utf-8"></script>
+
+
+    
+</body>
+</html>
