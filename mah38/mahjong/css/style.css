@@ -1,0 +1,439 @@
+﻿
+
+* { margin: 0; padding: 0; }
+
+body { font-family: Arial; }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-gradient(radial, center center, 0, center center, 447, color-stop(0, #E0E0E0), color-stop(1, #C4C4C4));
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+
+.clear { clear: both; }
+small { font-size: 12px; }
+
+/* Layout */
+.ui-page {
+    height: 100%;
+    background: #F2C25C;
+    overflow-y: hidden!important;
+}
+.ui-page #mainarea {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+.loading .ui-page #mainarea {
+    opacity: 0;
+}
+.ui-popup-screen { background-color: #000; height: 100% }
+.ui-content { padding: 10px; }
+
+@media ( min-width: 40em ) {
+    /* Show the table header rows and set all cells to display: table-cell */
+    .my-custom-breakpoint td,
+    .my-custom-breakpoint th,
+    .my-custom-breakpoint tbody th,
+    .my-custom-breakpoint tbody td,
+    .my-custom-breakpoint thead td,
+    .my-custom-breakpoint thead th {
+        display: table-cell;
+        margin: 0;
+    }
+    /* Hide the LABELS in each cell */
+    .my-custom-breakpoint td .ui-table-cell-label,
+    .my-custom-breakpoint th .ui-table-cell-label {
+        display: none;
+    }
+}
+
+#adArea
+{
+    position: absolute;
+    top:30px;
+    left:5px;   
+    width: 160px;
+    height: 600px;
+    
+}
+
+#winAdContainer{
+    position: fixed!important;
+    /*overflow-y:hidden;*/
+    z-index: 10;
+    top:30px;
+    left:5px;
+    width: 160px;
+    height: 600px;
+    top: 50%;
+    /*top: 700px;*/
+    margin-top: -300px;
+}
+
+#winAdContainer > * {
+    left: 0;
+}
+
+#loading-box{
+    padding: 20px;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    width: 150px;
+    margin-left:-76px;
+    left: 50%;
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    margin-top: -31px;
+    z-index: 1000;
+}
+
+#game-topLabel{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: inline-block;
+    pointer-events: none;
+    font-size: 22px;
+}
+
+.text-shadow 
+{
+    display:none;
+    text-shadow: 0 0 10px #000;
+}
+
+#game-topLabel .text-shadow {
+    padding: 7px;
+}
+
+#game-name{
+    position: relative;
+    margin-left : 20px;
+    padding: 7px;
+    float: left;
+    color: white;
+}
+
+.mobile #game-name {
+    margin-left: 0px;
+}
+
+#pairs {
+    position: relative;
+    float: right; 
+    padding: 1.5%;
+    text-align: center;
+    color: white;
+}
+
+#game-time {
+    position: relative;
+    float: right;
+    padding: 1.5%;
+    text-align: center;
+    color: white;
+}
+
+#game-score {
+    position: relative;
+    float: right; 
+    padding: 1.5%;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+.mobile #game-score {
+    margin-right: 10px;
+}
+
+#game-buttons{
+    position:absolute;
+    /*margin-top: 50%;*/
+    float: left; 
+    right:0px;
+    left:0px; 
+    height: 75px;
+    text-align: left;
+    bottom:2px; 
+    pointer-events: none;
+}
+
+#toggle-fullscreen-wrapper {
+    float: right;
+    padding: 7px;
+    line-height: 30px;
+    pointer-events: all;
+}
+
+#toggle-fullscreen {
+    text-indent: -10000px;
+    width: 24px;
+    background-image: url(icons/full-screen-on.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+#btn-games{
+    margin-left: 20px;
+    background-image: url(../images/buttons/games.png);
+}
+
+#btn-restart{
+    margin-left: 10px; 
+    background-image: url(../images/buttons/new_game.png);
+}
+#btn-shuffle{ 
+    margin-left: 10px; 
+    background-image: url(../images/buttons/shuffle.png);
+}
+#btn-undo{
+    margin-left: 10px;
+    background-image: url(../images/buttons/undo.png);
+}
+#btn-hint{
+    margin-left: 10px;
+    background-image: url(../images/buttons/hint.png);
+}
+
+#btn-setting{
+    margin-right: 20px;
+    float: right;
+    background-image: url(../images/buttons/more.png);
+}
+
+.button {
+      display: inline-block;
+      min-width: 70px;
+      height: 75px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      position: relative;
+      background-position: center 3px;
+      pointer-events: all;
+}
+
+.button span {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14.3px;
+    color: rgba(255,255,255,0.9);
+    text-shadow: none;
+    font-family: Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.tileimage, .backimage{
+    width: 30%;
+}
+
+#helphtml{
+    border: 0px solid #aaa;
+    width: 100%;
+    min-height: 300px;
+}
+
+#game-help-content {
+    font-size: 16px;
+    max-height: 300px;
+    overflow: auto;
+    margin: 10px;
+    padding: 20px;
+}
+#game-help-content li {
+    margin-bottom: 6px;
+}
+
+#game-help-content ul {
+    list-style: square;
+    margin: 16px 0;
+    padding-left: 40px;
+}
+#game-help-content p {
+    margin: 16px 0;
+}
+#game-help-content h3 {
+    margin: 18px 0;
+}
+/*-----------------------------------------*/
+#mainarea {
+    position: relative;
+    text-align: center;
+    /*margin-left: 175px; todo: Raymond*/
+    /*width:100%;*/
+    height: 100%;
+    
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    overflow: hidden; 
+}
+
+/*For Switch button*/
+.cb-tiles, .cb-backs, .cb-tiles span, .cb-backs span { background: url(switch.gif) repeat-x; display: block; float: left; }
+.cb-tiles span, .cb-backs span { line-height: 30px; display: block; background-repeat: no-repeat;}
+.cb-tiles span { background-position: left -90px; padding: 0 10px; }
+.cb-backs span { background-position: right -180px;padding: 0 10px; }
+.cb-backs.selected { background-position: 0 -60px; }
+.cb-backs.selected span { background-position: right -240px; color: #fff; }
+.cb-tiles.selected { background-position: 0 -60px; }
+.cb-tiles.selected span { background-position: left -150px; color: #fff; }
+.switch label { cursor: pointer; }
+.field { width: 100%; float: left; margin-left:20px; margin-bottom:20px; }
+
+#toolbar {
+    -moz-box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black;
+    -o-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*background: #333;*/
+    background-image: url(../images/others/transpgreen.png);
+    height: 100%;
+    width: 200px;
+    list-style: none;
+    color: #aaa;
+    padding-top: 20px;
+    text-shadow: 0 1px 0 #fff;
+    visibility: hidden;
+}
+
+/* Options */
+#maps, #tiles, #backgrounds {
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+#maps li, #tiles li, #backgrounds li{
+    display: inline;
+    list-style: none;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+/* Gameover */
+.shuffle { margin-left: 30px;}
+
+#tile-style {
+    width: 100px;
+    padding: 3px;
+}
+
+/*.mapimage, .label-mapimage,*/ .div-mapimage{
+        width:24%;
+        display:inline-block;
+        vertical-align: bottom;
+    }
+    
+.mapimage, #maps .label-mapimage {
+    width:90%;
+    display:inline-block;
+}
+
+@media (max-width: 500px) {
+   /*.mapimage, .label-mapimage, */.div-mapimage{
+        width: 40%;
+        display: inline-block;
+    }
+   
+    #toolbar {
+        width: 100%;
+        height: 90px;
+    }
+
+    body, html { overflow: hidden; }
+}
+
+#popup-highscore .ui-title,
+#popup-username .ui-title {
+    width: 100%;
+    margin: 0;
+}
+
+#popup-game .ui-content {
+    text-align: right;
+}
+
+#highscore-table {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+#highscore-table thead, #highscore-table tbody {
+    float: left;
+    width: 100%;
+}
+#highscore-table tbody {
+    overflow: auto;
+    height: 150px;
+}
+#highscore-table tr {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+#highscore-table th, #highscore-table td {
+    width: 33%;
+}
+
+/*#highscore-table*/ #tbody-highscore{
+  overflow: scroll;
+  /*display: list-item;*/
+  max-height: 200px;
+  
+  /*min-height: 2.5em;*/
+}
+
+.highscore-td {
+    padding:5px;
+}
+
+#loading-box {
+    display: none;
+}
+
+@media only screen
+and (min-width : 321px)
+and (max-width : 320px) {
+    body, html { overflow: hidden; }
+    
+    .mapimage, .label-mapimage{
+        width:40%;
+        display:inline-block;
+    }
+
+    #toolbar {
+        width: 100px;
+    }
+    #game-name {
+        font-size: 20px;
+    }
+    #helphtml{
+        height: 200px;
+    }
+    .button { font-size: 9px; }
+    /*
+    #game-time { padding-left: 10px; }
+    */
+}
