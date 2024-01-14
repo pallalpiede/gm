@@ -1,0 +1,17 @@
+{
+  "platform": "azerion",
+  "gameSlug": "solitaire-mahjong-classic",
+  "gameBuild": "1.5.13",
+  "gameID": "a2ed848eaa814bb3889b0924023f97f8",
+  "gameTitle": "Solitaire Mahjong Classic",
+  "interface": "sgSdk",
+  "leaderboardSupport": false,
+  "inAppPurchase": false,
+  "adsConfig": {
+    "adFreeInitialLevels": 0,
+    "interstitialCooldownLevel": 0,
+    "longGameplayCooldownMS": 240000,
+    "enableLongGameplayAds": true,
+    "supportsAdPlayButton": true
+  }
+}
