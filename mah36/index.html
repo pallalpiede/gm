@@ -1,0 +1,137 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Forest Adventure</title>
+
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Phaser App">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.01">
+
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8">
+    <script src="js/phaser.min.js"></script>
+    <script src="js/game.js"></script>
+
+    <style>
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+
+
+
+
+
+    <script>
+        var lifeNum = 0;
+        var gift_time = 0;
+        var spin_time = 0;
+        var gate_time = 0;
+        var top_level = 0;
+
+        var isPauseFlag = false;
+        var halfN = 0;
+        var loadNum = 5;
+        var loadVar = null;
+        function loadFunc(num) {
+
+        }
+
+        window.ontouchstart = function (e) {
+            e.preventDefault();
+        };
+
+
+        function setupWebViewJavascriptBridge(callback) {
+
+        }
+
+        function Bridge_ShowInitialize() {
+            Bridge_submitScore(lifeNum, gift_time, spin_time, gate_time, top_level);
+            console.log("Native Call - ShowInitialize");
+            halfN++;
+            if (halfN >= 2) {
+                halfN = 0;
+                //showInterstitial();
+            }
+        }
+        function Bridge_submitScore(lifeNum, gift_timeNum, spin_timeNum, gate_timeNum, top_levelNum) {
+
+            console.log("Native Call - submitScore : " + lifeNum + '==' + gift_timeNum + '==' + spin_timeNum + '==' + gate_timeNum + '==' + top_levelNum);
+            //FBInstant.setSessionData({life: lifeNum, gift_time: gift_timeNum, spin_time: spin_timeNum, gate_time: gate_timeNum, top_level: top_levelNum});
+        }
+
+        function Bridge_ShowGameCenter() {    //显示最高分
+            console.log("Native Call - ShowGameCenter");
+
+        }
+
+        function Bridge_RemoveBG() {        //
+            console.log("Native Call - app_RemoveBG");
+            //startGameAsync(true, "352723498639097_352724435305670", true,"352723498639097_352724255305688",function(){setTimeout('createShortcut()',1000)});
+
+        }
+        function Bridge_Share() {
+            console.log("share====");
+            //shareAsync("SHARE",sharedata,"Share it with you.")
+
+        }
+        function Bridge_More() {      //moregames
+            //alert("more");
+            console.log("Native Call - app_More");
+
+
+        }
+        function isHaveAd(reward) {
+
+            console.log("ads_HasRewardedVideo");
+            //showRewardedVideo(reward);
+            reward();
+        }
+
+        function showVideoAd(callback) {
+            console.log("ads_ShowRewardedVideo");
+
+        }
+        function showWindow(msg) {
+            console.log("app_Toast");
+
+        }
+        /////////////promo
+        var promoXnum = 0;
+        var promoN = 20;
+        var promoM = 0;
+        var promoK = 0;
+        function onCrosspromoClick() {
+
+        }
+
+        ///////////////////////////////
+    </script>
+
+
+    <script src="js/start.js"></script>
+
+
+
+</head>
+
+<body onload="initGame()">
+    <div id="gameFontPreload">
+        <div style="font-family: ComicSansBold" class="fontPreload">.</div>
+    </div>
+</body>
+
+
+</html>
