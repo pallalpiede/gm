@@ -1,0 +1,48 @@
+{"frames": {
+
+"mahjong_01_03_p1":
+{
+	"frame": {"x":1,"y":1,"w":1410,"h":588},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":588},
+	"sourceSize": {"w":1410,"h":588},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_04_01_p3":
+{
+	"frame": {"x":1,"y":1752,"w":1410,"h":272},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":272},
+	"sourceSize": {"w":1410,"h":272},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_07_02_p2":
+{
+	"frame": {"x":1,"y":1172,"w":1410,"h":578},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":578},
+	"sourceSize": {"w":1410,"h":578},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_09_03_p1":
+{
+	"frame": {"x":1,"y":591,"w":1410,"h":579},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":579},
+	"sourceSize": {"w":1410,"h":579},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_imagesatlases4.png",
+	"format": "RGBA8888",
+	"size": {"w":1412,"h":2025},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2e78f08a5f197018c847bd90b3dbfd90:003d497be3e07e6855f4380f69d12a1d:c252e3942b9c2eaba914f463dc7fbf4e$"
+}
+}

@@ -1,0 +1,66 @@
+{"frames": {
+
+"mahjong_02_01_p3":
+{
+	"frame": {"x":1,"y":183,"w":1281,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1281,"h":203},
+	"sourceSize": {"w":1281,"h":203},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_05_01_p3":
+{
+	"frame": {"x":1,"y":785,"w":1410,"h":401},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":401},
+	"sourceSize": {"w":1410,"h":401},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_05_03_p1":
+{
+	"frame": {"x":1,"y":388,"w":1410,"h":395},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":395},
+	"sourceSize": {"w":1410,"h":395},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_05_leafs2":
+{
+	"frame": {"x":1,"y":1,"w":737,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":737,"h":163},
+	"sourceSize": {"w":737,"h":163},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_05_leafs3":
+{
+	"frame": {"x":740,"y":1,"w":696,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":696,"h":180},
+	"sourceSize": {"w":696,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_06_01_p3":
+{
+	"frame": {"x":1,"y":1188,"w":1410,"h":424},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":424},
+	"sourceSize": {"w":1410,"h":424},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_imagesatlases8.png",
+	"format": "RGBA8888",
+	"size": {"w":1437,"h":1613},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2e78f08a5f197018c847bd90b3dbfd90:003d497be3e07e6855f4380f69d12a1d:c252e3942b9c2eaba914f463dc7fbf4e$"
+}
+}

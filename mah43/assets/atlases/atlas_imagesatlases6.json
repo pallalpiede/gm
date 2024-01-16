@@ -1,0 +1,354 @@
+{"frames": {
+
+"2":
+{
+	"frame": {"x":1971,"y":308,"w":69,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":127},
+	"sourceSize": {"w":69,"h":127},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"6":
+{
+	"frame": {"x":1816,"y":1688,"w":73,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":130},
+	"sourceSize": {"w":73,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"12":
+{
+	"frame": {"x":1816,"y":1820,"w":68,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":127},
+	"sourceSize": {"w":68,"h":127},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"13":
+{
+	"frame": {"x":1943,"y":1885,"w":68,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":127},
+	"sourceSize": {"w":68,"h":127},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"15":
+{
+	"frame": {"x":1971,"y":437,"w":68,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":128},
+	"sourceSize": {"w":68,"h":128},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"17":
+{
+	"frame": {"x":1971,"y":178,"w":71,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":128},
+	"sourceSize": {"w":71,"h":128},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"18":
+{
+	"frame": {"x":1645,"y":616,"w":78,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":78},
+	"sourceSize": {"w":78,"h":78},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"23":
+{
+	"frame": {"x":1725,"y":440,"w":84,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":122},
+	"sourceSize": {"w":84,"h":122},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"34":
+{
+	"frame": {"x":1931,"y":1517,"w":88,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":115},
+	"sourceSize": {"w":88,"h":115},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"36":
+{
+	"frame": {"x":1811,"y":440,"w":86,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":120},
+	"sourceSize": {"w":86,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"39":
+{
+	"frame": {"x":1931,"y":1300,"w":103,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":103,"h":111},
+	"sourceSize": {"w":103,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"42":
+{
+	"frame": {"x":1931,"y":1413,"w":100,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":102},
+	"sourceSize": {"w":100,"h":102},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"arrow":
+{
+	"frame": {"x":1816,"y":1949,"w":125,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":78},
+	"sourceSize": {"w":125,"h":78},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_01_02_p2_rocks":
+{
+	"frame": {"x":1,"y":1468,"w":1003,"h":567},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1003,"h":567},
+	"sourceSize": {"w":1003,"h":567},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_01_03_p1_boat":
+{
+	"frame": {"x":1635,"y":981,"w":211,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":260},
+	"sourceSize": {"w":211,"h":260},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_01_04_gates":
+{
+	"frame": {"x":1413,"y":616,"w":230,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":220},
+	"sourceSize": {"w":230,"h":220},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_01_05_tree":
+{
+	"frame": {"x":1413,"y":1034,"w":185,"h":173},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":185,"h":173},
+	"sourceSize": {"w":185,"h":173},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_02_02_p2_tree1":
+{
+	"frame": {"x":1710,"y":1243,"w":115,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":112},
+	"sourceSize": {"w":115,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_02_03_p1_tree4":
+{
+	"frame": {"x":1593,"y":1300,"w":115,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":119},
+	"sourceSize": {"w":115,"h":119},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_03_03_mount2":
+{
+	"frame": {"x":1875,"y":774,"w":164,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":240},
+	"sourceSize": {"w":164,"h":240},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_03_07_dragon_green":
+{
+	"frame": {"x":1413,"y":1,"w":323,"h":335},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":335},
+	"sourceSize": {"w":323,"h":335},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_04_05_boat2":
+{
+	"frame": {"x":1725,"y":567,"w":307,"h":205},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":205},
+	"sourceSize": {"w":307,"h":205},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_04_06_boat3":
+{
+	"frame": {"x":1413,"y":1209,"w":178,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":220},
+	"sourceSize": {"w":178,"h":220},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_04_07_boat4":
+{
+	"frame": {"x":1413,"y":838,"w":220,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":194},
+	"sourceSize": {"w":220,"h":194},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_04_09_p1":
+{
+	"frame": {"x":1,"y":1,"w":1410,"h":498},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":498},
+	"sourceSize": {"w":1410,"h":498},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_06_02_p2_adv1":
+{
+	"frame": {"x":1848,"y":1016,"w":192,"h":282},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":282},
+	"sourceSize": {"w":192,"h":282},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_06_02_p2_adv2":
+{
+	"frame": {"x":1645,"y":774,"w":228,"h":205},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":205},
+	"sourceSize": {"w":228,"h":205},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_06_02_p2_win1":
+{
+	"frame": {"x":1006,"y":1468,"w":923,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":923,"h":142},
+	"sourceSize": {"w":923,"h":142},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_06_03_p1_adv1":
+{
+	"frame": {"x":1738,"y":178,"w":231,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":260},
+	"sourceSize": {"w":231,"h":260},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_07_01_p3":
+{
+	"frame": {"x":1006,"y":1612,"w":808,"h":417},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":808,"h":417},
+	"sourceSize": {"w":808,"h":417},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_07_04_boats":
+{
+	"frame": {"x":1738,"y":1,"w":272,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":272,"h":175},
+	"sourceSize": {"w":272,"h":175},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_08_02_p2_tree1":
+{
+	"frame": {"x":1816,"y":1612,"w":79,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":74},
+	"sourceSize": {"w":79,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_09_01_p3":
+{
+	"frame": {"x":1,"y":988,"w":1410,"h":478},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":478},
+	"sourceSize": {"w":1410,"h":478},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_09_02_p2_statue":
+{
+	"frame": {"x":1891,"y":1708,"w":134,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":175},
+	"sourceSize": {"w":134,"h":175},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_10_02_light":
+{
+	"frame": {"x":1413,"y":338,"w":310,"h":276},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":276},
+	"sourceSize": {"w":310,"h":276},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_10_04_boat":
+{
+	"frame": {"x":1897,"y":1634,"w":135,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":72},
+	"sourceSize": {"w":135,"h":72},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mahjong_10_06_p1":
+{
+	"frame": {"x":1,"y":501,"w":1410,"h":485},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1410,"h":485},
+	"sourceSize": {"w":1410,"h":485},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"scale_combo":
+{
+	"frame": {"x":1645,"y":696,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_imagesatlases6.png",
+	"format": "RGBA8888",
+	"size": {"w":2043,"h":2036},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2e78f08a5f197018c847bd90b3dbfd90:003d497be3e07e6855f4380f69d12a1d:c252e3942b9c2eaba914f463dc7fbf4e$"
+}
+}

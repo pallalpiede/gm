@@ -1,0 +1,18 @@
+{
+    "play": "Play",
+    "score": "Score:",
+    "more_games": "More Games",
+    "quit": "Quit games",
+    "completed": "Level Completed!",
+    "yes": "Yes",
+    "no": "No",
+    "level": "Level",
+    "failed": "Level Failed!",
+    "paused": "Paused",
+    "continue": "Continue",
+    "how_to": "How to Play",
+    "no_moves": "No more moves, shuffling!",
+    "retry": "Try again",
+    "levels": "Levels",
+    "won": "You won"
+}
