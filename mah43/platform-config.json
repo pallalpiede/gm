@@ -1,0 +1,21 @@
+{
+    "platform": "azerion",
+    "gameSlug": "jewels-blitz-6",
+    "gameBuild": "1.3.2",
+    "gameID": "bbd9c393a8b14f50aa19715f33ea50dc",
+    "gameTitle": "Jewels Blitz 6",
+    "interface": "FBInstant",
+    "leaderboardSupport": false,
+    "inAppPurchase": false,
+    "adsConfig": {
+      "rewarded": true,
+      "adFreeInitialLevels": 0,
+      "interstitialCooldownLevel": 0,
+      "longGameplayCooldownMS": 150000,
+      "enableLongGameplayAds": true,
+      "supportsAdPlayButton": false
+    },
+    "options": {
+      "reloadOnFold": true
+    }
+  }
