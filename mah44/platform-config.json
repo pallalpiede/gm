@@ -1,0 +1,19 @@
+{
+    "platform": "azerion",
+    "gameSlug": "candy-match-3",
+    "gameBuild": "1.0.3",
+    "gameID": "451e79ad22b44442b17a5a5372724931",
+    "gameTitle": "Candy Match 3",
+    "interface": "FBInstant",
+    "leaderboardSupport": false,
+    "inAppPurchase": false,
+    "adsConfig": {
+      "rewarded": true,
+      "adFreeInitialLevels": 0,
+      "interstitialCooldownLevel": 0,
+      "longGameplayCooldownMS": 150000,
+      "enableLongGameplayAds": true,
+      "supportsAdPlayButton": false
+    }
+  }
+  
