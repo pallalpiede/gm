@@ -1,57 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Web Page Screenshot</title>
-  <style>
-    #container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-    #urlInput {
-      width: 400px;
-      height: 30px;
-      margin-bottom: 20px;
-    }
-    #iframe {
-      width: 800px;
-      height: 600px;
-      border: none;
-    }
-    #screenshotBtn {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
+  <title>Web Page with Input Field, Buttons, and Iframe</title>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 <body>
-  <div id="container">
+  <div>
     <input type="text" id="urlInput" placeholder="Enter URL">
-    <button onclick="loadPage()">Load Page</button>
-    <div id="iframeContainer">
-      <iframe id="iframe"></iframe>
-    </div>
-    <button onclick="captureScreenshot()">Capture Screenshot</button>
+    <button id="loadButton">Load Web Page</button>
+    <button id="captureButton">Capture Screenshot</button>
+  </div>
+  <div id="iframeContainer">
+    <iframe id="webPageIframe" src=""></iframe>
   </div>
 
   <script>
-    function loadPage() {
-      var url = document.getElementById("urlInput").value;
-      document.getElementById("iframe").src = url;
-    }
+    const urlInput = document.getElementById('urlInput');
+    const loadButton = document.getElementById('loadButton');
+    const captureButton = document.getElementById('captureButton');
+    const webPageIframe = document.getElementById('webPageIframe');
 
-    function captureScreenshot() {
-      html2canvas(document.getElementById("iframe")).then(function(canvas) {
-        var link = document.createElement('a');
-        link.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-        link.download = "screenshot.jpg";
+    loadButton.addEventListener('click', () => {
+      const url = urlInput.value;
+      webPageIframe.src = url;
+    });
+
+    captureButton.addEventListener('click', () => {
+      html2canvas(webPageIframe).then(canvas => {
+        const image = canvas.toDataURL('image/jpeg');
+        const link = document.createElement('a');
+        link.href = image;
+        link.download = 'screenshot.jpg';
         link.click();
       });
-    }
+    });
   </script>
 </body>
 </html>
