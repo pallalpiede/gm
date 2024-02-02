@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Page</title>
+</head>
+<body>
+  <input type="text" id="urlInput">
+  <button onclick="loadUrl()">Load URL</button>
+  <button onclick="takeScreenshot()">Take Screenshot</button>
+  <br>
+  <iframe id="myIframe" width="800" height="600"></iframe>
+
+  <script>
+    function loadUrl() {
+      var url = document.getElementById("urlInput").value;
+      document.getElementById("myIframe").src = url;
+    }
+
+    function takeScreenshot() {
+      var iframe = document.getElementById("myIframe");
+      var canvas = document.createElement("canvas");
+      canvas.width = iframe.offsetWidth;
+      canvas.height = iframe.offsetHeight;
+      var context = canvas.getContext("2d");
+      context.drawImage(iframe, 0, 0, canvas.width, canvas.height);
+
+      var link = document.createElement("a");
+      link.href = canvas.toDataURL("image/jpeg"); // or "image/png"
+      link.download = "screenshot.jpg"; // or "screenshot.png"
+      link.click();
+    }
+  </script>
+</body>
+</html>
