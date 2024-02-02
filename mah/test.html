@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Web Page</title>
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <title>Web Page Screenshot</title>
+  <style>
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    #urlInput {
+      width: 400px;
+      height: 30px;
+      margin-bottom: 20px;
+    }
+    #iframe {
+      width: 800px;
+      height: 600px;
+      border: none;
+    }
+    #screenshotBtn {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <input type="text" id="urlInput" placeholder="Enter URL">
-  <button id="loadButton" onclick="loadURL()">Load URL</button>
-  <button id="screenshotButton" onclick="takeScreenshot()">Take Screenshot</button>
-  <br>
-  <iframe id="myIframe" width="800" height="600"></iframe>
+  <div id="container">
+    <input type="text" id="urlInput" placeholder="Enter URL">
+    <button onclick="loadPage()">Load Page</button>
+    <div id="iframeContainer">
+      <iframe id="iframe"></iframe>
+    </div>
+    <button onclick="captureScreenshot()">Capture Screenshot</button>
+  </div>
 
   <script>
-    function loadURL() {
+    function loadPage() {
       var url = document.getElementById("urlInput").value;
-      document.getElementById("myIframe").src = url;
+      document.getElementById("iframe").src = url;
     }
 
-    function takeScreenshot() {
-      html2canvas(document.getElementById("myIframe")).then(function(canvas) {
+    function captureScreenshot() {
+      html2canvas(document.getElementById("iframe")).then(function(canvas) {
         var link = document.createElement('a');
-        link.href = canvas.toDataURL("image/jpeg");
-        link.download = 'screenshot.jpg';
+        link.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
+        link.download = "screenshot.jpg";
         link.click();
       });
     }
