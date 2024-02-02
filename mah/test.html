@@ -2,32 +2,28 @@
 <html>
 <head>
   <title>Web Page</title>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 <body>
-  <input type="text" id="urlInput">
-  <button onclick="loadUrl()">Load URL</button>
-  <button onclick="takeScreenshot()">Take Screenshot</button>
+  <input type="text" id="urlInput" placeholder="Enter URL">
+  <button id="loadButton" onclick="loadURL()">Load URL</button>
+  <button id="screenshotButton" onclick="takeScreenshot()">Take Screenshot</button>
   <br>
   <iframe id="myIframe" width="800" height="600"></iframe>
 
   <script>
-    function loadUrl() {
+    function loadURL() {
       var url = document.getElementById("urlInput").value;
       document.getElementById("myIframe").src = url;
     }
 
     function takeScreenshot() {
-      var iframe = document.getElementById("myIframe");
-      var canvas = document.createElement("canvas");
-      canvas.width = iframe.offsetWidth;
-      canvas.height = iframe.offsetHeight;
-      var context = canvas.getContext("2d");
-      context.drawImage(iframe, 0, 0, canvas.width, canvas.height);
-
-      var link = document.createElement("a");
-      link.href = canvas.toDataURL("image/jpeg"); // or "image/png"
-      link.download = "screenshot.jpg"; // or "screenshot.png"
-      link.click();
+      html2canvas(document.getElementById("myIframe")).then(function(canvas) {
+        var link = document.createElement('a');
+        link.href = canvas.toDataURL("image/jpeg");
+        link.download = 'screenshot.jpg';
+        link.click();
+      });
     }
   </script>
 </body>
