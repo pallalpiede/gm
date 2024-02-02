@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clickable iframes</title>
+  <style>
+    .iframe-container {
+      display: inline-block;
+      margin: 10px;
+    }
+    .iframe-container iframe {
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div id="iframe-container"></div>
 
+  <script>
+    // Read the text file containing the URLs
+    fetch('urls.txt')
+      .then(response => response.text())
+      .then(data => {
+        // Split the text file into an array of URLs
+        const urls = data.split('\n');
+
+        // Create iframes for each URL
+        urls.forEach(url => {
+          const iframeContainer = document.createElement('div');
+          iframeContainer.className = 'iframe-container';
+
+          const iframe = document.createElement('iframe');
+          iframe.src = url;
+          iframeContainer.appendChild(iframe);
+
+          // Open a new page with the iframe URL when clicked
+          iframe.addEventListener('click', () => {
+            window.open(url);
+          });
+
+          document.getElementById('iframe-container').appendChild(iframeContainer);
+        });
+      });
+  </script>
+</body>
+</html>
