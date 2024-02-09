@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Clickable iframes</title>
+  <title>Thumbnail Gallery</title>
   <style>
-    .iframe-container {
+    .thumbnail {
+      width: 320px;
+      height: 180px;
       display: inline-block;
       margin: 10px;
+	  border-style: solid;
+	  border-width: 5px;
     }
-    .iframe-container iframe {
-      width: 1280px;
-      height: 1024px;
-    }
+	body {
+		background-color: lightblue;
+	}
   </style>
 </head>
 <body>
-  <div id="iframe-container"></div>
-
   <script>
-    // Read the text file containing the URLs
+    // Read the URLs from urls.txt
     fetch('urls.txt')
       .then(response => response.text())
       .then(data => {
-        // Split the text file into an array of URLs
         const urls = data.split('\n');
-
-        // Create iframes for each URL
         urls.forEach(url => {
-          const iframeContainer = document.createElement('div');
-          iframeContainer.className = 'iframe-container';
+          // Create a thumbnail element
+          const thumbnail = document.createElement('a');
+          thumbnail.className = 'thumbnail';
+          thumbnail.href = url;
+          thumbnail.target = '_blank';
 
-          const iframe = document.createElement('iframe');
-          iframe.src = url;
-          iframeContainer.appendChild(iframe);
+          // Create an image element
+          const image = document.createElement('img');
+          image.src = url + 'thumb.jpg';
 
-          // Open a new page with the iframe URL when clicked
-          iframe.addEventListener('click', () => {
-            window.open(url);
-          });
+          // Append the image to the thumbnail
+          thumbnail.appendChild(image);
 
-          document.getElementById('iframe-container').appendChild(iframeContainer);
+          // Append the thumbnail to the body
+          document.body.appendChild(thumbnail);
         });
       });
   </script>
