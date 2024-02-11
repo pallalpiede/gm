@@ -1,0 +1,76 @@
+
+zabkaMenu.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1, 1
+  size: 229, 169
+  orig: 250, 170
+  offset: 11, 0
+  index: -1
+2
+  rotate: false
+  xy: 135, 240
+  size: 74, 72
+  orig: 116, 93
+  offset: 21, 19
+  index: -1
+5
+  rotate: false
+  xy: 1, 240
+  size: 132, 50
+  orig: 132, 50
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1, 292
+  size: 100, 28
+  orig: 100, 29
+  offset: 0, 1
+  index: -1
+62
+  rotate: false
+  xy: 53, 322
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1
+61
+  rotate: false
+  xy: 157, 314
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1, 172
+  size: 146, 66
+  orig: 146, 66
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 149, 172
+  size: 66, 57
+  orig: 70, 60
+  offset: 4, 0
+  index: -1
+7
+  rotate: false
+  xy: 1, 322
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+71
+  rotate: false
+  xy: 103, 314
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
