@@ -11,13 +11,18 @@
 	  border-style: solid;
 	  border-width: 5px;
     }
-	.thumbnail:visited, .thumbnail:link, .thumbnail:active {
-		border-color: #000000;
-	}
-	.thumbnail:hover {
-		border-color: #FFFFFF;
-	}
-	
+    .thumbnail:visited, .thumbnail:link, .thumbnail:active {
+	  border-color: #000000;
+    }
+    .thumbnail:hover {
+	border-color: #FFFFFF;
+    }
+    .ima {
+      	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+    }
 	body {
 		background-color: #000000;
 	}
@@ -39,6 +44,7 @@
 
           // Create an image element
           const image = document.createElement('img');
+	  image.className = 'ima';
           image.src = url + '/thumb.jpg';
 	  image.height = 180;
 	 
