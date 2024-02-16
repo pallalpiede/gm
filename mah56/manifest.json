@@ -1,0 +1,23 @@
+{
+    "name": "Yeti Sensation",
+    "short_name": "Yeti Sensation",
+	"description": "OH NOOO! Bigfoot wanted! Help embarrassed Yeti to find a way to his new home, avoid sly snowmen, dangerous traps and other obstacles, buy new boosts in the supermarket and run away as further as possible.",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+	"id": "/yetisensation/",
+    "start_url": "/yetisensation/?homescreen=1",
+    "display": "fullscreen",
+    "orientation": "any"
+}
