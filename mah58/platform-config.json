@@ -1,0 +1,16 @@
+{
+  "gameSlug": "mahjong-3d-connect",
+  "gameBuild": "1.1.5",
+  "gameID": "49559e23779442aba94443a4648242b2",
+  "gameTitle": "Mahjong 3d Connect",
+  "interface": "sgSdk",
+  "leaderboardSupport": false,
+  "adsConfig": {
+    "adFreeInitialLevels": 0,
+    "interstitialCooldownLevel": 0,
+    "longGameplayCooldownMS": 150000,
+    "enableLongGameplayAds": true,
+    "rewarded": true,
+    "supportsAdPlayButton": false
+  }
+}
