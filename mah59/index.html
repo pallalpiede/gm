@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Merge Pumpkin</title>
+
+
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="" />
+  <meta name="x5-orientation" content="">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+  <link rel="stylesheet" type="text/css" href="style-mobile.css" />
+
+</head>
+
+<body style="margin: 0; background: #ddd;" align="center">
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <video id="contentElement" style="display:none;position: absolute;top:0px;left: 0px;">
+  </video>
+  <div id="block-Box" style="display:block;width:100%;height:100%;"></div>
+  <div id="adContainer" style="display:none;position: absolute;top:0px;left: 0px;width:100%;height:100%;z-index:999;">
+  </div>
+  <div id="loadingText"
+    style="width:100%;display: none;text-align:center;position:absolute;top:45%;z-index:2;font-size:20px;color:#f99f0a">
+    loading......0%
+  </div>
+
+  <div id="splash">
+    <!-- <div class="progress-bar stripes"> -->
+    <!-- <span style="width: 0%"></span> -->
+    <!-- </div> -->
+  </div>
+
+  <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
+    <img src="res/loading.gif" width="7%" height="7%" />
+  </div>
+
+  <script type="text/javascript" src="ads.js"></script>
+  <script type="text/javascript" src="sdk.js"></script>
+
+  <script src="src/settings.js" charset="utf-8"></script>
+
+
+  <script type="text/javascript">
+function _0x2496(_0x2ff41c,_0x5b8e88){var _0x4e0a18=_0x4e0a();return _0x2496=function(_0x2496ac,_0x3e15a9){_0x2496ac=_0x2496ac-0x1f3;var _0x2b6eb9=_0x4e0a18[_0x2496ac];return _0x2b6eb9;},_0x2496(_0x2ff41c,_0x5b8e88);}var _0x5d104b=_0x2496;function _0x4e0a(){var _0xd2dd9a=['cgszr','3452028NBxEMs','668227NJcMUD','8WqpZEZ','11357847MpWFvy','2jdldEX','1632171wNTAkm','clientHeight','block-Box','loadingText','height','loadingImg','innerHTML','12utuuJu','loading......','935404PDamWe','HFpkj','display','143GURpRK','GMDuP','loadData','documentElement','remove','timer','style','completedCount','6793440xfzllG','totalCount','canvasDiv','log','onload','getElementById','2241990XujtAg'];_0x4e0a=function(){return _0xd2dd9a;};return _0x4e0a();}(function(_0x2413f0,_0x261b0c){var _0x4db296=_0x2496,_0x1a58b6=_0x2413f0();while(!![]){try{var _0x53c4d4=parseInt(_0x4db296(0x200))/0x1*(-parseInt(_0x4db296(0x1ff))/0x2)+parseInt(_0x4db296(0x207))/0x3*(-parseInt(_0x4db296(0x209))/0x4)+-parseInt(_0x4db296(0x1f3))/0x5+parseInt(_0x4db296(0x1fb))/0x6+parseInt(_0x4db296(0x1fc))/0x7*(parseInt(_0x4db296(0x1fd))/0x8)+parseInt(_0x4db296(0x1fe))/0x9+-parseInt(_0x4db296(0x1f9))/0xa*(-parseInt(_0x4db296(0x20c))/0xb);if(_0x53c4d4===_0x261b0c)break;else _0x1a58b6['push'](_0x1a58b6['shift']());}catch(_0x1457c6){_0x1a58b6['push'](_0x1a58b6['shift']());}}}(_0x4e0a,0xe0e12),console[_0x5d104b(0x1f6)]=()=>{});var loadintT=document[_0x5d104b(0x1f8)](_0x5d104b(0x203)),loadintGif=document['getElementById'](_0x5d104b(0x205));setTimeout(function(){var _0x54c4ce=_0x5d104b;loadintGif[_0x54c4ce(0x210)](),loadintT[_0x54c4ce(0x212)][_0x54c4ce(0x20b)]='',updateLabView(0.1);},0x1*0x3e8),window[_0x5d104b(0x211)]=null,window['tempSeconds']=0x1,window[_0x5d104b(0x20e)]={},loadData['completedCount']=0x0,loadData['totalCount']=0x0,onload();function onload(){var _0x19671a=_0x5d104b,_0x4a0307=document[_0x19671a(0x20f)][_0x19671a(0x201)];document['getElementById'](_0x19671a(0x1f5))[_0x19671a(0x212)][_0x19671a(0x204)]=_0x4a0307+'px';};window[_0x5d104b(0x1f7)]=function(){var _0xb685c6=_0x5d104b;document[_0xb685c6(0x1f8)](_0xb685c6(0x202))[_0xb685c6(0x212)]['display']='none';};function updateLabView(_0x3710ae){timer!=null&&clearInterval(timer),timer=setInterval(function(){var _0x2c7785=_0x2496;tempSeconds++,actualTotal();var _0x4a284e=document[_0x2c7785(0x1f8)](_0x2c7785(0x203));if(!_0x4a284e)return;_0x4a284e[_0x2c7785(0x206)]=_0x2c7785(0x208)+parseInt(tempSeconds)+'%';switch(tempSeconds){case 0x14:updateLabView(0.2);break;case 0x28:updateLabView(0.3);break;case 0x3c:updateLabView(0.4);break;case 0x60:updateLabView(0x5);break;case 0x61:updateLabView(0xa);break;case 0x62:updateLabView(0x32);break;case 0x63:updateLabView(0x64);break;default:tempSeconds>=0x50&&tempSeconds<0x60&&updateLabView(_0x3710ae+0.1);break;}tempSeconds>0x64&&(_0x2c7785(0x1fa)===_0x2c7785(0x20a)?(_0x1be068(_0x759523),_0xe9b498=0x64,_0x49dbdc[_0x2c7785(0x206)]=_0x2c7785(0x208)+_0x9033f3(_0x32367f)+'%'):(clearInterval(timer),tempSeconds=0x64,_0x4a284e[_0x2c7785(0x206)]=_0x2c7785(0x208)+parseInt(tempSeconds)+'%'));},_0x3710ae*0x3e8);}function actualTotal(){var _0x240d76=_0x5d104b,_0xaf3e9d=parseInt(0x64*loadData[_0x240d76(0x213)]/loadData['totalCount']);if(_0xaf3e9d>tempSeconds&&loadData[_0x240d76(0x1f4)]>0x1){if(_0x240d76(0x20d)===_0x240d76(0x20d))tempSeconds=_0xaf3e9d;else{var _0x81db49=_0x2bdbc8(0x64*_0x5936ea['completedCount']/_0x119ec5[_0x240d76(0x1f4)]);_0x81db49>_0x5ca79f&&_0x2ff21b[_0x240d76(0x1f4)]>0x1&&(_0x3552ab=_0x81db49);}}}
+  </script>
+
+
+
+
+
+  <script src="src/settings.js" charset="utf-8"></script>
+
+  <script src="main1.js" charset="utf-8"></script>
+
+
+
+  <script type="text/javascript">
+  adBreak = ()=>{};
+      (function () {
+        // open web debugger console
+        if (typeof VConsole !== 'undefined') {
+          window.vConsole = new VConsole();
+        }
+
+        var splash = document.getElementById('splash');
+        splash.style.display = 'block';
+
+
+        console.log("indexlTextTTTT");
+
+        var cocos2d = document.createElement('script');
+        cocos2d.async = true;
+        cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js';
+
+        var engineLoaded = function () {
+          document.body.removeChild(cocos2d);
+          cocos2d.removeEventListener('load', engineLoaded, false);
+          window.boot();
+          cc.view.setOrientation(cc.macro.ORIENTATION_PORTRAIT);
+        };
+        cocos2d.addEventListener('load', engineLoaded, false);
+        document.body.appendChild(cocos2d);
+      })();
+  </script>
+
+
+
+
+</body>
+
+</html>
