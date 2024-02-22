@@ -1,0 +1,173 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,share1_jpg,share2_jpg,share3_jpg,system_json,numimage_fnt,numimage_png,soundpress_mp3,soundstart_mp3,soundunlock_mp3,soundwin1_mp3,soundwin2_mp3,soundwarn_mp3,soundrandom_mp3,slotstart_mp3,slotstop_mp3,slotwin1_mp3,slotwin2_mp3,texiaobomb_json,soundballs_mp3,soundbomb_mp3,soundjump_mp3,texiaocolor1_json,texiaocolor2_json,texiaosui_json,soundhua_mp3,gameall1_json,gameall2_json,gameall3_json",
+			"name": "preload"
+		},
+		{
+			"keys": "loading2_png,loading1_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/system/share1.jpg",
+			"type": "image",
+			"name": "share1_jpg"
+		},
+		{
+			"url": "assets/system/share2.jpg",
+			"type": "image",
+			"name": "share2_jpg"
+		},
+		{
+			"url": "assets/system/share3.jpg",
+			"type": "image",
+			"name": "share3_jpg"
+		},
+		{
+			"url": "assets/system/system.json",
+			"type": "sheet",
+			"name": "system_json",
+			"subkeys": "bg_tips_png,default-portrait_png,head_cycle_mask_png,head_square_mask_png,loading_indicator_png,rank_levelbg_png,share_challenge_head1_png,share_challenge_head2_png,share_challenge_head3_png,share_crown_png,sharehead_png"
+		},
+		{
+			"url": "assets/system/loading2.png",
+			"type": "image",
+			"name": "loading2_png"
+		},
+		{
+			"url": "assets/image/numimage.fnt",
+			"type": "font",
+			"name": "numimage_fnt"
+		},
+		{
+			"url": "assets/image/numimage.png",
+			"type": "image",
+			"name": "numimage_png"
+		},
+		{
+			"url": "assets/system/loading1.png",
+			"type": "image",
+			"name": "loading1_png"
+		},
+		{
+			"url": "assets/sound/soundpress.mp3",
+			"type": "sound",
+			"name": "soundpress_mp3"
+		},
+		{
+			"url": "assets/sound/soundstart.mp3",
+			"type": "sound",
+			"name": "soundstart_mp3"
+		},
+		{
+			"url": "assets/sound/soundunlock.mp3",
+			"type": "sound",
+			"name": "soundunlock_mp3"
+		},
+		{
+			"url": "assets/sound/soundwin1.mp3",
+			"type": "sound",
+			"name": "soundwin1_mp3"
+		},
+		{
+			"url": "assets/sound/soundwin2.mp3",
+			"type": "sound",
+			"name": "soundwin2_mp3"
+		},
+		{
+			"url": "assets/sound/soundwarn.mp3",
+			"type": "sound",
+			"name": "soundwarn_mp3"
+		},
+		{
+			"url": "assets/sound/soundrandom.mp3",
+			"type": "sound",
+			"name": "soundrandom_mp3"
+		},
+		{
+			"name": "slotstart_mp3",
+			"type": "sound",
+			"url": "assets/sound/slotstart.mp3"
+		},
+		{
+			"name": "slotstop_mp3",
+			"type": "sound",
+			"url": "assets/sound/slotstop.mp3"
+		},
+		{
+			"name": "slotwin1_mp3",
+			"type": "sound",
+			"url": "assets/sound/slotwin1.mp3"
+		},
+		{
+			"name": "slotwin2_mp3",
+			"type": "sound",
+			"url": "assets/sound/slotwin2.mp3"
+		},
+		{
+			"name": "texiaobomb_json",
+			"type": "json",
+			"url": "assets/particle/texiaobomb.json"
+		},
+		{
+			"name": "soundballs_mp3",
+			"type": "sound",
+			"url": "assets/sound/soundballs.mp3"
+		},
+		{
+			"name": "soundbomb_mp3",
+			"type": "sound",
+			"url": "assets/sound/soundbomb.mp3"
+		},
+		{
+			"name": "soundjump_mp3",
+			"type": "sound",
+			"url": "assets/sound/soundjump.mp3"
+		},
+		{
+			"name": "texiaocolor1_json",
+			"type": "json",
+			"url": "assets/particle/texiaocolor1.json"
+		},
+		{
+			"name": "texiaocolor2_json",
+			"type": "json",
+			"url": "assets/particle/texiaocolor2.json"
+		},
+		{
+			"name": "texiaosui_json",
+			"type": "json",
+			"url": "assets/particle/texiaosui.json"
+		},
+		{
+			"name": "soundhua_mp3",
+			"type": "sound",
+			"url": "assets/sound/soundhua.mp3"
+		},
+		{
+			"name": "gameall1_json",
+			"type": "sheet",
+			"url": "assets/image/gameall1.json",
+			"subkeys": "gamebtn1_png,gamebtn3_png,gamebtn2_png,mapbg1_png,mapbg2_png,mapbg3_png,mapbg4_png,moregameup_png,moregameview_png,moregamebg_png,texiaocolor1_png,texiaocolor3_png,texiaosui_png,texiaobomb_png,texiaocolor2_png,shopbg_png,interbg_png,slotitem6_png,slottitle_png,slotitem5_png,slotitem4_png,slotitem0_png,slotitem1_png,slotitem3_png,slotitem2_png,slotview_png,slotbtn1_png,slotbtn2_png,slotbtn3_png,slotcover_png,slotcoin1_png,slotcoin2_png,slotcoin3_png,slotcoin4_png"
+		},
+		{
+			"name": "gameall2_json",
+			"type": "sheet",
+			"url": "assets/image/gameall2.json",
+			"subkeys": "ball23_png,ball154_png,ball141_png,ball22_png,ball34_png,ball143_png,ball142_png,ball21_png,ball31_png,ball152_png,ball153_png,ball24_png,ball32_png,ball151_png,ball144_png,ball33_png,ball83_png,ball54_png,ball123_png,ball122_png,ball41_png,ball82_png,ball94_png,ball43_png,ball134_png,ball121_png,ball42_png,ball81_png,ball91_png,ball52_png,ball131_png,ball124_png,ball53_png,ball84_png,ball92_png,ball51_png,ball132_png,ball133_png,ball44_png,ball93_png,ball61_png,ball102_png,ball103_png,ball74_png,ball62_png,ball101_png,ball114_png,ball63_png,ball73_png,ball104_png,ball111_png,ball72_png,ball64_png,ball113_png,ball112_png,ball71_png,ball14_png,ball11_png,ball13_png,ball12_png"
+		},
+		{
+			"name": "gameall3_json",
+			"type": "sheet",
+			"url": "assets/image/gameall3.json",
+			"subkeys": "bomb_png,bombtips_png,tipstitle1_png,tipstitle2_png,bomb4_png,bomb5_png,tipshand_png,bomb6_png,bomb2_png,bomb3_png,bomb1_png,shadow8_png,shadow9_png,map24_png,map9_png,map8_png,map14-1_png,shadow12_png,shadow13_png,shadow11_png,shadow10_png,shadow1_png,map12_png,map6_png,map7_png,map13_png,shadow2_png,map11_png,map5_png,map4_png,map10_png,shadow3_png,shadow7_png,map14_png,map1_png,shadow6_png,shadow4_png,map3_png,map2_png,shadow5_png,overbtn4_png,overbtn1_png,overbtn3_png,overbtn2_png,overview_png,overpass3_png,overpass2_png,overpass1_png,overtitle_png,rankbg1_png,rankmask0_png,rankmask1_png,rankbtn4_png,rankbtn2_png,rankbtn3_png,rankview1_png,rankview3_png,rankbtn1_png,rankbtn0_png,rankview2_png,rankview_png,shopbtn5_png,herounlock_png,shopbtn4_png,shopbtn1_png,shopbtn3_png,shopbtn2_png,shoppage1_png,shoppage2_png,herobg_png,shoptitle2_png,shoptitle1_png,shopselect_png,shopshadow_png,shoplight_png,slotbg2_png,slotbg1_png,title_png,titlebtn3_png,titlebtn2_png,titlebtn1_png,titlebtn4_png,titletips_png"
+		}
+	]
+}
