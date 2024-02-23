@@ -34,30 +34,26 @@
 <body>
 <div id="thumbnails"></div>
 <script>
+	const thumbs = 61;
 
-	
-	
 	let thumbnailLinks = [];
-
-	for (let i = 2; i <= 61; i++) {
+	for (let i = 2; i <= thumbs; i++) {
 		thumbnailLinks.push(`../mah${i}`);
 	}
-	
-    const thumbnailsContainer = document.getElementById('thumbnails');
-
-    thumbnailLinks.forEach(link => {
-        const thumbnail = document.createElement('a');
-        thumbnail.href = link;
-        thumbnail.target = '_blank';
-        const image = document.createElement('img');
-        image.className = 'ima';
-	image.src = `${link}/thumb.jpg`;
-        image.alt = 'Thumbnail';
-	image.height = 180;
-        thumbnail.appendChild(image);
-        thumbnail.classList.add('thumbnail');
-        thumbnailsContainer.appendChild(thumbnail);
-    });
+    	const thumbnailsContainer = document.getElementById('thumbnails');
+    	thumbnailLinks.forEach(link => {
+        	const thumbnail = document.createElement('a');
+        	thumbnail.href = link;
+        	thumbnail.target = '_blank';
+        	const image = document.createElement('img');
+        	image.className = 'ima';
+		image.src = `${link}/thumb.jpg`;
+        	image.alt = 'Thumbnail';
+		image.height = 180;
+        	thumbnail.appendChild(image);
+        	thumbnail.classList.add('thumbnail');
+        	thumbnailsContainer.appendChild(thumbnail);
+    	});
 </script>
 </body>
 </html>
