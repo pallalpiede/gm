@@ -1,0 +1,20 @@
+<font>
+	<info aa="1" bold="0" charset="" face="Kanit-SemiBold" italic="0" padding="1,1,1,1" size="36" smooth="1" spacing="1,1" stretchH="100" unicode="1"/>
+	<common base="36" lineHeight="36" packed="0" pages="1" scaleH="111" scaleW="111"/>
+	<pages>
+		<page file="ScoreGame.png" id="0"/>
+	</pages>
+	<chars count="11">
+		<char chnl="15" height="1" id="32" page="0" width="1" x="1923" xadvance="10" xoffset="0" y="178" yoffset="0"/>
+		<char chnl="15" height="35" id="48" page="0" width="34" x="523" xadvance="31" xoffset="-1" y="885" yoffset="0"/>
+		<char chnl="15" height="35" id="49" page="0" width="18" x="701" xadvance="31" xoffset="6" y="267" yoffset="0"/>
+		<char chnl="15" height="35" id="50" page="0" width="26" x="1373" xadvance="31" xoffset="3" y="1313" yoffset="0"/>
+		<char chnl="15" height="35" id="51" page="0" width="27" x="1041" xadvance="31" xoffset="2" y="1206" yoffset="0"/>
+		<char chnl="15" height="35" id="52" page="0" width="30" x="641" xadvance="31" xoffset="1" y="985" yoffset="0"/>
+		<char chnl="15" height="35" id="53" page="0" width="27" x="1173" xadvance="31" xoffset="3" y="1230" yoffset="0"/>
+		<char chnl="15" height="35" id="54" page="0" width="30" x="491" xadvance="31" xoffset="1" y="935" yoffset="0"/>
+		<char chnl="15" height="35" id="55" page="0" width="26" x="1141" xadvance="31" xoffset="3" y="1280" yoffset="0"/>
+		<char chnl="15" height="35" id="56" page="0" width="31" x="773" xadvance="31" xoffset="1" y="1008" yoffset="0"/>
+		<char chnl="15" height="35" id="57" page="0" width="30" x="1525" xadvance="31" xoffset="1" y="1013" yoffset="0"/>
+	</chars>
+</font>

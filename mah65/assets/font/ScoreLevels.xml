@@ -1,0 +1,20 @@
+<font>
+	<info aa="1" bold="0" charset="" face="Kanit-Bold" italic="0" padding="1,1,1,1" size="20" smooth="1" spacing="1,1" stretchH="100" unicode="1"/>
+	<common base="20" lineHeight="20" packed="0" pages="1" scaleH="68" scaleW="68"/>
+	<pages>
+		<page file="ScoreLevels.png" id="0"/>
+	</pages>
+	<chars count="11">
+		<char chnl="15" height="1" id="32" page="0" width="1" x="125" xadvance="7" xoffset="0" y="1767" yoffset="0"/>
+		<char chnl="15" height="20" id="48" page="0" width="19" x="342" xadvance="21" xoffset="1" y="1847" yoffset="0"/>
+		<char chnl="15" height="20" id="49" page="0" width="9" x="57" xadvance="12" xoffset="1" y="1793" yoffset="0"/>
+		<char chnl="15" height="20" id="50" page="0" width="14" x="401" xadvance="17" xoffset="1" y="1847" yoffset="0"/>
+		<char chnl="15" height="20" id="51" page="0" width="15" x="185" xadvance="17" xoffset="1" y="1795" yoffset="0"/>
+		<char chnl="15" height="20" id="52" page="0" width="17" x="382" xadvance="18" xoffset="0" y="1847" yoffset="0"/>
+		<char chnl="15" height="20" id="53" page="0" width="14" x="417" xadvance="17" xoffset="1" y="1847" yoffset="0"/>
+		<char chnl="15" height="20" id="54" page="0" width="16" x="185" xadvance="19" xoffset="1" y="1751" yoffset="0"/>
+		<char chnl="15" height="20" id="55" page="0" width="15" x="185" xadvance="16" xoffset="0" y="1773" yoffset="0"/>
+		<char chnl="15" height="20" id="56" page="0" width="17" x="363" xadvance="19" xoffset="1" y="1847" yoffset="0"/>
+		<char chnl="15" height="20" id="57" page="0" width="16" x="185" xadvance="19" xoffset="1" y="1707" yoffset="0"/>
+	</chars>
+</font>

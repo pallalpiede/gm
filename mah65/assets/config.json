@@ -1,0 +1,8 @@
+{
+  "supportedLanguages": [ "en", "de", "es", "fr", "it", "pt", "ru", "cs" ],
+  "checkLanguage": true,
+  "checkLanguageEveryTime": true,
+  
+  "SCORE_SYSTEM": true,
+  "SCORE_SYSTEM_PARTICLES": true
+}

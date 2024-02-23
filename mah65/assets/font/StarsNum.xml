@@ -1,0 +1,21 @@
+<font>
+  <info aa="1" bold="0" charset="" face="starsNum" italic="0" outline="0" padding="2,2,2,2" size="90" smooth="1" spacing="0,0" stretchH="100" unicode=""/>
+  <common base="59" lineHeight="60" packed="0" pages="1" scaleH="310" scaleW="137"/>
+  <pages>
+    <page file="starsNum.png" id="0"/>
+  </pages>
+  <chars count="10">
+    <char chnl="15" height="60" id="48" page="0" width="59" x="1034" xadvance="61" xoffset="1" y="1584" yoffset="0"/>
+    <char chnl="15" height="59" id="49" page="0" width="32" x="1685" xadvance="36" xoffset="1" y="424" yoffset="0"/>
+    <char chnl="15" height="59" id="50" page="0" width="46" x="984" xadvance="48" xoffset="1" y="769" yoffset="0"/>
+    <char chnl="15" height="60" id="51" page="0" width="47" x="113" xadvance="49" xoffset="1" y="1706" yoffset="0"/>
+    <char chnl="15" height="58" id="52" page="0" width="52" x="1713" xadvance="54" xoffset="0" y="994" yoffset="1"/>
+    <char chnl="15" height="59" id="53" page="0" width="46" x="984" xadvance="48" xoffset="1" y="708" yoffset="1"/>
+    <char chnl="15" height="60" id="54" page="0" width="52" x="59" xadvance="54" xoffset="1" y="1706" yoffset="0"/>
+    <char chnl="15" height="58" id="55" page="0" width="45" x="1818" xadvance="45" xoffset="0" y="1544" yoffset="1"/>
+    <char chnl="15" height="60" id="56" page="0" width="54" x="631" xadvance="57" xoffset="1" y="1682" yoffset="0"/>
+    <char chnl="15" height="60" id="57" page="0" width="52" x="1331" xadvance="54" xoffset="1" y="873" yoffset="0"/>
+    <char chnl="15" height="1" id="32" page="0" width="1" x="1965" xadvance="17" xoffset="1" y="166" yoffset="0"/>
+  </chars>
+  <kernings count="0"/>
+</font>

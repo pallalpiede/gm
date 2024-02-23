@@ -1,0 +1,1214 @@
+{
+  "en": {
+
+    "TXT_DLG_CREDITS_TITLE": "|bCREDITS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Code:\nGFX:\nMusic & SFX:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. All rights reserved.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bALLOCATE STARS|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "Allocate |c4{0}|~c\u5000 into this powerup?\n\nThis can't be undone.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bNOT ENOUGH STARS|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "You need |c4{0}|~c\u5000 to upgrade this powerup.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bCHOOSE LANGUAGE|~b",
+
+    "TXT_ELEMENTS_PANEL": "ELEMENT POWERUPS",
+    "TXT_CHAIN_PANEL": "CHAIN POWERUPS",
+
+    "TXT_PW_BLUE_0": "Recolor neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_1": "Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_2": "Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_3": "Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+
+    "TXT_PW_RED_0": "Summon ladybug that flies above path and drops small bombs destroying marbles.",
+    "TXT_PW_RED_1": "Summon ladybug that flies above path and in |c4low|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_2": "Summon ladybug that flies above path and in |c4mid|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_3": "Summon ladybug that flies above path and in |c4high|~c frequency drops small bombs destroying marbles.",
+
+    "TXT_PW_GREEN_0": "Brings machine gun that fires a fan of direct projectiles.",
+    "TXT_PW_GREEN_1": "Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_2": "Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_3": "Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+
+    "TXT_PW_YELLOW_0": "Fire one or more fireballs.",
+    "TXT_PW_YELLOW_1": "Fire |c4{0}|~c fireball which can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_2": "Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_3": "Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+
+    "TXT_PW_CYAN_0": "Create chain lightning destroying marbles of the same color.",
+    "TXT_PW_CYAN_1": "Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_2": "Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_3": "Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+
+    "TXT_PW_PURPLE_0": "Summon beetle at the end of the path. Beetle runs along and destroys marbles.",
+    "TXT_PW_PURPLE_1": "Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_2": "Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_3": "Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+
+    "TXT_PW_SLOW_0": "Slow movement of marbles chain.",
+    "TXT_PW_SLOW_1": "Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_2": "Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_3": "Slow movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_BOMB_0": "Throw bomb that explodes and destroys marbles.",
+    "TXT_PW_BOMB_1": "Throw bomb that explodes and destroys marbles in |c4small|~c radius.",
+    "TXT_PW_BOMB_2": "Throw bomb that explodes and destroys marbles in |c4mid-range|~c radius.",
+    "TXT_PW_BOMB_3": "Throw bomb that explodes and destroys marbles in |c4large|~c radius.",
+
+    "TXT_PW_FREEZE_0": "Freeze movement of marbles chain.",
+    "TXT_PW_FREEZE_1": "Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_2": "Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_3": "Freeze movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_THROW_0": "Throw marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_1": "Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_2": "Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_3": "Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+
+    "TXT_PW_SCORE_0": "Charge element powerups 20% faster for limited time.",
+    "TXT_PW_SCORE_1": "Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_2": "Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_3": "Charge element powerups 20% faster for |c4{0}|~c seconds.",
+
+    "TXT_PW_STEEL_0": "Fire balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_1": "Fire |c4{0}|~c ball of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_2": "Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_3": "Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+
+    "TXT_PW_BACK_0": "Give an impulse to chain to move back.",
+    "TXT_PW_BACK_1": "Give |c4weak|~c impulse to chain to move back.",
+    "TXT_PW_BACK_2": "Give |c4medium|~c impulse to chain to move back.",
+    "TXT_PW_BACK_3": "Give |c4strong|~c impulse to chain to move back.",
+
+    "TXT_GAME_OVER": "GAME OVER",
+
+    "TXT_TUTORIAL_POWERUP_0": "You can manage powerups on this screen.\nPowerups help you to destroy more marbles and protect your garden.",
+    "TXT_TUTORIAL_POWERUP_1": "Powerups are activated for stars. Here you can see how many stars you have. You get 1\u5000 for every completed level.",
+    "TXT_TUTORIAL_POWERUP_2": "Powerup can be activated to its basic level for 1\u5000. Then it can be upgraded to mid-level for another 2\u5000 and for 3\u5000 it will reach its master level.\n\nNot all powerups are available for now. They will get unlocked later in game.",
+    "TXT_TUTORIAL_POWERUP_3": "Element powerups are bound to marbles color. Destroying enough marbles of that color will give you special powerful projectile.",
+    "TXT_TUTORIAL_POWERUP_4": "Chain powerups appear randomly on marbles in chain. Destroy marble with powerup icon on it to activate its power.",
+    "TXT_TUTORIAL_GAME_0": "Tap inside the circle to shoot marble from lawn mower cannon...",
+    "TXT_TUTORIAL_GAME_1": "... and once more.",
+    "TXT_TUTORIAL_GAME_2": "Now, tap on lawn mower cannon to swap current and next marble.",
+    "TXT_TUTORIAL_GAME_3": "Great!\n\nNow watch! First marbles are coming.",
+    "TXT_TUTORIAL_MOTOR": "Golems are your enemies! Defeat them to protect your garden.\n\nThey are source of marbles movement.\n\nThey are defeated when all marbles they push are destroyed or when marbles behind roll over them. Don't let them to push marbles into the end hole.\n\nMarbles get destroyed when you match at least three of them with the same color.",
+    "TXT_TUTORIAL_DESTROY": "Marbles you just destroyed contributed to powerup charging.\n\nDestroy more marbles of the same color to fully charge powerup and gain special projectile.",
+    "TXT_TUTORIAL_STARDUST_0": "This is stardust. Shoot it with marble to pick it up.\n\nAs it is pretty valuable, it is not always easy to aim at it.",
+    "TXT_TUTORIAL_STARDUST_1": "If you pick enough stardust up it will form extra star.",
+    "TXT_TUTORIAL_RAINBOW": "You just performed several fast matches and as a reward you are given rainbow projectile!\n\nIt can match with marbles of different colors.",
+    "TXT_TUTORIAL_CHARGE": "Your powerup is charged!\n\nSpecial projectile will get loaded shortly.",
+    "TXT_TUTORIAL_NEW_POWERUP": "New powerup has been unlocked!",
+
+    "TXT_CONGRATS": "|b|c4CONGRATULATIONS!!!|~c|~b\n\nYou successfully finished all levels. All evil golems were defeated and your garden is safe again.\n\nThanks for playing!"
+  },
+
+  "ja": {
+    "TXT_DLG_CREDITS_TITLE": "|bクレジット|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Code:\nGFX:\nMusic & SFX:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. All rights reserved.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bスターの 割り振り|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "|c4{0}|~c\u5000を 割り振り ますか？\n\n元には 戻せません。",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bスターが 足りません|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "アップグレード には |c4{0}|~c\u5000が 必要です。",
+    "TXT_DLG_LANGUAGES_TITLE": "|b言語を選択|~b",
+
+    "TXT_ELEMENTS_PANEL": "エレメント パワーアップ",
+    "TXT_CHAIN_PANEL": "チェイン パワーアップ",
+
+    "TXT_PW_BLUE_0": "隣り合う ビー玉を 当たった ビー玉の色に 変える",
+    "TXT_PW_BLUE_1": "|c4{0}|~cつの 隣り合う ビー玉を 当たった ビー玉の色に 変える",
+    "TXT_PW_BLUE_2": "|c4{0}|~cつの 隣り合う ビー玉を 当たった ビー玉の色に 変える",
+    "TXT_PW_BLUE_3": "|c4{0}|~cつの 隣り合う ビー玉を 当たった ビー玉の色に 変える",
+
+    "TXT_PW_RED_0": "小爆弾を 落とす テントウムシ を召喚する",
+    "TXT_PW_RED_1": "|c4低|~c頻度で 小爆弾を 落とす テントウムシ を召喚する",
+    "TXT_PW_RED_2": "|c4中|~c頻度で 小爆弾を 落とす テントウムシ を召喚する",
+    "TXT_PW_RED_3": "|c4高|~c頻度で 小爆弾を 落とす テントウムシ を召喚する",
+
+    "TXT_PW_GREEN_0": "扇型に 発射する マシンガンを 装備する",
+    "TXT_PW_GREEN_1": "扇型に 弾を|c4{0}|~cつ 発射する マシンガンを 装備する",
+    "TXT_PW_GREEN_2": "扇型に 弾を|c4{0}|~cつ 発射する マシンガンを 装備する",
+    "TXT_PW_GREEN_3": "扇型に 弾を|c4{0}|~cつ 発射する マシンガンを 装備する",
+
+    "TXT_PW_YELLOW_0": "一つ または複数の ファイア ボールを 発射する",
+    "TXT_PW_YELLOW_1": "最大|c4{1}|~cつの ビー玉を壊す ファイア ボールを |c4{0}|~c個 発射する",
+    "TXT_PW_YELLOW_2": "最大|c4{1}|~cつの ビー玉を壊す ファイア ボールを |c4{0}|~c個 発射する",
+    "TXT_PW_YELLOW_3": "最大|c4{1}|~cつの ビー玉を壊す ファイア ボールを |c4{0}|~c個 発射する",
+
+    "TXT_PW_CYAN_0": "チェイン ライトニング で、 同じ色の ビー玉を 壊す",
+    "TXT_PW_CYAN_1": "チェイン ライトニング で、 同じ色の ビー玉を |c4{0}|~cつ壊す",
+    "TXT_PW_CYAN_2": "チェイン ライトニング で、 同じ色の ビー玉を |c4{0}|~cつ壊す",
+    "TXT_PW_CYAN_3": "チェイン ライトニング で、 同じ色の ビー玉を |c4{0}|~cつ壊す",
+
+    "TXT_PW_PURPLE_0": "端の穴から ビー玉を 壊す カブトムシを 召喚する",
+    "TXT_PW_PURPLE_1": "端の穴から ビー玉を |c4{0}|~cつ壊す カブトムシを 召喚する",
+    "TXT_PW_PURPLE_2": "端の穴から ビー玉を |c4{0}|~cつ壊す カブトムシを 召喚する",
+    "TXT_PW_PURPLE_3": "端の穴から ビー玉を |c4{0}|~cつ壊す カブトムシを 召喚する",
+
+    "TXT_PW_SLOW_0": "ビー玉の列が 遅く進む",
+    "TXT_PW_SLOW_1": "ビー玉の列が |c4{0}|~c秒間 遅く進む",
+    "TXT_PW_SLOW_2": "ビー玉の列が |c4{0}|~c秒間 遅く進む",
+    "TXT_PW_SLOW_3": "ビー玉の列が |c4{0}|~c秒間 遅く進む",
+
+    "TXT_PW_BOMB_0": "爆弾を 投げて ビー玉を 壊す",
+    "TXT_PW_BOMB_1": "爆弾を 投げて、 |c4小|~c範囲の 爆発で ビー玉を 壊す",
+    "TXT_PW_BOMB_2": "爆弾を 投げて、 |c4中|~c範囲の 爆発で ビー玉を 壊す",
+    "TXT_PW_BOMB_3": "爆弾を 投げて、 |c4高|~c範囲の 爆発で ビー玉を 壊す",
+
+    "TXT_PW_FREEZE_0": "ビー玉の 列が 止まる",
+    "TXT_PW_FREEZE_1": "ビー玉の 列が |c4{0}|~c秒間 止まる",
+    "TXT_PW_FREEZE_2": "ビー玉の 列が |c4{0}|~c秒間 止まる",
+    "TXT_PW_FREEZE_3": "ビー玉の 列が |c4{0}|~c秒間 止まる",
+
+    "TXT_PW_THROW_0": "ビー玉を やまなりに 投げる。 後ろの列 にも届く",
+    "TXT_PW_THROW_1": "ビー玉を やまなりに |c4{0}|~c回 投げる。 後ろの列 にも届く",
+    "TXT_PW_THROW_2": "ビー玉を やまなりに |c4{0}|~c回 投げる。 後ろの列 にも届く",
+    "TXT_PW_THROW_3": "ビー玉を やまなりに |c4{0}|~c回 投げる。 後ろの列 にも届く",
+
+    "TXT_PW_SCORE_0": "一定時間、 エレメント パワーアップ の チャージ速度 が20％ 上昇する",
+    "TXT_PW_SCORE_1": "|c4{0}|~c秒間 エレメント パワーアップ の チャージ速度 が20％ 上昇する",
+    "TXT_PW_SCORE_2": "|c4{0}|~c秒間 エレメント パワーアップ の チャージ速度 が20％ 上昇する",
+    "TXT_PW_SCORE_3": "|c4{0}|~c秒間 エレメント パワーアップ の チャージ速度 が20％ 上昇する",
+
+    "TXT_PW_STEEL_0": "ビー玉の列を 貫通する 鉄の玉を 投げる",
+    "TXT_PW_STEEL_1": "ビー玉の列を 貫通する 鉄の玉を |c4{0}|~c個 投げる",
+    "TXT_PW_STEEL_2": "ビー玉の列を 貫通する 鉄の玉を |c4{0}|~c個 投げる",
+    "TXT_PW_STEEL_3": "ビー玉の列を 貫通する 鉄の玉を |c4{0}|~c個 投げる",
+
+    "TXT_PW_BACK_0": "衝撃で列を 後退させる",
+    "TXT_PW_BACK_1": "|c4小さい|~c衝撃で 列を 後退させる",
+    "TXT_PW_BACK_2": "|c4並の|~c衝撃で 列を 後退させる",
+    "TXT_PW_BACK_3": "|c4強い|~c衝撃で 列を 後退させる",
+
+    "TXT_GAME_OVER": "ゲームオーバー",
+
+    "TXT_TUTORIAL_POWERUP_0": "パワーアップ は この画面で 管理します。\nパワーアップ して 沢山の ビー玉を 壊し 庭を 守り ましょう。",
+    "TXT_TUTORIAL_POWERUP_1": "パワーアップ は スターを 使います。 所持数は 上に 表示します。 レベルクリア で \u5000を1つ 獲得 できます。",
+    "TXT_TUTORIAL_POWERUP_2": "パワーアップ は 1\u5000で解除、 2\u5000で強化、 3\u5000で 最大レベルに なります。\n\nゲームを 進めると 新しい パワーアップ が 解除します。",
+    "TXT_TUTORIAL_POWERUP_3": "エレメント パワーアップ は ビー玉の 色ごとに なります。 特定の色の ビー玉を 一定数壊すと スペシャル玉 を 獲得します。",
+    "TXT_TUTORIAL_POWERUP_4": "チェイン パワーアップ は ランダムで ビー玉の列に 現れます。 アイコンが ついた ビー玉を 壊すと 発動します。",
+    "TXT_TUTORIAL_GAME_0": "円の中を タップして ビー玉を 発射 しましょう ...",
+    "TXT_TUTORIAL_GAME_1": "... もう一度 やって みましょう。",
+    "TXT_TUTORIAL_GAME_2": "大砲を タップすると 次のビー玉と 入れ替わり ます。",
+    "TXT_TUTORIAL_GAME_3": "いいですね！\n\n見て！ ビー玉が 来ます。",
+    "TXT_TUTORIAL_MOTOR": "ゴーレムから 庭を守り クリア しましょう。\n\nビー玉は ゴーレムが 動かして います。\n\nゴーレムは ビー玉を すべて 壊すか、 後ろの ビー玉に 追いつかれる と 消えます。 ビー玉が 端の穴に 入ると ゲームオーバー です。\n\nビー玉は 同じ色が 3つ以上 揃うと 壊れます。",
+    "TXT_TUTORIAL_DESTROY": "同じ色の ビー玉を 壊すと パワーアップ が チャージ します。\n\nゲージが 満タンに なると スペシャル玉 を獲得 できます。",
+    "TXT_TUTORIAL_STARDUST_0": "スターダスト は ビー玉が 当たると 獲得 できます。\n\nうまく 狙えない ことも あります。",
+    "TXT_TUTORIAL_STARDUST_1": "欠片を 集めると スターに なります。",
+    "TXT_TUTORIAL_RAINBOW": "ビー玉を いくつか 素早く 壊したので レインボー玉 を獲得 しました！\n\nどの色の ビー玉でも そろいます。",
+    "TXT_TUTORIAL_CHARGE": "パワーアップ が 満タンに なりました！\n\nスペシャル玉 は まもなく 装填します。",
+    "TXT_TUTORIAL_NEW_POWERUP": "新しい パワーアップ が 解除 しました！",
+
+    "TXT_CONGRATS": "|b|c4お見事です ！！！|~c|~b\n\n全ての レベルを クリア しました。 悪い ゴーレムを 倒し、庭に 再び平穏が 訪れました。\n\nありがとう ございます！"
+  },
+
+  "de": {
+    "TXT_DLG_CREDITS_TITLE": "|bMITWIRKENDE|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Programmierung:\nGrafik:\nMusik + Sound:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Alle Rechte vorbehalten.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bSTERNE ZUWEISEN|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "|c4{0}|~c\u5000 diesem Powerup zuweisen?\n\nDies kann nicht rückgängig gemacht werden.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bNICHT GENUG STERNE|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Du brauchst |c4{0}|~c\u5000, um dieses Powerup zu verbessern.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bSPRACHE WÄHLEN|~b",
+
+    "TXT_ELEMENTS_PANEL": "ELEMENT-POWERUPS",
+    "TXT_CHAIN_PANEL": "KETTEN-POWERUPS",
+
+    "TXT_PW_BLUE_0": "Färbt benachbarte Murmeln in die Farbe der getroffenen um.",
+    "TXT_PW_BLUE_1": "Färbt bis zu |c4{0}|~c benachbarte Murmeln in die Farbe der getroffenen um.",
+    "TXT_PW_BLUE_2": "Färbt bis zu |c4{0}|~c benachbarte Murmeln in die Farbe der getroffenen um.",
+    "TXT_PW_BLUE_3": "Färbt bis zu |c4{0}|~c benachbarte Murmeln in die Farbe der getroffenen um.",
+
+    "TXT_PW_RED_0": "Beschwört einen Marienkäfer, der über den Murmelpfad fliegt und kleine Bomben abwirft, die Murmeln zerstören.",
+    "TXT_PW_RED_1": "Beschwört einen Marienkäfer, der über den Pfad fliegt und mit |c4geringer|~c Frequenz kleine Bomben abwirft, die Murmeln zerstören.",
+    "TXT_PW_RED_2": "Beschwört einen Marienkäfer, der über den Pfad fliegt und mit |c4mittlerer|~c Frequenz kleine Bomben abwirft, die Murmeln zerstören.",
+    "TXT_PW_RED_3": "Beschwört einen Marienkäfer, der über den Pfad fliegt und mit |c4hoher|~c Frequenz kleine Bomben abwirft, die Murmeln zerstören.",
+
+    "TXT_PW_GREEN_0": "Erzeugt ein Maschinengewehr, das einen Fächer direkter Projektile verschießt.",
+    "TXT_PW_GREEN_1": "Erzeugt ein Maschinengewehr, das einen Fächer aus |c4{0}|~c direkten Projektilen verschießt.",
+    "TXT_PW_GREEN_2": "Erzeugt ein Maschinengewehr, das einen Fächer aus |c4{0}|~c direkten Projektilen verschießt.",
+    "TXT_PW_GREEN_3": "Erzeugt ein Maschinengewehr, das einen Fächer aus |c4{0}|~c direkten Projektilen verschießt.",
+
+    "TXT_PW_YELLOW_0": "Feuert einen oder mehr Feuerbälle.",
+    "TXT_PW_YELLOW_1": "Feuert |c4{0}|~c Feuerball, der bis zu |c4{1}|~c Murmeln zerstören kann.",
+    "TXT_PW_YELLOW_2": "Feuert |c4{0}|~c Feuerbälle. Jeder kann bis zu |c4{1}|~c zerstören.",
+    "TXT_PW_YELLOW_3": "Feuert |c4{0}|~c Feuerbälle. Jeder kann bis zu |c4{1}|~c zerstören.",
+
+    "TXT_PW_CYAN_0": "Erzeugt einen Kettenblitz, der Murmeln derselben Farbe zerstört.",
+    "TXT_PW_CYAN_1": "Erzeugt einen Kettenblitz, der bis zu |c4{0}|~c Murmeln derselben Farbe zerstört.",
+    "TXT_PW_CYAN_2": "Erzeugt einen Kettenblitz, der bis zu |c4{0}|~c Murmeln derselben Farbe zerstört.",
+    "TXT_PW_CYAN_3": "Erzeugt einen Kettenblitz, der bis zu |c4{0}|~c Murmeln derselben Farbe zerstört.",
+
+    "TXT_PW_PURPLE_0": "Beschwört einen Käfer am Ende des Murmelpfades. Der Käfer läuft vorwärts und zerstört Murmeln.",
+    "TXT_PW_PURPLE_1": "Beschwört einen Käfer am Ende des Pfades. Der Käfer läuft vorwärts und zerstört bis zu |c4{0}|~c Murmeln.",
+    "TXT_PW_PURPLE_2": "Beschwört einen Käfer am Ende des Pfades. Der Käfer läuft vorwärts und zerstört bis zu |c4{0}|~c Murmeln.",
+    "TXT_PW_PURPLE_3": "Beschwört einen Käfer am Ende des Pfades. Der Käfer läuft vorwärts und zerstört bis zu |c4{0}|~c Murmeln.",
+
+    "TXT_PW_SLOW_0": "Verlangsamt die Bewegung der Murmelkette.",
+    "TXT_PW_SLOW_1": "Verlangsamt für |c4{0}|~c Sekunden die Bewegung der Murmelkette.",
+    "TXT_PW_SLOW_2": "Verlangsamt für |c4{0}|~c Sekunden die Bewegung der Murmelkette.",
+    "TXT_PW_SLOW_3": "Verlangsamt für |c4{0}|~c Sekunden die Bewegung der Murmelkette.",
+
+    "TXT_PW_BOMB_0": "Wirft eine Bombe, die explodiert und Murmeln zerstört.",
+    "TXT_PW_BOMB_1": "Wirft eine Bombe, die explodiert und Murmeln im |c4klainen|~c Radius zerstört.",
+    "TXT_PW_BOMB_2": "Wirft eine Bombe, die explodiert und Murmeln im |c4mittleren|~c Radius zerstört.",
+    "TXT_PW_BOMB_3": "Wirft eine Bombe, die explodiert und Murmeln im |c4großen|~c Radius zerstört.",
+
+    "TXT_PW_FREEZE_0": "Friert die Bewegung der Murmelkette ein.",
+    "TXT_PW_FREEZE_1": "Friert für |c4{0}|~c Sekunden die Bewegung der Murmelkette ein.",
+    "TXT_PW_FREEZE_2": "Friert für |c4{0}|~c Sekunden die Bewegung der Murmelkette ein.",
+    "TXT_PW_FREEZE_3": "Friert für |c4{0}|~c Sekunden die Bewegung der Murmelkette ein.",
+
+    "TXT_PW_THROW_0": "Wirft Murmeln im Bogen. So kannst du hintere Reihen erreichen.",
+    "TXT_PW_THROW_1": "Wirft die nächsten |c4{0}|~c Murmeln im Bogen. So kannst du hintere Reihen erreichen.",
+    "TXT_PW_THROW_2": "Wirft die nächsten |c4{0}|~c Murmeln im Bogen. So kannst du hintere Reihen erreichen.",
+    "TXT_PW_THROW_3": "Wirft die nächsten |c4{0}|~c Murmeln im Bogen. So kannst du hintere Reihen erreichen.",
+
+    "TXT_PW_SCORE_0": "Lädt Element-Powerups eine Zeitlang 20 % schneller auf.",
+    "TXT_PW_SCORE_1": "Lädt Element-Powerups für |c4{0}|~c Sekunden 20 % schneller auf.",
+    "TXT_PW_SCORE_2": "Lädt Element-Powerups für |c4{0}|~c Sekunden 20 % schneller auf.",
+    "TXT_PW_SCORE_3": "Lädt Element-Powerups für |c4{0}|~c Sekunden 20 % schneller auf.",
+
+    "TXT_PW_STEEL_0": "Feuert Stahlkugeln, die alle getroffenen Murmeln durchschlagen.",
+    "TXT_PW_STEEL_1": "Feuert |c4{0}|~c Stahlkugel, die alle getroffenen Murmeln durchschlägt.",
+    "TXT_PW_STEEL_2": "Feuert |c4{0}|~c Stahlkugeln, die alle getroffenen Murmeln durchschlagen.",
+    "TXT_PW_STEEL_3": "Feuert |c4{0}|~c Stahlkugeln, die alle getroffenen Murmeln durchschlagen.",
+
+    "TXT_PW_BACK_0": "Gibt der Kette einen Impuls, sich rückwärts zu bewegen.",
+    "TXT_PW_BACK_1": "Gibt der Kette einen |c4schwachen|~c Impuls, sich rückwärts zu bewegen.",
+    "TXT_PW_BACK_2": "Gibt der Kette einen |c4mittleren|~c Impuls, sich rückwärts zu bewegen.",
+    "TXT_PW_BACK_3": "Gibt der Kette einen |c4starken|~c Impuls, sich rückwärts zu bewegen.",
+
+    "TXT_GAME_OVER": "SPIEL BEENDET",
+
+    "TXT_TUTORIAL_POWERUP_0": "Auf diesem Bildschirm kannst du Powerups verwalten.\nPowerups helfen dir, mehr Murmeln zu zerstören und deinen Garten zu beschützen.",
+    "TXT_TUTORIAL_POWERUP_1": "Powerups werden mit Sternen aktiviert. Hier kannst du sehen, wie viele Sterne du hast. Du erhältst für jeden abgeschlossenen Level 1\u5000.",
+    "TXT_TUTORIAL_POWERUP_2": "Powerups können mit 1\u5000 auf ihre erste Stufe aktiviert werden. Dann können Sie für weitere 2\u5000 auf die mittlere Stufe verbessert werden und für 3\u5000 erreichen sie ihre Meisterstufe.\n\nDerzeit sind nicht alle Powerups verfügbar. Sie werden später im Spiel freigeschaltet.",
+    "TXT_TUTORIAL_POWERUP_3": "Element-Powerups sind mit Murmelfarben verbunden. Zerstöre genug Murmeln einer Farbe und du erhältst ein spezielles starkes Projektil.",
+    "TXT_TUTORIAL_POWERUP_4": "Ketten-Powerups erscheinen zufällig auf Murmeln in der Kette. Zerstöre Murmeln mit Powerup-Symbolen darauf, um ihre Kraft zu aktivieren.",
+    "TXT_TUTORIAL_GAME_0": "Tippe in den Kreis, um eine Murmel aus der Rasenmäher-Kanone zu verschießen...",
+    "TXT_TUTORIAL_GAME_1": "... und noch mal.",
+    "TXT_TUTORIAL_GAME_2": "Tippe jetzt auf die Rasenmäher-Kanone, um die aktuelle und die nächste Murmel zu tauschen.",
+    "TXT_TUTORIAL_GAME_3": "Großartig!\n\nJetzt pass auf! Die ersten Murmeln erscheinen.",
+    "TXT_TUTORIAL_MOTOR": "Die Golems sind deine Feinde! Besiege sie, um deinen Garten zu beschützen.\n\nSie sind die Quelle der Murmelbewegung.\n\nSie werden besiegt, wenn alle Murmeln, die sie schieben, zerstört sind oder wenn sie von Murmeln von hinten überrollt werden. Lass nicht zu, dass sie Murmeln ins Endloch schieben.\n\nMurmeln werden zerstört, wenn du mindestens drei der gleichen Farbe kombinierst.",
+    "TXT_TUTORIAL_DESTROY": "Murmeln, die du gerade zerstört hast, haben zum Laden des Powerups beigetragen.\n\nZerstöre mehr Murmeln derselben Farbe, um das Powerup voll zu laden und ein Spezialprojektil zu erhalten.",
+    "TXT_TUTORIAL_STARDUST_0": "Dies ist Sternenstaub. Schieß ihn mit einer Murmel ab, um ihn einzusammeln.\n\nDa er sehr wertvoll ist, ist er nicht immer leicht zu treffen.",
+    "TXT_TUTORIAL_STARDUST_1": "Wenn du genug Sternenstaub einsammelst, bildet er einen zusätzlichen Stern.",
+    "TXT_TUTORIAL_RAINBOW": "Du hast schnell ein paar Kombinationen gebildet und erhältst ein Regenbogengeschoss als Belohnung!\n\nEs kann mit Murmeln verschiedener Farben kombiniert werden.",
+    "TXT_TUTORIAL_CHARGE": "Dein Powerup ist geladen!\n\nSpezialprojektil wird demnächst geladen.",
+    "TXT_TUTORIAL_NEW_POWERUP": "Neues Powerup freigeschaltet!",
+
+    "TXT_CONGRATS": "|b|c4GLÜCKWUNSCH!!!|~c|~b\n\nDu hast alle Level abgeschlossen. Alle bösen Golems sind besiegt und dein Garten ist wieder sicher.\n\nDanke fürs Spielen!"
+  },
+
+  "it": {
+    "TXT_DLG_CREDITS_TITLE": "|bRICONOSCIMENTI|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Codice:\nGrafica:\nMusica ed effetti sonori:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Tutti i diritti riservati.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bASSEGNA LE STELLE|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "Vuoi assegnare |c4{0}|~c\u5000 a questo potenziamento?\n\nQuesta azione non può essere annullata.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bSTELLE INSUFFICIENTI|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Hai bisogno di |c4{0}|~c\u5000 per aggiornare questo potenziamento.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bSCEGLI LA LINGUA|~b",
+
+    "TXT_ELEMENTS_PANEL": "POTENZIAMENTI ELEMENTI",
+    "TXT_CHAIN_PANEL": "POTENZIAMENTI CATENE",
+
+    "TXT_PW_BLUE_0": "Trasforma il colore delle biglie vicine in quello della biglia colpita.",
+    "TXT_PW_BLUE_1": "Trasforma il colore di massimo |c4{0}|~c biglie vicine in quello della biglia colpita.",
+    "TXT_PW_BLUE_2": "Trasforma il colore di massimo |c4{0}|~c biglie vicine in quello della biglia colpita.",
+    "TXT_PW_BLUE_3": "Trasforma il colore di massimo |c4{0}|~c biglie vicine in quello della biglia colpita.",
+
+    "TXT_PW_RED_0": "Evoca una coccinella che vola sul percorso e lancia piccole bombe che distruggono le biglie.",
+    "TXT_PW_RED_1": "Evoca una coccinella che vola sul percorso e, con |c4bassa|~c frequenza, lancia piccole bombe che distruggono le biglie.",
+    "TXT_PW_RED_2": "Evoca una coccinella che vola sul percorso e, con |c4media|~c frequenza, lancia piccole bombe che distruggono le biglie.",
+    "TXT_PW_RED_3": "Evoca una coccinella che vola sul percorso e, con |c4alta|~c frequenza, lancia piccole bombe che distruggono le biglie.",
+
+    "TXT_PW_GREEN_0": "Genera una mitragliatrice che spara una raffica di proiettili.",
+    "TXT_PW_GREEN_1": "Genera una mitragliatrice che spara una raffica di |c4{0}|~c proiettili.",
+    "TXT_PW_GREEN_2": "Genera una mitragliatrice che spara una raffica di |c4{0}|~c proiettili.",
+    "TXT_PW_GREEN_3": "Genera una mitragliatrice che spara una raffica di |c4{0}|~c proiettili.",
+
+    "TXT_PW_YELLOW_0": "Spara una o più palle di fuoco.",
+    "TXT_PW_YELLOW_1": "Spara |c4{0}|~c palla di fuoco che può distruggere fino a |c4{1}|~c biglie.",
+    "TXT_PW_YELLOW_2": "Spara |c4{0}|~c palle di fuoco. Ciascuna di esse può distruggere fino a |c4{1}|~c biglie.",
+    "TXT_PW_YELLOW_3": "Spara |c4{0}|~c palle di fuoco. Ciascuna di esse può distruggere fino a |c4{1}|~c biglie.",
+
+    "TXT_PW_CYAN_0": "Crea fulmini a catena che distruggono biglie dello stesso colore.",
+    "TXT_PW_CYAN_1": "Crea fulmini a catena che distruggono fino a |c4{0}|~c biglie dello stesso colore.",
+    "TXT_PW_CYAN_2": "Crea fulmini a catena che distruggono fino a |c4{0}|~c biglie dello stesso colore.",
+    "TXT_PW_CYAN_3": "Crea fulmini a catena che distruggono fino a |c4{0}|~c biglie dello stesso colore.",
+
+    "TXT_PW_PURPLE_0": "Evoca uno scarabeo alla fine del percorso. L'insetto corre via e distrugge le biglie.",
+    "TXT_PW_PURPLE_1": "Evoca uno scarabeo alla fine del percorso. L'insetto corre via e distrugge fino a |c4{0}|~c biglie.",
+    "TXT_PW_PURPLE_2": "Evoca uno scarabeo alla fine del percorso. L'insetto corre via e distrugge fino a |c4{0}|~c biglie.",
+    "TXT_PW_PURPLE_3": "Evoca uno scarabeo alla fine del percorso. L'insetto corre via e distrugge fino a |c4{0}|~c biglie.",
+
+    "TXT_PW_SLOW_0": "Rallenta il movimento della catena di biglie.",
+    "TXT_PW_SLOW_1": "Rallenta il movimento della catena di biglie per |c4{0}|~c secondi.",
+    "TXT_PW_SLOW_2": "Rallenta il movimento della catena di biglie per |c4{0}|~c secondi.",
+    "TXT_PW_SLOW_3": "Rallenta il movimento della catena di biglie per |c4{0}|~c secondi.",
+
+    "TXT_PW_BOMB_0": "Lancia una bomba che esplode e distrugge le biglie.",
+    "TXT_PW_BOMB_1": "Lancia una bomba che esplode e distrugge le biglie in un raggio |c4ridotto|~c.",
+    "TXT_PW_BOMB_2": "Lancia una bomba che esplode e distrugge le biglie in un raggio |c4medio|~c.",
+    "TXT_PW_BOMB_3": "Lancia una bomba che esplode e distrugge le biglie in un |c4ampio|~c raggio.",
+
+    "TXT_PW_FREEZE_0": "Blocca il movimento della catena di biglie.",
+    "TXT_PW_FREEZE_1": "Blocca il movimento della catena di biglie per |c4{0}|~c secondi.",
+    "TXT_PW_FREEZE_2": "Blocca il movimento della catena di biglie per |c4{0}|~c secondi.",
+    "TXT_PW_FREEZE_3": "Blocca il movimento della catena di biglie per |c4{0}|~c secondi.",
+
+    "TXT_PW_THROW_0": "Lancia delle biglie lontano. Puoi raggiungere le ultime file.",
+    "TXT_PW_THROW_1": "Lancia le |c4{0}|~c biglie successive lontano. Puoi raggiungere le ultime file.",
+    "TXT_PW_THROW_2": "Lancia le |c4{0}|~c biglie successive lontano. Puoi raggiungere le ultime file.",
+    "TXT_PW_THROW_3": "Lancia le |c4{0}|~c biglie successive lontano. Puoi raggiungere le ultime file.",
+
+    "TXT_PW_SCORE_0": "Carica i potenziamenti degli elementi del 20% più velocemente per un tempo limitato.",
+    "TXT_PW_SCORE_1": "Carica i potenziamenti degli elementi del 20% più velocemente per |c4{0}|~c secondi.",
+    "TXT_PW_SCORE_2": "Carica i potenziamenti degli elementi del 20% più velocemente per |c4{0}|~c secondi.",
+    "TXT_PW_SCORE_3": "Carica i potenziamenti degli elementi del 20% più velocemente per |c4{0}|~c secondi.",
+
+    "TXT_PW_STEEL_0": "Spara sfere d'acciaio che attraversano tutte le biglie colpite.",
+    "TXT_PW_STEEL_1": "Spara |c4{0}|~c sfera d'acciaio che attraversano tutte le biglie colpite.",
+    "TXT_PW_STEEL_2": "Spara |c4{0}|~c sfere d'acciaio che attraversano tutte le biglie colpite.",
+    "TXT_PW_STEEL_3": "Spara |c4{0}|~c sfere d'acciaio che attraversano tutte le biglie colpite.",
+
+    "TXT_PW_BACK_0": "Dai una spinta alla catena per farla tornare indietro.",
+    "TXT_PW_BACK_1": "Dai una |c4piccola|~c spinta alla catena per farla tornare indietro.",
+    "TXT_PW_BACK_2": "Dai una spinta |c4normale|~c alla catena per farla tornare indietro.",
+    "TXT_PW_BACK_3": "Dai una |c4forte|~c spinta alla catena per farla tornare indietro.",
+
+    "TXT_GAME_OVER": "GAME OVER",
+
+    "TXT_TUTORIAL_POWERUP_0": "Puoi gestire i potenziamenti in questa schermata.\nI potenziamenti ti aiutano a distruggere più biglie e a proteggere il tuo giardino.",
+    "TXT_TUTORIAL_POWERUP_1": "I potenziamenti si attivano con le stelle. Qui puoi vedere quante stelle hai. Ottieni 1\u5000 per ogni livello completato.",
+    "TXT_TUTORIAL_POWERUP_2": "Un potenziamento può essere attivato al suo livello base con 1\u5000. Quindi può essere portato al livello medio con altre 2\u5000 e con 3\u5000 raggiungerà il suo livello massimo.\n\nPer ora non tutti i potenziamenti sono disponibili. Verranno sbloccati più avanti nel gioco.",
+    "TXT_TUTORIAL_POWERUP_3": "I potenziamenti degli elementi sono legati al colore delle biglie. Distruggere abbastanza biglie di quel colore ti farà ottenere uno speciale proiettile potente.",
+    "TXT_TUTORIAL_POWERUP_4": "I potenziamenti delle catene appaiono casualmente sulle biglie in catena. Distruggi la biglia con l'icona del potenziamento per attivare il suo potere.",
+    "TXT_TUTORIAL_GAME_0": "Tocca all'interno del cerchio per sparare la biglia dal cannone del tosaerba...",
+    "TXT_TUTORIAL_GAME_1": "... e ancora una volta.",
+    "TXT_TUTORIAL_GAME_2": "Ora tocca il cannone del tosaerba per scambiare la biglia attuale con quella successiva.",
+    "TXT_TUTORIAL_GAME_3": "Grande!\n\nOra guarda! Arrivano le prime biglie.",
+    "TXT_TUTORIAL_MOTOR": "I golem sono i tuoi nemici! Sconfiggili per proteggere il tuo giardino.\n\nSono la fonte del movimento delle biglie.\n\nEssi sono sconfitti quando tutte le biglie che spingono vengono distrutte o quando le biglie dietro di essi rotolano su di loro. Non lasciare che spingano le biglie nel buco finale.\n\nLe biglie si distruggono quando ne abbini almeno tre dello stesso colore.",
+    "TXT_TUTORIAL_DESTROY": "Le biglie che hai appena distrutto hanno contribuito alla carica del potenziamento.\n\nDistruggi più biglie dello stesso colore per caricare completamente il potenziamento e ottenere proiettili speciali.",
+    "TXT_TUTORIAL_STARDUST_0": "Questa è polvere di stelle. Colpiscila con le biglie per raccoglierla.\n\nPoiché è piuttosto preziosa, non è sempre facile colpirla.",
+    "TXT_TUTORIAL_STARDUST_1": "Se raccogli abbastanza polvere di stelle, otterrai una stella in più.",
+    "TXT_TUTORIAL_RAINBOW": "Hai appena eseguito diverse combinazioni veloci e come ricompensa ti è stato dato un proiettile arcobaleno!\n\nPuò essere abbinato a biglie di diversi colori.",
+    "TXT_TUTORIAL_CHARGE": "Il tuo potenziamento è carico!\n\nIl proiettile speciale verrà caricato a breve.",
+    "TXT_TUTORIAL_NEW_POWERUP": "Nuovo potenziamento sbloccato!",
+
+    "TXT_CONGRATS": "|b|c4CONGRATULAZIONI!!!|~c|~b\n\nHai completato tutti i livelli. Tutti i golem malvagi sono stati sconfitti e il tuo giardino è di nuovo al sicuro.\n\nGrazie per aver giocato!"
+  },
+
+  "es": {
+    "TXT_DLG_CREDITS_TITLE": "|bCRÉDITOS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Código:\nGráficos:\nMúsica y efectos:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Todos los derechos reservados.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bASIGNAR ESTRELLAS|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "¿Asignar |c4{0}|~c\u5000 a este potenciador?\n\nEl movimiento no se puede anular.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bESTRELLAS INSUFICIENTES|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Necesitas |c4{0}|~c\u5000 para mejorar este potenciador.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bELEGIR IDIOMA|~b",
+
+    "TXT_ELEMENTS_PANEL": "POTENCIADORES DE ELEMENTO",
+    "TXT_CHAIN_PANEL": "POTENCIADORES DE CADENA",
+
+    "TXT_PW_BLUE_0": "Cambia el color de las canicas adyacentes para colorear la golpeada.",
+    "TXT_PW_BLUE_1": "Cambia el color de hasta |c4{0}|~c canicas adyacentes para colorear la golpeada.",
+    "TXT_PW_BLUE_2": "Cambia el color de hasta |c4{0}|~c canicas adyacentes para colorear la golpeada.",
+    "TXT_PW_BLUE_3": "Cambia el color de hasta |c4{0}|~c canicas adyacentes para colorear la golpeada.",
+
+    "TXT_PW_RED_0": "Invoca a la mariquita que vuela por encima del camino y suelta bombas que destruyen canicas.",
+    "TXT_PW_RED_1": "Invoca a la mariquita que vuela por encima del camino y |c4de vez en cuando|~c suelta bombas que destruyen canicas.",
+    "TXT_PW_RED_2": "Invoca a la mariquita que vuela por encima del camino y |c4de manera periódica|~c suelta bombas que destruyen canicas.",
+    "TXT_PW_RED_3": "Invoca a la mariquita que vuela por encima del camino y |c4con frecuencia|~c suelta bombas que destruyen canicas.",
+
+    "TXT_PW_GREEN_0": "Genera una ametralladora que dispara una ráfaga de proyectiles.",
+    "TXT_PW_GREEN_1": "Genera una ametralladora que dispara una ráfaga de |c4{0}|~c proyectiles.",
+    "TXT_PW_GREEN_2": "Genera una ametralladora que dispara una ráfaga de |c4{0}|~c proyectiles.",
+    "TXT_PW_GREEN_3": "Genera una ametralladora que dispara una ráfaga de |c4{0}|~c proyectiles.",
+
+    "TXT_PW_YELLOW_0": "Dispara una o más bolas de fuego.",
+    "TXT_PW_YELLOW_1": "Dispara |c4{0}|~c bola de fuego que puede destruir hasta |c4{1}|~c canicas.",
+    "TXT_PW_YELLOW_2": "Dispara |c4{0}|~c bolas de fuego que pueden destruir hasta |c4{1}|~c canicas cada una.",
+    "TXT_PW_YELLOW_3": "Dispara |c4{0}|~c bolas de fuego que pueden destruir hasta |c4{1}|~c canicas cada una.",
+
+    "TXT_PW_CYAN_0": "Lanza varios rayos en cadena que destruyen canicas del mismo color.",
+    "TXT_PW_CYAN_1": "Lanza varios rayos en cadena que destruyen hasta |c4{0}|~c canicas del mismo color.",
+    "TXT_PW_CYAN_2": "Lanza varios rayos en cadena que destruyen hasta |c4{0}|~c canicas del mismo color.",
+    "TXT_PW_CYAN_3": "Lanza varios rayos en cadena que destruyen hasta |c4{0}|~c canicas del mismo color.",
+
+    "TXT_PW_PURPLE_0": "Invoca al escarabajo al final del camino, que corre como un loco y destruye canicas.",
+    "TXT_PW_PURPLE_1": "Invoca al escarabajo al final del camino, que corre como un loco y destruye hasta |c4{0}|~c canicas.",
+    "TXT_PW_PURPLE_2": "Invoca al escarabajo al final del camino, que corre como un loco y destruye hasta |c4{0}|~c canicas.",
+    "TXT_PW_PURPLE_3": "Invoca al escarabajo al final del camino, que corre como un loco y destruye hasta |c4{0}|~c canicas.",
+
+    "TXT_PW_SLOW_0": "Ralentiza el movimiento de la cadena de canicas.",
+    "TXT_PW_SLOW_1": "Ralentiza el movimiento de la cadena de canicas durante |c4{0}|~c segundos.",
+    "TXT_PW_SLOW_2": "Ralentiza el movimiento de la cadena de canicas durante |c4{0}|~c segundos.",
+    "TXT_PW_SLOW_3": "Ralentiza el movimiento de la cadena de canicas durante |c4{0}|~c segundos.",
+
+    "TXT_PW_BOMB_0": "Lanza una bomba que explota y destruye canicas.",
+    "TXT_PW_BOMB_1": "Lanza una bomba que explota y destruye canicas en un radio |c4pequeño|~c.",
+    "TXT_PW_BOMB_2": "Lanza una bomba que explota y destruye canicas en un radio |c4intermedio|~c.",
+    "TXT_PW_BOMB_3": "Lanza una bomba que explota y destruye canicas en un radio |c4grnde|~c.",
+
+    "TXT_PW_FREEZE_0": "Congela el movimiento de la cadena de canicas.",
+    "TXT_PW_FREEZE_1": "Congela el movimiento de la cadena de canicas durante |c4{0}|~c segundos.",
+    "TXT_PW_FREEZE_2": "Congela el movimiento de la cadena de canicas durante |c4{0}|~c segundos.",
+    "TXT_PW_FREEZE_3": "Congela el movimiento de la cadena de canicas durante |c4{0}|~c segundos.",
+
+    "TXT_PW_THROW_0": "Lanza canicas en arco. Puedes llegar hasta las filas de atrás.",
+    "TXT_PW_THROW_1": "Lanza las siguientes |c4{0}|~c canicas en arco. Puedes llegar hasta las filas de atrás.",
+    "TXT_PW_THROW_2": "Lanza las siguientes |c4{0}|~c canicas en arco. Puedes llegar hasta las filas de atrás.",
+    "TXT_PW_THROW_3": "Lanza las siguientes |c4{0}|~c canicas en arco. Puedes llegar hasta las filas de atrás.",
+
+    "TXT_PW_SCORE_0": "Carga los potenciadores de elemento un 20 % más rápido durante un tiempo limitado.",
+    "TXT_PW_SCORE_1": "Carga los potenciadores de elemento un 20 % más rápido durante |c4{0}|~c segundos.",
+    "TXT_PW_SCORE_2": "Carga los potenciadores de elemento un 20 % más rápido durante |c4{0}|~c segundos.",
+    "TXT_PW_SCORE_3": "Carga los potenciadores de elemento un 20 % más rápido durante |c4{0}|~c segundos.",
+
+    "TXT_PW_STEEL_0": "Dispara bolas de acero que atraviesan todas las canicas golpeadas.",
+    "TXT_PW_STEEL_1": "Dispara |c4{0}|~c bola de acero que atraviesan todas las canicas golpeadas.",
+    "TXT_PW_STEEL_2": "Dispara |c4{0}|~c bolas de acero que atraviesan todas las canicas golpeadas.",
+    "TXT_PW_STEEL_3": "Dispara |c4{0}|~c bolas de acero que atraviesan todas las canicas golpeadas.",
+
+    "TXT_PW_BACK_0": "Da impulso a la cadena para que retroceda.",
+    "TXT_PW_BACK_1": "Da un impulso |c4suave|~c a la cadena para que retroceda.",
+    "TXT_PW_BACK_2": "Da un impulso |c4intermedio|~c a la cadena para que retroceda.",
+    "TXT_PW_BACK_3": "Da un impulso |c4fuerte|~c a la cadena para que retroceda.",
+
+    "TXT_GAME_OVER": "FIN DEL JUEGO",
+
+    "TXT_TUTORIAL_POWERUP_0": "En esta pantalla puedes gestionar los potenciadores.\nLos potenciadores te ayudan a destruir más canicas y proteger tu jardín.",
+    "TXT_TUTORIAL_POWERUP_1": "Los potenciadores se activan con estrellas. Aquí puedes ver las estrellas que tienes. Obtienes 1\u5000 cada vez que completas un nivel.",
+    "TXT_TUTORIAL_POWERUP_2": "Puedes activar un potenciador en su nivel básico a cambio de 1\u5000. Para activarlo en su nivel intermedio, necesitarás 2\u5000 más, o 3\u5000 más para su nivel superior.\n\nAhora mismo, no están disponibles todos los potenciadores. Algunos se desbloquearán según avances en el juego.",
+    "TXT_TUTORIAL_POWERUP_3": "Los potenciadores de elemento están vinculados al color de las canicas. Destruye suficientes canicas de ese color para obtener proyectiles especiales de gran potencia.",
+    "TXT_TUTORIAL_POWERUP_4": "Los potenciadores de canica aparecen al azar sobre las canicas en cadena. Destruye una canica con el icono del potenciador para activar su poder.",
+    "TXT_TUTORIAL_GAME_0": "Toca dentro del círculo para disparar una canica desde el cañón del cortacésped...",
+    "TXT_TUTORIAL_GAME_1": "... otra vez.",
+    "TXT_TUTORIAL_GAME_2": "Ahora, toca el cañón del cortacésped para intercambiar la canica actual con la siguiente.",
+    "TXT_TUTORIAL_GAME_3": "¡Genial!\n\n¡Ahora mira! Llegan las primeras canicas.",
+    "TXT_TUTORIAL_MOTOR": "¡Los gólems son tus enemigos! Derrótalos y protege tu jardín.\n\nSon el origen del movimiento de las canicas.\n\nPara derrotarlos, tienes que destruir todas las canicas que empujan o lograr que canicas que tengan detrás les pasen por encima. No dejes que empujen las canicas al orificio del final.\n\nPara destruir canicas, combina al menos tres del mismo color.",
+    "TXT_TUTORIAL_DESTROY": "Las canicas que acabas de destruir han ayudado a que el potenciador se cargue parcialmente.\n\nDestruye más canicas del mismo color para que se cargue del todo y conseguir un proyectil especial.",
+    "TXT_TUTORIAL_STARDUST_0": "Esto es polvo de estrellas. Golpéalo con una canica para recogerlo.\n\nEs muy valioso, por lo que no siempre es fácil darle.",
+    "TXT_TUTORIAL_STARDUST_1": "Si recoges suficiente polvo de estrellas, se formará una estrella adicional.",
+    "TXT_TUTORIAL_RAINBOW": "Acabas de realizar varias combinaciones seguidas y, como recompensa, ¡aquí tienes un proyectil de arcoíris!\n\nPuedes combinarlo con canicas de distintos colores.",
+    "TXT_TUTORIAL_CHARGE": "¡El potenciador se ha cargado!\n\nEl proyectil especial se cargará dentro de poco.",
+    "TXT_TUTORIAL_NEW_POWERUP": "¡Se ha desbloqueado un nuevo potenciador!",
+
+    "TXT_CONGRATS": "|b|c4¡¡¡ENHORABUENA!!!|~c|~b\n\nHas completado todos los niveles. Has derrotado a todos los malvados gólems y tu jardín vuelve a estar a salvo.\n\n¡Gracias por jugar!"
+  },
+
+  "pt": {
+    "TXT_DLG_CREDITS_TITLE": "|bCRÉDITOS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Código:\nGráficos:\nMúsica e efeitos:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Todos os direitos reservados.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bALOCAR ESTRELAS|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "Alocar |c4{0}|~c\u5000 para este power-up?\n\nIsso não pode ser desfeito.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bESTRELAS INSUFICIENTES|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Você precisa de |c4{0}|~c\u5000 para atualizar este power-up.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bESCOLHER O IDIOMA|~b",
+
+    "TXT_ELEMENTS_PANEL": "POWER-UPS DE ELEMENTO",
+    "TXT_CHAIN_PANEL": "POWER-UPS DE CORRENTE",
+
+    "TXT_PW_BLUE_0": "Recolore as bolas de gude vizinhas para a cor da bola atingida.",
+    "TXT_PW_BLUE_1": "Recolore até |c4{0}|~c bolas de gude vizinhas para a cor da bola atingida.",
+    "TXT_PW_BLUE_2": "Recolore até |c4{0}|~c bolas de gude vizinhas para a cor da bola atingida.",
+    "TXT_PW_BLUE_3": "Recolore até |c4{0}|~c bolas de gude vizinhas para a cor da bola atingida.",
+
+    "TXT_PW_RED_0": "Invoca a joaninha que voa acima do caminho e solta pequenas bombas destruindo mármores.",
+    "TXT_PW_RED_1": "Invoca a joaninha que voa acima do caminho e em |c4baixas|~c frequências solta pequenas bombas destruindo bolas de gude.",
+    "TXT_PW_RED_2": "Invoca a joaninha que voa acima do caminho e na frequência |c4média|~c solta pequenas bombas destruindo bolas de gude.",
+    "TXT_PW_RED_3": "Invoca a joaninha que voa acima do caminho e em |c4alta|~c frequência solta pequenas bombas destruindo bolas de gude.",
+
+    "TXT_PW_GREEN_0": "Traz metralhadora que dispara uma rajada de projéteis.",
+    "TXT_PW_GREEN_1": "Traz metralhadora que dispara uma rajada de |c4{0}|~c projéteis.",
+    "TXT_PW_GREEN_2": "Traz metralhadora que dispara uma rajada de |c4{0}|~c projéteis.",
+    "TXT_PW_GREEN_3": "Traz metralhadora que dispara uma rajada de |c4{0}|~c projéteis.",
+
+    "TXT_PW_YELLOW_0": "Dispara uma ou mais bolas de fogo.",
+    "TXT_PW_YELLOW_1": "Dispara |c4{0}|~c bola de fogo que pode destruir até |c4{1}|~c bolas de gude.",
+    "TXT_PW_YELLOW_2": "Dispara |c4{0}|~c bolas de fogo. Cada um pode destruir até |c4{1}|~c bolas de gude.",
+    "TXT_PW_YELLOW_3": "Dispara |c4{0}|~c bolas de fogo. Cada um pode destruir até |c4{1}|~c bolas de gude.",
+
+    "TXT_PW_CYAN_0": "Cria uma cadeia de relâmpagos, destruindo bolas de gude da mesma cor.",
+    "TXT_PW_CYAN_1": "Cria uma cadeia de relâmpagos, destruindo até |c4{0}|~c bolas de gude da mesma cor.",
+    "TXT_PW_CYAN_2": "Cria uma cadeia de relâmpagos, destruindo até |c4{0}|~c bolas de gude da mesma cor.",
+    "TXT_PW_CYAN_3": "Cria uma cadeia de relâmpagos, destruindo até |c4{0}|~c bolas de gude da mesma cor.",
+
+    "TXT_PW_PURPLE_0": "Invoca o besouro no final do caminho. O besouro corre e destrói bolas de gude.",
+    "TXT_PW_PURPLE_1": "Invoca o besouro no final do caminho. O besouro corre e destrói até |c4{0}|~c bolas de gude",
+    "TXT_PW_PURPLE_2": "Invoca o besouro no final do caminho. O besouro corre e destrói até |c4{0}|~c bolas de gude",
+    "TXT_PW_PURPLE_3": "Invoca o besouro no final do caminho. O besouro corre e destrói até |c4{0}|~c bolas de gude",
+
+    "TXT_PW_SLOW_0": "Diminui o movimento da corrente de bolas de gude.",
+    "TXT_PW_SLOW_1": "Diminui o movimento da corrente de bolas de gude por |c4{0}|~c segundos.",
+    "TXT_PW_SLOW_2": "Diminui o movimento da corrente de bolas de gude por |c4{0}|~c segundos.",
+    "TXT_PW_SLOW_3": "Diminui o movimento da corrente de bolas de gude por |c4{0}|~c segundos.",
+
+    "TXT_PW_BOMB_0": "Atira bomba que explode e destrói bolas de gude.",
+    "TXT_PW_BOMB_1": "Atira bomba que explode e destrói bolas de gude num |c4pequeno|~c raio.",
+    "TXT_PW_BOMB_2": "Atira bomba que explode e destrói bolas de gude num raio de tamanho |c4médio|~c.",
+    "TXT_PW_BOMB_3": "Atira bomba que explode e destrói bolas de gude num |c4grande|~c raio.",
+
+    "TXT_PW_FREEZE_0": "Congela o movimento da corrente de bolas de gude.",
+    "TXT_PW_FREEZE_1": "Congela o movimento da corrente de bolas de gude por |c4{0}|~c segundos.",
+    "TXT_PW_FREEZE_2": "Congela o movimento da corrente de bolas de gude por |c4{0}|~c segundos.",
+    "TXT_PW_FREEZE_3": "Congela o movimento da corrente de bolas de gude por |c4{0}|~c segundos.",
+
+    "TXT_PW_THROW_0": "Atira bolas de gude em arco. Você pode alcançar as filas traseiras.",
+    "TXT_PW_THROW_1": "Atira as próximas |c4{0}|~c bolas de gude em arco. Você pode alcançar as filas traseiras.",
+    "TXT_PW_THROW_2": "Atira as próximas |c4{0}|~c bolas de gude em arco. Você pode alcançar as filas traseiras.",
+    "TXT_PW_THROW_3": "Atira as próximas |c4{0}|~c bolas de gude em arco. Você pode alcançar as filas traseiras.",
+
+    "TXT_PW_SCORE_0": "Carrega power-ups de elemento 20% mais rápido por tempo limitado.",
+    "TXT_PW_SCORE_1": "Carrega power-ups de elemento 20% mais rápido por |c4{0}|~c segundos.",
+    "TXT_PW_SCORE_2": "Carrega power-ups de elemento 20% mais rápido por |c4{0}|~c segundos.",
+    "TXT_PW_SCORE_3": "Carrega power-ups de elemento 20% mais rápido por |c4{0}|~c segundos.",
+
+    "TXT_PW_STEEL_0": "Dispara bolas de aço que passam por todas as bolas de gude atingidas.",
+    "TXT_PW_STEEL_1": "Dispara |c4{0}|~c bola de aço que passa por todas as bolas de gude atingidas.",
+    "TXT_PW_STEEL_2": "Dispara |c4{0}|~c bolas de aço que passam por todas as bolas de gude atingidas.",
+    "TXT_PW_STEEL_3": "Dispara |c4{0}|~c bolas de aço que passam por todas as bolas de gude atingidas.",
+
+    "TXT_PW_BACK_0": "Dá um impulso à corrente para recuar.",
+    "TXT_PW_BACK_1": "Dá impulso |c4fraco|~c à corrente para recuar.",
+    "TXT_PW_BACK_2": "Dá impulso |c4médio|~c à corrente para recuar.",
+    "TXT_PW_BACK_3": "Dá um |c4forte|~c impulso à corrente para recuar.",
+
+    "TXT_GAME_OVER": "FIM DO JOGO",
+
+    "TXT_TUTORIAL_POWERUP_0": "Você pode gerenciar os power-ups nesta tela.\nOs power-ups ajudam você a destruir mais bolinhas de gude e proteger seu jardim.",
+    "TXT_TUTORIAL_POWERUP_1": "Os power-ups são ativados por estrelas. Aqui você pode ver quantas estrelas tem. Você recebe 1\u5000 para cada nível concluído.",
+    "TXT_TUTORIAL_POWERUP_2": "O power-up pode ser ativado para o seu nível básico por 1\u5000. Em seguida, pode ser atualizado para o nível médio por outras 2\u5000 e por 3\u5000 atingirá seu nível mestre.\n\nNem todos os power-ups estão disponíveis no momento. Eles serão desbloqueados mais tarde no jogo.",
+    "TXT_TUTORIAL_POWERUP_3": "Os power-ups de elemento estão vinculados à cor das bolas de good. Destruir bolas de gude dessa cor lhe dará um projétil poderoso e especial.",
+    "TXT_TUTORIAL_POWERUP_4": "Os power-ups de corrente aparecem aleatoriamente em bolas de gude em cadeia. Destrua a bola de gude com o ícone de inicialização para ativar seu poder.",
+    "TXT_TUTORIAL_GAME_0": "Toque dentro do círculo para atirar a bola de gude do canhão cortador de grama...",
+    "TXT_TUTORIAL_GAME_1": "... e mais uma vez.",
+    "TXT_TUTORIAL_GAME_2": "Agora, toque no canhão do cortador de grama para trocar a corrente e a próximo bola de gude.",
+    "TXT_TUTORIAL_GAME_3": "Fantástico!\n\nAgora veja! As primeiras bolas de gude estão chegando.",
+    "TXT_TUTORIAL_MOTOR": "Golems são seus inimigos! Derrote-os para proteger seu jardim.\n\nEles são a fonte de movimento de bolas de gude.\n\nEles são derrotados quando todas as bolas de gude que empurram são destruídas ou quando as bolas de gude rolam sobre eles. Não os deixe empurrar bolas de gude para o buraco final.\n\nAs bolas de gude são destruídas quando você combina pelo menos três delas com a mesma cor.",
+    "TXT_TUTORIAL_DESTROY": "As bolas de gude que você acabou de destruir contribuíram para o power-up.\n\nDestrua mais bolas de gude da mesma cor para carregar totalmente o power-up e ganhar um projétil especial.",
+    "TXT_TUTORIAL_STARDUST_0": "Isso é poeira estelar. Atire com a bola de gude para pegá-la.\n\nComo é muito valiosa, nem sempre é fácil mirar nela.",
+    "TXT_TUTORIAL_STARDUST_1": "Se você pegar poeira estelar suficiente, ela formará uma estrela extra.",
+    "TXT_TUTORIAL_RAINBOW": "Você acabou de realizar várias partidas rápidas e, como recompensa, recebe um projétil de arco-íris!\n\nPode combinar com bolas de diferentes cores.",
+    "TXT_TUTORIAL_CHARGE": "Seu power-up está carregado!\n\nO projétil especial será carregado em breve.",
+    "TXT_TUTORIAL_NEW_POWERUP": "O novo power-up foi desbloqueado!",
+
+    "TXT_CONGRATS": "|b|c4PARABÉNS!!!|~c|~b\n\nVocê concluiu todos os níveis com sucesso. Todos os golens malignos foram derrotados e seu jardim está seguro novamente.\n\nObrigado por jogar!"
+  },
+
+  "fr": {
+    "TXT_DLG_CREDITS_TITLE": "|bCRÉDITS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Code:\nGraphismes:\nMusique & Effets:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Tous droits réservés.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bAFFECTER ÉTOILES|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "Affecter |c4{0}|~c\u5000 à ce bonus ?\n\nCela ne peut pas être annulé.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bPAS ASSEZ D'ÉTOILES|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Vous avez besoin de |c4{0}|~c\u5000 pour améliorer ce bonus.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bCHOISIR LANGUE|~b",
+
+    "TXT_ELEMENTS_PANEL": "BONUS ÉLÉMENT",
+    "TXT_CHAIN_PANEL": "BONUS CHAÎNES",
+
+    "TXT_PW_BLUE_0": "Recolore les billes voisines de la couleur de celle touchée.",
+    "TXT_PW_BLUE_1": "Recolore jusqu'à |c4{0}|~c billes voisines de la couleur de celle touchée.",
+    "TXT_PW_BLUE_2": "Recolore jusqu'à |c4{0}|~c billes voisines de la couleur de celle touchée.",
+    "TXT_PW_BLUE_3": "Recolore jusqu'à |c4{0}|~c billes voisines de la couleur de celle touchée.",
+
+    "TXT_PW_RED_0": "Invoque une coccinelle qui vole au-dessus du chemin et largue de petites bombes qui détruisent les billes.",
+    "TXT_PW_RED_1": "Invoque une coccinelle qui vole au-dessus du chemin et à |c4faible|~c fréquence largue de petites bombes qui détruisent les billes.",
+    "TXT_PW_RED_2": "Invoque une coccinelle qui vole au-dessus du chemin et à |c4moyenne|~c fréquence largue de petites bombes qui détruisent les billes.",
+    "TXT_PW_RED_3": "Invoque une coccinelle qui vole au-dessus du chemin et à |c4haute|~c fréquence largue de petites bombes qui détruisent les billes.",
+
+    "TXT_PW_GREEN_0": "Apporte une mitrailleuse qui tire un éventail de projectiles directs.",
+    "TXT_PW_GREEN_1": "Apporte une mitrailleuse qui tire un éventail de |c4{0}|~c projectiles directs.",
+    "TXT_PW_GREEN_2": "Apporte une mitrailleuse qui tire un éventail de |c4{0}|~c projectiles directs.",
+    "TXT_PW_GREEN_3": "Apporte une mitrailleuse qui tire un éventail de |c4{0}|~c projectiles directs.",
+
+    "TXT_PW_YELLOW_0": "Tire une ou plusieurs boules de feu.",
+    "TXT_PW_YELLOW_1": "Tire |c4{0}|~c boule de feu pouvant détruire jusqu'à |c4{1}|~c billes.",
+    "TXT_PW_YELLOW_2": "Tire |c4{0}|~c boules de feu. Chacune peut détruire jusqu'à |c4{1}|~c billes.",
+    "TXT_PW_YELLOW_3": "Tire |c4{0}|~c boules de feu. Chacune peut détruire jusqu'à |c4{1}|~c billes.",
+
+    "TXT_PW_CYAN_0": "Crée des éclairs en chaîne qui détruisent les billes de la même couleur.",
+    "TXT_PW_CYAN_1": "Crée des éclairs en chaîne qui détruisent jusqu'à |c4{0}|~c billes de la même couleur.",
+    "TXT_PW_CYAN_2": "Crée des éclairs en chaîne qui détruisent jusqu'à |c4{0}|~c billes de la même couleur.",
+    "TXT_PW_CYAN_3": "Crée des éclairs en chaîne qui détruisent jusqu'à |c4{0}|~c billes de la même couleur.",
+
+    "TXT_PW_PURPLE_0": "Invoque un scarabée au bout du chemin. Le scarabée court et détruit les billes.",
+    "TXT_PW_PURPLE_1": "Invoque un scarabée au bout du chemin. Le scarabée court et détruit jusqu'à |c4{0}|~c billes.",
+    "TXT_PW_PURPLE_2": "Invoque un scarabée au bout du chemin. Le scarabée court et détruit jusqu'à |c4{0}|~c billes.",
+    "TXT_PW_PURPLE_3": "Invoque un scarabée au bout du chemin. Le scarabée court et détruit jusqu'à |c4{0}|~c billes.",
+
+    "TXT_PW_SLOW_0": "Ralentit le mouvement de la chaîne de billes.",
+    "TXT_PW_SLOW_1": "Ralentit le mouvement de la chaîne de billes pendant |c4{0}|~c secondes.",
+    "TXT_PW_SLOW_2": "Ralentit le mouvement de la chaîne de billes pendant |c4{0}|~c secondes.",
+    "TXT_PW_SLOW_3": "Ralentit le mouvement de la chaîne de billes pendant |c4{0}|~c secondes.",
+
+    "TXT_PW_BOMB_0": "Lance une bombe qui explose et détruit les billes.",
+    "TXT_PW_BOMB_1": "Lance une bombe qui explose et détruit les billes dans un |c4petit|~c rayon.",
+    "TXT_PW_BOMB_2": "Lance une bombe qui explose et détruit les billes dans un rayon |c4moyen|~c.",
+    "TXT_PW_BOMB_3": "Lance une bombe qui explose et détruit les billes dans un |c4grand|~c rayon.",
+
+    "TXT_PW_FREEZE_0": "Gèle le mouvement de la chaîne de billes.",
+    "TXT_PW_FREEZE_1": "Gèle le mouvement de la chaîne de billes pendant |c4{0}|~c secondes.",
+    "TXT_PW_FREEZE_2": "Gèle le mouvement de la chaîne de billes pendant |c4{0}|~c secondes.",
+    "TXT_PW_FREEZE_3": "Gèle le mouvement de la chaîne de billes pendant |c4{0}|~c secondes.",
+
+    "TXT_PW_THROW_0": "Lance des billes en arc de cercle. Vous pouvez atteindre les dernières rangées.",
+    "TXT_PW_THROW_1": "Lance les |c4{0}|~c billes suivantes en arc de cercle. Vous pouvez atteindre les dernières rangées.",
+    "TXT_PW_THROW_2": "Lance les |c4{0}|~c billes suivantes en arc de cercle. Vous pouvez atteindre les dernières rangées.",
+    "TXT_PW_THROW_3": "Lance les |c4{0}|~c billes suivantes en arc de cercle. Vous pouvez atteindre les dernières rangées.",
+
+    "TXT_PW_SCORE_0": "Charge les Bonus élément 20 % plus rapidement pendant un temps limité.",
+    "TXT_PW_SCORE_1": "Charge les Bonus élément 20 % plus rapidement pendant |c4{0}|~c secondes.",
+    "TXT_PW_SCORE_2": "Charge les Bonus élément 20 % plus rapidement pendant |c4{0}|~c secondes.",
+    "TXT_PW_SCORE_3": "Charge les Bonus élément 20 % plus rapidement pendant |c4{0}|~c secondes.",
+
+    "TXT_PW_STEEL_0": "Tire des boules d'acier qui traversent toutes les billes frappées.",
+    "TXT_PW_STEEL_1": "Tire |c4{0}|~c boule d'acier qui traverse toutes les billes frappées.",
+    "TXT_PW_STEEL_2": "Tire |c4{0}|~c boules d'acier qui traversent toutes les billes frappées.",
+    "TXT_PW_STEEL_3": "Tire |c4{0}|~c boules d'acier qui traversent toutes les billes frappées.",
+
+    "TXT_PW_BACK_0": "Donne une impulsion à la chaîne pour reculer.",
+    "TXT_PW_BACK_1": "Donne une |c4faible|~c impulsion à la chaîne pour reculer.",
+    "TXT_PW_BACK_2": "Donne une |c4moyenne|~c impulsion à la chaîne pour reculer.",
+    "TXT_PW_BACK_3": "Donne une |c4forte|~c impulsion à la chaîne pour reculer.",
+
+    "TXT_GAME_OVER": "PARTIE TERMINÉE",
+
+    "TXT_TUTORIAL_POWERUP_0": "Vous pouvez gérer les bonus sur cet écran.\nLes bonus vous aident à détruire plus de billes et à protéger votre jardin.",
+    "TXT_TUTORIAL_POWERUP_1": "Les bonus sont activés avec les étoiles. Ici vous pouvez voir combien d'étoiles vous avez. Vous obtenez 1\u5000 pour chaque niveau terminé.",
+    "TXT_TUTORIAL_POWERUP_2": "Les bonus peuvent être activés à leur niveau de base pour 1\u5000. Ensuite, ils peuvent être améliorés au niveau moyen pour 2\u5000 supplémentaires ; pour 3\u5000, ils atteindront leur niveau maximum.\n\nLes bonus ne sont pas tous disponibles pour le moment. Ils seront déverrouillés plus tard dans le jeu.",
+    "TXT_TUTORIAL_POWERUP_3": "Les Bonus élément sont liés à la couleur des billes. Détruire suffisamment de billes de cette couleur vous donnera un puissant projectile spécial.",
+    "TXT_TUTORIAL_POWERUP_4": "Les Bonus chaînes apparaissent au hasard sur les billes en chaîne. Détruisez la bille avec l'icône du bonus pour activer son pouvoir.",
+    "TXT_TUTORIAL_GAME_0": "Touchez à l'intérieur du cercle pour tirer une bille avec le canon de la tondeuse à gazon...",
+    "TXT_TUTORIAL_GAME_1": "... et encore une fois.",
+    "TXT_TUTORIAL_GAME_2": "Maintenant, touchez le canon de la tondeuse à gazon pour permuter la bille actuelle et la suivante.",
+    "TXT_TUTORIAL_GAME_3": "Super!\n\nMaintenant regardez ! Les premières billes arrivent.",
+    "TXT_TUTORIAL_MOTOR": "Les golems sont vos ennemis! Battez-les pour protéger votre jardin.\n\nIls sont à l'origine du mouvement des billes.\n\nIls sont vaincus lorsque toutes les billes qu'ils poussent sont détruites ou lorsque les billes derrière roulent sur eux. Ne les laissez pas pousser des billes dans le trou final.\n\nLes billes sont détruites lorsque vous en combinez au moins trois de la même couleur.",
+    "TXT_TUTORIAL_DESTROY": "Les billes que vous venez de détruire ont contribué au chargement du bonus.\n\nDétruisez plus de billes de la même couleur pour charger complètement le bonus et gagner un projectile spécial.",
+    "TXT_TUTORIAL_STARDUST_0": "C'est de la poussière d'étoile. Tirez dessus avec une bille pour la collecter.\n\nComme c'est assez précieux, il n'est pas toujours facile de la viser.",
+    "TXT_TUTORIAL_STARDUST_1": "Si vous collectez suffisamment de poussière d'étoile, cela formera une étoile supplémentaire.",
+    "TXT_TUTORIAL_RAINBOW": "Vous venez d'effectuer plusieurs combinaisons rapides et en récompense, vous recevez un projectile arc-en-ciel!\n\nIl peut être combiné à des billes de différentes couleurs.",
+    "TXT_TUTORIAL_CHARGE": "Votre bonus est chargé!\n\nLe projectile spécial sera chargé sous peu.",
+    "TXT_TUTORIAL_NEW_POWERUP": "Un nouveau bonus a été déverrouillé!",
+
+    "TXT_CONGRATS": "|b|c4FÉLICITATIONS!!!|~c|~b\n\nVous avez terminé avec succès tous les niveaux. Tous les golems maléfiques ont été vaincus et votre jardin est à nouveau en sécurité.\n\nMerci d'avoir joué!"
+  },
+
+  "tr": {
+    "TXT_DLG_CREDITS_TITLE": "TR:|bCREDITS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "TR:Code:\nGFX:\nMusic & SFX:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "TR:Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "TR:(C) 2021 SBC Games. All rights reserved.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "TR:|bALLOCATE STARS|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "TR:Allocate |c4{0}|~c\u5000 into this powerup?\n\nThis can't be undone.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "TR:|bNOT ENOUGH STARS|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "TR:You need |c4{0}|~c\u5000 to upgrade this powerup.",
+    "TXT_DLG_LANGUAGES_TITLE": "TR:|bCHOOSE LANGUAGE|~b",
+
+    "TXT_ELEMENTS_PANEL": "TR:ELEMENT POWERUPS",
+    "TXT_CHAIN_PANEL": "TR:CHAIN POWERUPS",
+
+    "TXT_PW_BLUE_0": "TR:Recolor neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_1": "TR:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_2": "TR:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_3": "TR:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+
+    "TXT_PW_RED_0": "TR:Summon ladybug that flies above path and drops small bombs destroying marbles.",
+    "TXT_PW_RED_1": "TR:Summon ladybug that flies above path and in |c4low|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_2": "TR:Summon ladybug that flies above path and in |c4mid|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_3": "TR:Summon ladybug that flies above path and in |c4high|~c frequency drops small bombs destroying marbles.",
+
+    "TXT_PW_GREEN_0": "TR:Brings machine gun that fires a fan of direct projectiles.",
+    "TXT_PW_GREEN_1": "TR:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_2": "TR:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_3": "TR:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+
+    "TXT_PW_YELLOW_0": "TR:Fire one or more fireballs.",
+    "TXT_PW_YELLOW_1": "TR:Fire |c4{0}|~c fireball which can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_2": "TR:Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_3": "TR:Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+
+    "TXT_PW_CYAN_0": "TR:Create chain lightning destroying marbles of the same color.",
+    "TXT_PW_CYAN_1": "TR:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_2": "TR:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_3": "TR:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+
+    "TXT_PW_PURPLE_0": "TR:Summon beetle at the end of the path. Beetle runs along and destroys marbles.",
+    "TXT_PW_PURPLE_1": "TR:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_2": "TR:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_3": "TR:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+
+    "TXT_PW_SLOW_0": "TR:Slow movement of marbles chain.",
+    "TXT_PW_SLOW_1": "TR:Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_2": "TR:Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_3": "TR:Slow movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_BOMB_0": "TR:Throw bomb that explodes and destroys marbles.",
+    "TXT_PW_BOMB_1": "TR:Throw bomb that explodes and destroys marbles in |c4small|~c radius.",
+    "TXT_PW_BOMB_2": "TR:Throw bomb that explodes and destroys marbles in |c4mid-range|~c radius.",
+    "TXT_PW_BOMB_3": "TR:Throw bomb that explodes and destroys marbles in |c4large|~c radius.",
+
+    "TXT_PW_FREEZE_0": "TR:Freeze movement of marbles chain.",
+    "TXT_PW_FREEZE_1": "TR:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_2": "TR:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_3": "TR:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_THROW_0": "TR:Throw marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_1": "TR:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_2": "TR:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_3": "TR:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+
+    "TXT_PW_SCORE_0": "TR:Charge element powerups 20% faster for limited time.",
+    "TXT_PW_SCORE_1": "TR:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_2": "TR:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_3": "TR:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+
+    "TXT_PW_STEEL_0": "TR:Fire balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_1": "TR:Fire |c4{0}|~c ball of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_2": "TR:Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_3": "TR:Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+
+    "TXT_PW_BACK_0": "TR:Give an impulse to chain to move back.",
+    "TXT_PW_BACK_1": "TR:Give |c4weak|~c impulse to chain to move back.",
+    "TXT_PW_BACK_2": "TR:Give |c4medium|~c impulse to chain to move back.",
+    "TXT_PW_BACK_3": "TR:Give |c4strong|~c impulse to chain to move back.",
+
+    "TXT_GAME_OVER": "TR:GAME OVER",
+
+    "TXT_TUTORIAL_POWERUP_0": "TR:You can manage powerups on this screen.\nPowerups help you to destroy more marbles and protect your garden.",
+    "TXT_TUTORIAL_POWERUP_1": "TR:Powerups are activated for stars. Here you can see how many stars you have. You get 1\u5000 for every completed level.",
+    "TXT_TUTORIAL_POWERUP_2": "TR:Powerup can be activated to its basic level for 1\u5000. Then it can be upgraded to mid-level for another 2\u5000 and for 3\u5000 it will reach its master level.\n\nNot all powerups are available for now. They will get unlocked later in game.",
+    "TXT_TUTORIAL_POWERUP_3": "TR:Element powerups are bound to marbles color. Destroying enough marbles of that color will give you special powerful projectile.",
+    "TXT_TUTORIAL_POWERUP_4": "TR:Chain powerups appear randomly on marbles in chain. Destroy marble with powerup icon on it to activate its power.",
+    "TXT_TUTORIAL_GAME_0": "TR:Tap inside the circle to shoot marble from lawn mower cannon...",
+    "TXT_TUTORIAL_GAME_1": "TR:... and once more.",
+    "TXT_TUTORIAL_GAME_2": "TR:Now, tap on lawn mower cannon to swap current and next marble.",
+    "TXT_TUTORIAL_GAME_3": "TR:Great!\n\nNow watch! First marbles are coming.",
+    "TXT_TUTORIAL_MOTOR": "TR:Golems are your enemies! Defeat them to protect your garden.\n\nThey are source of marbles movement.\n\nThey are defeated when all marbles they push are destroyed or when marbles behind roll over them. Don't let them to push marbles into the end hole.\n\nMarbles get destroyed when you match at least three of them with the same color.",
+    "TXT_TUTORIAL_DESTROY": "TR:Marbles you just destroyed contributed to powerup charging.\n\nDestroy more marbles of the same color to fully charge powerup and gain special projectile.",
+    "TXT_TUTORIAL_STARDUST_0": "TR:This is stardust. Shoot it with marble to pick it up.\n\nAs it is pretty valuable, it is not always easy to aim at it.",
+    "TXT_TUTORIAL_STARDUST_1": "TR:If you pick enough stardust up it will form extra star.",
+    "TXT_TUTORIAL_RAINBOW": "TR:You just performed several fast matches and as a reward you are given rainbow projectile!\n\nIt can match with marbles of different colors.",
+    "TXT_TUTORIAL_CHARGE": "TR:Your powerup is charged!\n\nSpecial projectile will get loaded shortly.",
+    "TXT_TUTORIAL_NEW_POWERUP": "TR:New powerup has been unlocked!",
+
+    "TXT_CONGRATS": "TR:|b|c4CONGRATULATIONS!!!|~c|~b\n\nYou successfully finished all levels. All evil golems were defeated and your garden is safe again.\n\nThanks for playing!"
+  },
+
+  "ru": {
+    "TXT_DLG_CREDITS_TITLE": "|bРАЗРАБОТЧИКИ|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Код:\nGFX:\nМузыка и спецэффекты:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Томаш Рихновский\nПетр \"ЮПиТер\" Вишек\nЮрай Ружичка",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Все права защищены.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bИСПОЛЬЗОВАТЬ ЗВЕЗДЫ|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "Использовать |c4{0}|~c\u5000 для этого усиления?\n\nЭто нельзя отменить.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bНЕДОСТАТОЧНО ЗВЕЗД|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Вам нужно |c4{0}|~c\u5000, чтобы обновить это усиление.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bВЫБЕРИТЕ ЯЗЫК|~b",
+
+    "TXT_ELEMENTS_PANEL": "ЭЛЕМЕНТЫ УСИЛЕНИЯ",
+    "TXT_CHAIN_PANEL": "ЦЕПНЫЕ УСИЛЕНИЯ",
+
+    "TXT_PW_BLUE_0": "Перекрасить соседние шарики в цвет разбитого.",
+    "TXT_PW_BLUE_1": "Перекрасить до |c4{0}-x|~c соседних шариков в цвет разбитого.",
+    "TXT_PW_BLUE_2": "Перекрасить до |c4{0}|~c соседних шариков в цвет разбитого.",
+    "TXT_PW_BLUE_3": "Перекрасить до |c4{0}|~c соседних шариков в цвет разбитого.",
+
+    "TXT_PW_RED_0": "Призовите божью коровку, которая летит над тропой и сбрасывает маленькие бомбы, разрушающие шарики.",
+    "TXT_PW_RED_1": "Призовите божью коровку, которая летит над тропой и с |c4низкой|~c частотой сбрасывает маленькие бомбы, разрушающие шарики.",
+    "TXT_PW_RED_2": "Призовите божью коровку, которая летит над тропой и со |c4средней|~c частотой сбрасывает маленькие бомбы, разрушающие шарики.",
+    "TXT_PW_RED_3": "Призовите божью коровку, которая летит над тропой и |c4часто|~c сбрасывает маленькие бомбы, разрушающие шарики.",
+
+    "TXT_PW_GREEN_0": "Пулемет, стреляющий очередью снарядов.",
+    "TXT_PW_GREEN_1": "Пулемет, стреляющий очередью из |c4{0}-x|~c снарядов.",
+    "TXT_PW_GREEN_2": "Пулемет, стреляющий очередью из |c4{0}|~c снарядов.",
+    "TXT_PW_GREEN_3": "Пулемет, стреляющий очередью из |c4{0}|~c снарядов.",
+
+    "TXT_PW_YELLOW_0": "Выстрелите одним или несколькими огненными шарами.",
+    "TXT_PW_YELLOW_1": "Выстрелите |c4{0}|~c огненным шаром, который может уничтожить до |c4{1}|~c шариков.",
+    "TXT_PW_YELLOW_2": "Выстрелите |c4{0}|~c огненными шарами. Каждый может уничтожить до |c4{1}-x|~c шариков.",
+    "TXT_PW_YELLOW_3": "Выстрелите |c4{0}|~c огненными шарами. Каждый может уничтожить до |c4{1}-x|~c шариков.",
+
+    "TXT_PW_CYAN_0": "Создавайте цепные молнии, разрушающие шарики одного цвета.",
+    "TXT_PW_CYAN_1": "Создайте цепную молнию, уничтожив до |c4{0}|~c шариков одного цвета.",
+    "TXT_PW_CYAN_2": "Создайте цепную молнию, уничтожив до |c4{0}|~c шариков одного цвета.",
+    "TXT_PW_CYAN_3": "Создайте цепную молнию, уничтожив до |c4{0}|~c шариков одного цвета.",
+
+    "TXT_PW_PURPLE_0": "Вызовите жука в конце пути. Жук бежит и разбивает шарики.",
+    "TXT_PW_PURPLE_1": "Вызовите жука в конце пути. Жук бежит и уничтожает до |c4{0}|~c шариков.",
+    "TXT_PW_PURPLE_2": "Вызовите жука в конце пути. Жук бежит и уничтожает до |c4{0}|~c шариков.",
+    "TXT_PW_PURPLE_3": "Вызовите жука в конце пути. Жук бежит и уничтожает до |c4{0}|~c шариков.",
+
+    "TXT_PW_SLOW_0": "Замедленное движение цепочки шариков.",
+    "TXT_PW_SLOW_1": "Замедленное движение цепочки шариков в течение |c4{0}|~c секунд.",
+    "TXT_PW_SLOW_2": "Замедленное движение цепочки шариков в течение |c4{0}|~c секунд.",
+    "TXT_PW_SLOW_3": "Замедленное движение цепочки шариков на |c4{0}|~c секунд.",
+
+    "TXT_PW_BOMB_0": "Бросьте бомбу, которая взрывается и разрушает шарики.",
+    "TXT_PW_BOMB_1": "Бросьте бомбу, которая взрывается и разрушает шарики в |c4небольшом|~c радиусе.",
+    "TXT_PW_BOMB_2": "Бросьте бомбу, которая взрывается и разрушает шарики в |c4среднем|~c радиусе.",
+    "TXT_PW_BOMB_3": "Бросьте бомбу, которая взрывается и разрушает шарики в |c4большом|~c радиусе.",
+
+    "TXT_PW_FREEZE_0": "Заморозьте движение цепочки шариков.",
+    "TXT_PW_FREEZE_1": "Заморозьте движение цепочки шариков на |c4{0}|~c секунды.",
+    "TXT_PW_FREEZE_2": "Заморозьте движение цепочки шариков на |c4{0}|~c секунды.",
+    "TXT_PW_FREEZE_3": "Заморозьте движение цепочки шариков на |c4{0}|~c секунды.",
+
+    "TXT_PW_THROW_0": "Усиления элемента заряда на 20% быстрее в течение ограниченного времени.",
+    "TXT_PW_THROW_1": "Бросьте следующие |c4{0}|~c шарика по изгибу. Вы можете добраться до задних рядов.",
+    "TXT_PW_THROW_2": "Бросьте следующие |c4{0}|~c шарика по изгибу. Вы можете добраться до задних рядов.",
+    "TXT_PW_THROW_3": "Бросьте следующие |c4{0}|~c шариков по изгибу. Вы можете добраться до задних рядов.",
+
+    "TXT_PW_SCORE_0": "Усиления элемента заряда на 20% быстрее в течение ограниченного времени.",
+    "TXT_PW_SCORE_1": "Усиления элемента заряда на 20% быстрее в течение |c4{0}|~c секунд.",
+    "TXT_PW_SCORE_2": "Усиление элемента заряда на 20% быстрее в течение |c4{0}|~c секунд.",
+    "TXT_PW_SCORE_3": "Усиление элемента заряда на 20% быстрее в течение |c4{0}|~c секунд.",
+
+    "TXT_PW_STEEL_0": "Огненные шары из стали, которые проходят сквозь все блоки.",
+    "TXT_PW_STEEL_1": "Выстрелите |c4{0}|~c стальным шаром, который проходит сквозь все блоки.",
+    "TXT_PW_STEEL_2": "Выстрелите |c4{0}|~c стальными шарами, которые проходят сквозь все блоки.",
+    "TXT_PW_STEEL_3": "Выстрелите |c4{0}|~c стальными шарами, которые проходят сквозь все блоки.",
+
+    "TXT_PW_BACK_0": "Дайте цепи импульс вернуться назад.",
+    "TXT_PW_BACK_1": "Дайте цепи |c4слабый|~c импульс вернуться назад.",
+    "TXT_PW_BACK_2": "Дайте цепи |c4средний|~c импульс вернуться назад.",
+    "TXT_PW_BACK_3": "Дайте цепи |c4сильный|~c импульс вернуться назад.",
+
+    "TXT_GAME_OVER": "ИГРА ЗАКОНЧЕНА",
+
+    "TXT_TUTORIAL_POWERUP_0": "Вы можете управлять усилениями на этом экране.\nБонусы помогут вам уничтожить больше шариков и защитить ваш сад.",
+    "TXT_TUTORIAL_POWERUP_1": "Усиления активируются за звезды. Здесь вы можете увидеть, сколько у вас звездочек. Вы получаете 1 \u5000 за каждый пройденный уровень.",
+    "TXT_TUTORIAL_POWERUP_2": "Усиление может быть активирован до своего базового уровня за 1\u5000. Затем он может быть повышен до среднего уровня еще за 2\u5000, а за 3\u5000 он достигнет своего основного уровня.\n\nНа данный момент доступны не все бонусы. Они будут разблокированы позже в игре.",
+    "TXT_TUTORIAL_POWERUP_3": "Усиления элементов привязаны к цвету шаров. Уничтожив достаточно шаров этого цвета, вы получите особый мощный снаряд.",
+    "TXT_TUTORIAL_POWERUP_4": "Цепные бонусы случайным образом появляются на шарах в цепочке. Уничтожьте мрамор со значком усиления на нем, чтобы активировать его силу.",
+    "TXT_TUTORIAL_GAME_0": "Нажмите внутри круга, чтобы стрелять по мрамору из пушки газонокосилки...",
+    "TXT_TUTORIAL_GAME_1": "... и еще раз.",
+    "TXT_TUTORIAL_GAME_2": "Теперь нажмите на пушку газонокосилки, чтобы поменять местами текущий и следующий мрамор.",
+    "TXT_TUTORIAL_GAME_3": "Замечательно!\n\nА теперь смотри! Приходят первые шарики.",
+    "TXT_TUTORIAL_MOTOR": "Големы - ваши враги! Побеждайте их, чтобы защитить свой сад.\n\nОни являются источником движения шариков.\n\nОни терпят поражение, когда все шарики, которые они толкают, уничтожаются или когда шарики позади катятся по ним. Не позволяйте им заталкивать шарики в крайнее отверстие.\n\nШарики разрушаются, когда вы сопоставляете по крайней мере три из них одного цвета.",
+    "TXT_TUTORIAL_DESTROY": "Шарики, которые вы только что уничтожили, способствовали зарядке питания.\n\nУничтожьте больше шариков одного цвета, чтобы полностью зарядить питание и получить специальный снаряд.",
+    "TXT_TUTORIAL_STARDUST_0": "Это звездная пыль. Стреляйте в нее мрамором, чтобы развеять.\n\nЭто довольно ценно, не всегда легко в неё прицелиться.",
+    "TXT_TUTORIAL_STARDUST_1": "Если вы соберете достаточно звездной пыли, она сформирует дополнительную звезду.",
+    "TXT_TUTORIAL_RAINBOW": "Вы только что провели несколько быстрых матчей и в награду получили радужный снаряд!\n\nОн может сочетаться с мрамором разных цветов.",
+    "TXT_TUTORIAL_CHARGE": "Ваше улучшение заряжено!\n\nСкоро будет заряжен специальный снаряд.",
+    "TXT_TUTORIAL_NEW_POWERUP": "Разблокирован новый бонус!",
+
+    "TXT_CONGRATS": "|b|c4ПОЗДРАВЛЯЕМ!!!|~c|~b\n\nВы успешно прошли все уровни. Все злые големы были побеждены, и ваш сад снова в безопасности.\n\nСпасибо за игру!"
+  },
+
+  "nl": {
+    "TXT_DLG_CREDITS_TITLE": "NL:|bCREDITS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "NL:Code:\nGFX:\nMusic & SFX:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "NL:Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "NL:(C) 2021 SBC Games. All rights reserved.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "NL:|bALLOCATE STARS|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "NL:Allocate |c4{0}|~c\u5000 into this powerup?\n\nThis can't be undone.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "NL:|bNOT ENOUGH STARS|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "NL:You need |c4{0}|~c\u5000 to upgrade this powerup.",
+    "TXT_DLG_LANGUAGES_TITLE": "NL:|bCHOOSE LANGUAGE|~b",
+
+    "TXT_ELEMENTS_PANEL": "NL:ELEMENT POWERUPS",
+    "TXT_CHAIN_PANEL": "NL:CHAIN POWERUPS",
+
+    "TXT_PW_BLUE_0": "NL:Recolor neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_1": "NL:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_2": "NL:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_3": "NL:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+
+    "TXT_PW_RED_0": "NL:Summon ladybug that flies above path and drops small bombs destroying marbles.",
+    "TXT_PW_RED_1": "NL:Summon ladybug that flies above path and in |c4low|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_2": "NL:Summon ladybug that flies above path and in |c4mid|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_3": "NL:Summon ladybug that flies above path and in |c4high|~c frequency drops small bombs destroying marbles.",
+
+    "TXT_PW_GREEN_0": "NL:Brings machine gun that fires a fan of direct projectiles.",
+    "TXT_PW_GREEN_1": "NL:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_2": "NL:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_3": "NL:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+
+    "TXT_PW_YELLOW_0": "NL:Fire one or more fireballs.",
+    "TXT_PW_YELLOW_1": "NL:Fire |c4{0}|~c fireball which can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_2": "NL:Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_3": "NL:Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+
+    "TXT_PW_CYAN_0": "NL:Create chain lightning destroying marbles of the same color.",
+    "TXT_PW_CYAN_1": "NL:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_2": "NL:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_3": "NL:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+
+    "TXT_PW_PURPLE_0": "NL:Summon beetle at the end of the path. Beetle runs along and destroys marbles.",
+    "TXT_PW_PURPLE_1": "NL:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_2": "NL:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_3": "NL:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+
+    "TXT_PW_SLOW_0": "NL:Slow movement of marbles chain.",
+    "TXT_PW_SLOW_1": "NL:Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_2": "NL:Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_3": "NL:Slow movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_BOMB_0": "NL:Throw bomb that explodes and destroys marbles.",
+    "TXT_PW_BOMB_1": "NL:Throw bomb that explodes and destroys marbles in |c4small|~c radius.",
+    "TXT_PW_BOMB_2": "NL:Throw bomb that explodes and destroys marbles in |c4mid-range|~c radius.",
+    "TXT_PW_BOMB_3": "NL:Throw bomb that explodes and destroys marbles in |c4large|~c radius.",
+
+    "TXT_PW_FREEZE_0": "NL:Freeze movement of marbles chain.",
+    "TXT_PW_FREEZE_1": "NL:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_2": "NL:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_3": "NL:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_THROW_0": "NL:Throw marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_1": "NL:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_2": "NL:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_3": "NL:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+
+    "TXT_PW_SCORE_0": "NL:Charge element powerups 20% faster for limited time.",
+    "TXT_PW_SCORE_1": "NL:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_2": "NL:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_3": "NL:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+
+    "TXT_PW_STEEL_0": "NL:Fire balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_1": "NL:Fire |c4{0}|~c ball of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_2": "NL:Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_3": "NL:Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+
+    "TXT_PW_BACK_0": "NL:Give an impulse to chain to move back.",
+    "TXT_PW_BACK_1": "NL:Give |c4weak|~c impulse to chain to move back.",
+    "TXT_PW_BACK_2": "NL:Give |c4medium|~c impulse to chain to move back.",
+    "TXT_PW_BACK_3": "NL:Give |c4strong|~c impulse to chain to move back.",
+
+    "TXT_GAME_OVER": "NL:GAME OVER",
+
+    "TXT_TUTORIAL_POWERUP_0": "NL:You can manage powerups on this screen.\nPowerups help you to destroy more marbles and protect your garden.",
+    "TXT_TUTORIAL_POWERUP_1": "NL:Powerups are activated for stars. Here you can see how many stars you have. You get 1\u5000 for every completed level.",
+    "TXT_TUTORIAL_POWERUP_2": "NL:Powerup can be activated to its basic level for 1\u5000. Then it can be upgraded to mid-level for another 2\u5000 and for 3\u5000 it will reach its master level.\n\nNot all powerups are available for now. They will get unlocked later in game.",
+    "TXT_TUTORIAL_POWERUP_3": "NL:Element powerups are bound to marbles color. Destroying enough marbles of that color will give you special powerful projectile.",
+    "TXT_TUTORIAL_POWERUP_4": "NL:Chain powerups appear randomly on marbles in chain. Destroy marble with powerup icon on it to activate its power.",
+    "TXT_TUTORIAL_GAME_0": "NL:Tap inside the circle to shoot marble from lawn mower cannon...",
+    "TXT_TUTORIAL_GAME_1": "NL:... and once more.",
+    "TXT_TUTORIAL_GAME_2": "NL:Now, tap on lawn mower cannon to swap current and next marble.",
+    "TXT_TUTORIAL_GAME_3": "NL:Great!\n\nNow watch! First marbles are coming.",
+    "TXT_TUTORIAL_MOTOR": "NL:Golems are your enemies! Defeat them to protect your garden.\n\nThey are source of marbles movement.\n\nThey are defeated when all marbles they push are destroyed or when marbles behind roll over them. Don't let them to push marbles into the end hole.\n\nMarbles get destroyed when you match at least three of them with the same color.",
+    "TXT_TUTORIAL_DESTROY": "NL:Marbles you just destroyed contributed to powerup charging.\n\nDestroy more marbles of the same color to fully charge powerup and gain special projectile.",
+    "TXT_TUTORIAL_STARDUST_0": "NL:This is stardust. Shoot it with marble to pick it up.\n\nAs it is pretty valuable, it is not always easy to aim at it.",
+    "TXT_TUTORIAL_STARDUST_1": "NL:If you pick enough stardust up it will form extra star.",
+    "TXT_TUTORIAL_RAINBOW": "NL:You just performed several fast matches and as a reward you are given rainbow projectile!\n\nIt can match with marbles of different colors.",
+    "TXT_TUTORIAL_CHARGE": "NL:Your powerup is charged!\n\nSpecial projectile will get loaded shortly.",
+    "TXT_TUTORIAL_NEW_POWERUP": "NL:New powerup has been unlocked!",
+
+    "TXT_CONGRATS": "NL:|b|c4CONGRATULATIONS!!!|~c|~b\n\nYou successfully finished all levels. All evil golems were defeated and your garden is safe again.\n\nThanks for playing!"
+  },
+
+  "no": {
+    "TXT_DLG_CREDITS_TITLE": "NO:|bCREDITS|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "NO:Code:\nGFX:\nMusic & SFX:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "NO:Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "NO:(C) 2021 SBC Games. All rights reserved.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "NO:|bALLOCATE STARS|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "NO:Allocate |c4{0}|~c\u5000 into this powerup?\n\nThis can't be undone.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "NO:|bNOT ENOUGH STARS|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "NO:You need |c4{0}|~c\u5000 to upgrade this powerup.",
+    "TXT_DLG_LANGUAGES_TITLE": "NO:|bCHOOSE LANGUAGE|~b",
+
+    "TXT_ELEMENTS_PANEL": "NO:ELEMENT POWERUPS",
+    "TXT_CHAIN_PANEL": "NO:CHAIN POWERUPS",
+
+    "TXT_PW_BLUE_0": "NO:Recolor neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_1": "NO:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_2": "NO:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+    "TXT_PW_BLUE_3": "NO:Recolor up to |c4{0}|~c neighboring marbles to color of the hit one.",
+
+    "TXT_PW_RED_0": "NO:Summon ladybug that flies above path and drops small bombs destroying marbles.",
+    "TXT_PW_RED_1": "NO:Summon ladybug that flies above path and in |c4low|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_2": "NO:Summon ladybug that flies above path and in |c4mid|~c frequency drops small bombs destroying marbles.",
+    "TXT_PW_RED_3": "NO:Summon ladybug that flies above path and in |c4high|~c frequency drops small bombs destroying marbles.",
+
+    "TXT_PW_GREEN_0": "NO:Brings machine gun that fires a fan of direct projectiles.",
+    "TXT_PW_GREEN_1": "NO:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_2": "NO:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+    "TXT_PW_GREEN_3": "NO:Brings machine gun that fires a fan of |c4{0}|~c direct projectiles.",
+
+    "TXT_PW_YELLOW_0": "NO:Fire one or more fireballs.",
+    "TXT_PW_YELLOW_1": "NO:Fire |c4{0}|~c fireball which can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_2": "NO:Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+    "TXT_PW_YELLOW_3": "NO:Fire |c4{0}|~c fireballs. Each can destroy up to |c4{1}|~c marbles.",
+
+    "TXT_PW_CYAN_0": "NO:Create chain lightning destroying marbles of the same color.",
+    "TXT_PW_CYAN_1": "NO:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_2": "NO:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+    "TXT_PW_CYAN_3": "NO:Create chain lightning destroying up to |c4{0}|~c marbles of the same color.",
+
+    "TXT_PW_PURPLE_0": "NO:Summon beetle at the end of the path. Beetle runs along and destroys marbles.",
+    "TXT_PW_PURPLE_1": "NO:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_2": "NO:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+    "TXT_PW_PURPLE_3": "NO:Summon beetle at the end of the path. Beetle runs along and destroys up to |c4{0}|~c marbles.",
+
+    "TXT_PW_SLOW_0": "NO:Slow movement of marbles chain.",
+    "TXT_PW_SLOW_1": "NO:Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_2": "NO:Slow movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_SLOW_3": "NO:Slow movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_BOMB_0": "NO:Throw bomb that explodes and destroys marbles.",
+    "TXT_PW_BOMB_1": "NO:Throw bomb that explodes and destroys marbles in |c4small|~c radius.",
+    "TXT_PW_BOMB_2": "NO:Throw bomb that explodes and destroys marbles in |c4mid-range|~c radius.",
+    "TXT_PW_BOMB_3": "NO:Throw bomb that explodes and destroys marbles in |c4large|~c radius.",
+
+    "TXT_PW_FREEZE_0": "NO:Freeze movement of marbles chain.",
+    "TXT_PW_FREEZE_1": "NO:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_2": "NO:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+    "TXT_PW_FREEZE_3": "NO:Freeze movement of marbles chain for |c4{0}|~c seconds.",
+
+    "TXT_PW_THROW_0": "NO:Throw marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_1": "NO:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_2": "NO:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+    "TXT_PW_THROW_3": "NO:Throw next |c4{0}|~c marbles in arc. You can reach back rows.",
+
+    "TXT_PW_SCORE_0": "NO:Charge element powerups 20% faster for limited time.",
+    "TXT_PW_SCORE_1": "NO:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_2": "NO:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+    "TXT_PW_SCORE_3": "NO:Charge element powerups 20% faster for |c4{0}|~c seconds.",
+
+    "TXT_PW_STEEL_0": "NO:Fire balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_1": "NO:Fire |c4{0}|~c ball of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_2": "NO:Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+    "TXT_PW_STEEL_3": "NO:Fire |c4{0}|~c balls of steel that goes through all marbles hit.",
+
+    "TXT_PW_BACK_0": "NO:Give an impulse to chain to move back.",
+    "TXT_PW_BACK_1": "NO:Give |c4weak|~c impulse to chain to move back.",
+    "TXT_PW_BACK_2": "NO:Give |c4medium|~c impulse to chain to move back.",
+    "TXT_PW_BACK_3": "NO:Give |c4strong|~c impulse to chain to move back.",
+
+    "TXT_GAME_OVER": "NO:GAME OVER",
+
+    "TXT_TUTORIAL_POWERUP_0": "NO:You can manage powerups on this screen.\nPowerups help you to destroy more marbles and protect your garden.",
+    "TXT_TUTORIAL_POWERUP_1": "NO:Powerups are activated for stars. Here you can see how many stars you have. You get 1\u5000 for every completed level.",
+    "TXT_TUTORIAL_POWERUP_2": "NO:Powerup can be activated to its basic level for 1\u5000. Then it can be upgraded to mid-level for another 2\u5000 and for 3\u5000 it will reach its master level.\n\nNot all powerups are available for now. They will get unlocked later in game.",
+    "TXT_TUTORIAL_POWERUP_3": "NO:Element powerups are bound to marbles color. Destroying enough marbles of that color will give you special powerful projectile.",
+    "TXT_TUTORIAL_POWERUP_4": "NO:Chain powerups appear randomly on marbles in chain. Destroy marble with powerup icon on it to activate its power.",
+    "TXT_TUTORIAL_GAME_0": "NO:Tap inside the circle to shoot marble from lawn mower cannon...",
+    "TXT_TUTORIAL_GAME_1": "NO:... and once more.",
+    "TXT_TUTORIAL_GAME_2": "NO:Now, tap on lawn mower cannon to swap current and next marble.",
+    "TXT_TUTORIAL_GAME_3": "NO:Great!\n\nNow watch! First marbles are coming.",
+    "TXT_TUTORIAL_MOTOR": "NO:Golems are your enemies! Defeat them to protect your garden.\n\nThey are source of marbles movement.\n\nThey are defeated when all marbles they push are destroyed or when marbles behind roll over them. Don't let them to push marbles into the end hole.\n\nMarbles get destroyed when you match at least three of them with the same color.",
+    "TXT_TUTORIAL_DESTROY": "NO:Marbles you just destroyed contributed to powerup charging.\n\nDestroy more marbles of the same color to fully charge powerup and gain special projectile.",
+    "TXT_TUTORIAL_STARDUST_0": "NO:This is stardust. Shoot it with marble to pick it up.\n\nAs it is pretty valuable, it is not always easy to aim at it.",
+    "TXT_TUTORIAL_STARDUST_1": "NO:If you pick enough stardust up it will form extra star.",
+    "TXT_TUTORIAL_RAINBOW": "NO:You just performed several fast matches and as a reward you are given rainbow projectile!\n\nIt can match with marbles of different colors.",
+    "TXT_TUTORIAL_CHARGE": "NO:Your powerup is charged!\n\nSpecial projectile will get loaded shortly.",
+    "TXT_TUTORIAL_NEW_POWERUP": "NO:New powerup has been unlocked!",
+
+    "TXT_CONGRATS": "NO:|b|c4CONGRATULATIONS!!!|~c|~b\n\nYou successfully finished all levels. All evil golems were defeated and your garden is safe again.\n\nThanks for playing!"
+  },
+
+  "cs": {
+    "TXT_DLG_CREDITS_TITLE": "|bO APLIKACI|~b",
+    "TXT_DLG_CREDITS_TEXT_LEFT": "Kód:\nGrafika:\nHudba a zvuky:",
+    "TXT_DLG_CREDITS_TEXT_RIGHT": "Tomáš Rychnovský\nPetr \"JuPiTeR\" Víšek\nJuraj Růžička",
+    "TXT_DLG_CREDITS_TEXT_COPYRIGHT": "(C) 2021 SBC Games. Všechna práva vyhrazena.",
+    "TXT_DLG_POWERUP_CONFIRM_TITLE": "|bPOUŽÍT HVĚZDIČKY|~b",
+    "TXT_DLG_POWERUP_CONFIRM_TEXT": "Použít |c0{0}|~c\u5000 na toto vylepšení?\n\nAkce je nevratná.",
+    "TXT_DLG_POWERUP_FAIL_TITLE": "|bNEDOSTATEK HVĚZDIČEK|~b",
+    "TXT_DLG_POWERUP_FAIL_TEXT": "Na upgrade tohoto vylepšení je potřeba |c0{0}|~c\u5000.",
+    "TXT_DLG_LANGUAGES_TITLE": "|bVYBRAT JAZYK|~b",
+
+    "TXT_ELEMENTS_PANEL": "ELEMENTOVÁ VYLEPŠENÍ",
+    "TXT_CHAIN_PANEL": "ŘETĚZCOVÁ VYLPEŠENÍ",
+
+    "TXT_PW_BLUE_0": "Přebarví sousední kuličky na barvu zasažené.",
+    "TXT_PW_BLUE_1": "Přebarví až |c4{0}|~c sousední kuličky na barvu zasažené.",
+    "TXT_PW_BLUE_2": "Přebarví až |c4{0}|~c sousedních kuliček na barvu zasažené.",
+    "TXT_PW_BLUE_3": "Přebarví až |c4{0}|~c sousedních kuliček na barvu zasažené.",
+
+    "TXT_PW_RED_0": "Vyvolá berušku, která letí nad cestou a pouští malé bomby, které ničí kuličky.",
+    "TXT_PW_RED_1": "Vyvolá berušku, která letí nad cestou a pouští v |c4delších|~c intervalech malé bomby, které ničí kuličky.",
+    "TXT_PW_RED_2": "Vyvolá berušku, která letí nad cestou a pouští v |c4středních|~c intervalech malé bomby, které ničí kuličky.",
+    "TXT_PW_RED_3": "Vyvolá berušku, která letí nad cestou a pouští v |c4kratších|~c intervalech malé bomby, které ničí kuličky.",
+
+    "TXT_PW_GREEN_0": "Dá rotační kulomet, který vystřelí vějíř přímých projektilů.",
+    "TXT_PW_GREEN_1": "Dá rotační kulomet, který vystřelí vějíř |c4{0}|~c přímých projektilů.",
+    "TXT_PW_GREEN_2": "Dá rotační kulomet, který vystřelí vějíř |c4{0}|~c přímých projektilů.",
+    "TXT_PW_GREEN_3": "Dá rotační kulomet, který vystřelí vějíř |c4{0}|~c přímých projektilů.",
+
+    "TXT_PW_YELLOW_0": "Vystřelí jednu nebo víc ohnivých koulí.",
+    "TXT_PW_YELLOW_1": "Vystřelí |c4{0}|~c ohnivou kouli, která zničí až |c4{1}|~c kuličky.",
+    "TXT_PW_YELLOW_2": "Vystřelí |c4{0}|~c ohnivé koule. Každá může zničit až |c4{1}|~c kuličky.",
+    "TXT_PW_YELLOW_3": "Vystřelí |c4{0}|~c ohnivé koule. Každá může zničit až |c4{1}|~c kuličky.",
+
+    "TXT_PW_CYAN_0": "Vytvoří řetězový blesk, který ničí kuličky stejné barvy.",
+    "TXT_PW_CYAN_1": "Vytvoří řetězový blesk, který zničí až |c4{0}|~c kuliček stejné barvy.",
+    "TXT_PW_CYAN_2": "Vytvoří řetězový blesk, který zničí až |c4{0}|~c kuliček stejné barvy.",
+    "TXT_PW_CYAN_3": "Vytvoří řetězový blesk, který zničí až |c4{0}|~c kuliček stejné barvy.",
+
+    "TXT_PW_PURPLE_0": "Vyvolá na konci cesty brouka, který běží v protisměru a ničí kuličky.",
+    "TXT_PW_PURPLE_1": "Vyvolá na konci cesty brouka, který běží v protisměru a zničí až |c4{0}|~c kuliček.",
+    "TXT_PW_PURPLE_2": "Vyvolá na konci cesty brouka, který běží v protisměru a zničí až |c4{0}|~c kuliček.",
+    "TXT_PW_PURPLE_3": "Vyvolá na konci cesty brouka, který běží v protisměru a zničí až |c4{0}|~c kuliček.",
+
+    "TXT_PW_SLOW_0": "Zpomalí pohyb řetězce kuliček.",
+    "TXT_PW_SLOW_1": "Zpomalí pohyb řetězce kuliček |c4{0}|~c vteřin.",
+    "TXT_PW_SLOW_2": "Zpomalí pohyb řetězce kuliček |c4{0}|~c vteřin.",
+    "TXT_PW_SLOW_3": "Zpomalí pohyb řetězce kuliček |c4{0}|~c vteřin.",
+
+    "TXT_PW_BOMB_0": "Hodí bombu, která exploduje a zničí kuličky.",
+    "TXT_PW_BOMB_1": "Hodí bombu, která exploduje a zničí kuličky v |c4malém|~c okruhu.",
+    "TXT_PW_BOMB_2": "Hodí bombu, která exploduje a zničí kuličky v |c4středním|~c okruhu.",
+    "TXT_PW_BOMB_3": "Hodí bombu, která exploduje a zničí kuličky v |c4velkém|~c okruhu.",
+
+    "TXT_PW_FREEZE_0": "Zmrazí pohyb řetězce kuliček.",
+    "TXT_PW_FREEZE_1": "Zmrazí pohyb řetězce kuliček na |c4{0}|~c vteřiny.",
+    "TXT_PW_FREEZE_2": "Zmrazí pohyb řetězce kuliček na |c4{0}|~c vteřiny.",
+    "TXT_PW_FREEZE_3": "Zmrazí pohyb řetězce kuliček na |c4{0}|~c vteřin.",
+
+    "TXT_PW_THROW_0": "Vrhne kuličku obloukem, takže je možné trefit zadní řady.",
+    "TXT_PW_THROW_1": "Vrhne následující |c4{0}|~c kuličky obloukem, takže je možné trefit zadní řady.",
+    "TXT_PW_THROW_2": "Vrhne následující |c4{0}|~c kuličky obloukem, takže je možné trefit zadní řady.",
+    "TXT_PW_THROW_3": "Vrhne následujících |c4{0}|~c kuliček obloukem, takže je možné trefit zadní řady.",
+
+    "TXT_PW_SCORE_0": "Po určitou dobu probíhá nabíjení elementových vylepšení o 20% rychleji.",
+    "TXT_PW_SCORE_1": "Nabíjení elementových vylepšení běží o 20% rychleji po |c4{0}|~c vteřin.",
+    "TXT_PW_SCORE_2": "Nabíjení elementových vylepšení běží o 20% rychleji po |c4{0}|~c vteřin.",
+    "TXT_PW_SCORE_3": "Nabíjení elementových vylepšení běží o 20% rychleji po |c4{0}|~c vteřin.",
+
+    "TXT_PW_STEEL_0": "Dá ocelovou kuličku, která proletí všemi běžnými kuličkami.",
+    "TXT_PW_STEEL_1": "Dá |c4{0}|~c ocelovou kuličku, která proletí všemi běžnými kuličkami.",
+    "TXT_PW_STEEL_2": "Dá |c4{0}|~c ocelové kuličky, které proletí všemi běžnými kuličkami.",
+    "TXT_PW_STEEL_3": "Dá |c4{0}|~c ocelové kuličky, které proletí všemi běžnými kuličkami.",
+
+    "TXT_PW_BACK_0": "Řetězec kuliček dostane impulz do protisměru.",
+    "TXT_PW_BACK_1": "|c4Slabý|~c impulz do protisměru.",
+    "TXT_PW_BACK_2": "|c4Střední|~c impulz do protisměru.",
+    "TXT_PW_BACK_3": "|c4Silný|~c impulz do protisměru.",
+
+    "TXT_GAME_OVER": "KONEC HRY",
+
+    "TXT_TUTORIAL_POWERUP_0": "Na této obrazovce se spravují vylepšení.\nVylepšení slouží k snazšímu ničení kuliček, abyste lépe ochránili svou zahradu.",
+    "TXT_TUTORIAL_POWERUP_1": "Vylepšení se aktivují za hvězdičky. Tady vidíte, kolik jich máte. Za každou dokončenou úroveň dostanete 1\u5000.",
+    "TXT_TUTORIAL_POWERUP_2": "Vylepšení může být aktivováno na svou základní úroveň za 1\u5000. Potom může být upgradováno na střední úroveň za další 2\u5000 a za další 3\u5000 dosáhne mistrovské úrovně.\n\nVšechna vylepšení nejsou v tuto chvíli dostupná. Odemknou se později během hry.",
+    "TXT_TUTORIAL_POWERUP_3": "Elementová vylepšení se vážou na barvu kuličky. Zničení dostatečného počtu kuliček dané barvy nabije kanón speciálním silným projektilem.",
+    "TXT_TUTORIAL_POWERUP_4": "Řetězcová vylepšení se objevují náhodně na kuličkách v řetězci. Zničení kuličky s ikonou vylepšení toto vylepšení aktivuje.",
+    "TXT_TUTORIAL_GAME_0": "Pro vystřelení kuličky ze sekačkového kanónu ťukněte dovnitř kruhu...",
+    "TXT_TUTORIAL_GAME_1": "... a ještě jednou.",
+    "TXT_TUTORIAL_GAME_2": "Teď ťukněte na sekačkový kanón pro prohození aktuální a příští kuličky.",
+    "TXT_TUTORIAL_GAME_3": "Výborně!\n\nA teď pozor! První kuličky se blíží.",
+    "TXT_TUTORIAL_MOTOR": "Golemové jsou vaši nepřátelé! Abyste ochránili svou zahradu, musíte je zničit.\n\nTo oni tlačí kuličky.\n\nGolem je zničen, když jsou zničeny všechny kuličky, které tlačí a také když kuličky, které jsou za ním, ho převálcují. Nedovolte jim, aby natlačili kuličky až do díry.\n\nKuličky zničíte, když spojíte alespoň tři stejné barvy.",
+    "TXT_TUTORIAL_DESTROY": "Právě zničené kuličky přispěly k nabíjení elementového vylepšení.\n\nPro plné nabití vylepšení a získání speciálního projektilu zničte ještě více kuliček stejné barvy.",
+    "TXT_TUTORIAL_STARDUST_0": "Toto je hvězdný prach. Abyste ho sebrali, musíte ho trefit kuličkou.\n\nProtože je poměrně cenný, není vždy jednoduché ho zasáhnout.",
+    "TXT_TUTORIAL_STARDUST_1": "Pokud nasbíráte dost hvězdného prachu, získáte hvězdičku navíc.",
+    "TXT_TUTORIAL_RAINBOW": "Teď se vám povedlo několik rychlých spojení za sebou. Jako odměnu získáváte duhovou kuličku!\n\nTa se může spojit s kuličkami různých barev.",
+    "TXT_TUTORIAL_CHARGE": "Vylepšení je plně nabito!\n\nSpeciální projektil bude zakrátko nabit do kanónu.",
+    "TXT_TUTORIAL_NEW_POWERUP": "Nové vylepšení je odemčeno!",
+
+    "TXT_CONGRATS": "|b|c4GRATULACE!!!|~c|~b\n\nÚspěšně jste dokončili všechny úrovně. Všichni zlí golemové byli poraženi a vaše zahrada je zase bezpečná.\n\nDěkujeme za hraní!"
+  }
+}

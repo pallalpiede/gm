@@ -1,0 +1,21 @@
+<font>
+  <info aa="1" bold="0" charset="" face="LevelsNum" italic="0" outline="0" padding="2,2,2,2" size="60" smooth="1" spacing="0,0" stretchH="100" unicode=""/>
+  <common base="40" lineHeight="40" packed="0" pages="1" scaleH="220" scaleW="109"/>
+  <pages>
+    <page file="LevelsNum.png" id="0"/>
+  </pages>
+  <chars count="10">
+    <char chnl="15" height="42" id="48" page="0" width="41" x="939" xadvance="41" xoffset="1" y="1806" yoffset="0"/>
+    <char chnl="15" height="41" id="49" page="0" width="23" x="95" xadvance="24" xoffset="1" y="1823" yoffset="0"/>
+    <char chnl="15" height="41" id="50" page="0" width="32" x="308" xadvance="32" xoffset="1" y="1847" yoffset="0"/>
+    <char chnl="15" height="42" id="51" page="0" width="34" x="203" xadvance="33" xoffset="1" y="1847" yoffset="0"/>
+    <char chnl="15" height="41" id="52" page="0" width="36" x="57" xadvance="34" xoffset="0" y="1823" yoffset="1"/>
+    <char chnl="15" height="42" id="53" page="0" width="33" x="239" xadvance="32" xoffset="1" y="1847" yoffset="1"/>
+    <char chnl="15" height="42" id="54" page="0" width="37" x="164" xadvance="36" xoffset="1" y="1819" yoffset="0"/>
+    <char chnl="15" height="41" id="55" page="0" width="32" x="274" xadvance="30" xoffset="0" y="1847" yoffset="1"/>
+    <char chnl="15" height="42" id="56" page="0" width="38" x="982" xadvance="38" xoffset="1" y="1806" yoffset="0"/>
+    <char chnl="15" height="42" id="57" page="0" width="37" x="125" xadvance="36" xoffset="1" y="1819" yoffset="0"/>
+    <char chnl="15" height="1" id="32" page="0" width="1" x="125" xadvance="12" xoffset="1" y="1767" yoffset="0"/>
+  </chars>
+  <kernings count="0"/>
+</font>
