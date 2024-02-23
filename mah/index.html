@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+    .thumbnail {
+      width: 320px;
+      height: 180px;
+      display: inline-block;
+      margin: 10px;
+	  border-style: solid;
+	  border-width: 5px;
+	  background-color: #062120;
+    }
+	.thumbnail:visited, .thumbnail:link, .thumbnail:active {
+	  border-color: #000000;
+    }
+    .thumbnail:hover {
+	border-color: #FFFFFF;
+    }
+    .ima {
+      	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	
+    }
+	body {
+		background-color: #000000;
+	}
+</style>
+</head>
+<body>
+<div id="thumbnails"></div>
+<script>
+
+	
+	
+	let thumbnailLinks = [];
+
+	for (let i = 2; i <= 64; i++) {
+		thumbnailLinks.push(`../mah${i}`);
+	}
+	
+    const thumbnailsContainer = document.getElementById('thumbnails');
+
+    thumbnailLinks.forEach(link => {
+        const thumbnail = document.createElement('a');
+        thumbnail.href = link;
+        thumbnail.target = '_blank';
+        const image = document.createElement('img');
+        image.className = 'ima';
+		image.src = `${link}/thumb.jpg`;
+        image.alt = 'Thumbnail';
+        thumbnail.appendChild(image);
+        thumbnail.classList.add('thumbnail');
+        thumbnailsContainer.appendChild(thumbnail);
+    });
+</script>
+</body>
+</html>
